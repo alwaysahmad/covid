@@ -726,7 +726,7 @@ function ready([us,us_counties,
             function movingAverage(values, N) {
                 let i = 0;
                 let sum = 0;
-                const means = new Float64Array(values.length).fill(0);
+                const means = new Float64Array(values.length).fill(NaN);
                 for (let n = Math.min(N - 1, values.length); i < n; ++i) {
                     sum += values[i];
                 }
