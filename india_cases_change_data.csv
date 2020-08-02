@@ -1,0 +1,36 @@
+,code,Province_State,08/02/20,short_term_slope,avg,long_term_slope,risklevel
+0,AN,Andaman and Nicobar Islands,0.0,22.0,49.0,19.0,1
+1,AP,Andhra Pradesh,0.0,6.0,8791.0,6.0,1
+2,AR,Arunachal Pradesh,0.0,8.0,78.0,2.0,1
+3,AS,Assam,0.0,6.0,1520.0,4.0,1
+4,BR,Bihar,0.0,4.0,2519.0,6.0,1
+5,CH,Chandigarh,0.0,2.0,32.0,5.0,1
+6,CG,Chhattisgarh,-0.0,-5.0,328.0,4.0,2
+7,DH,Dadar Nagar Haveli,,0.0,1.0,0.0,5
+8,DL,Delhi,0.0,5.0,1026.0,-1.0,3
+9,GA,Goa,0.0,4.0,215.0,3.0,1
+10,GJ,Gujarat,-0.0,-1.0,1120.0,1.0,4
+11,HR,Haryana,-0.0,-1.0,746.0,1.0,4
+12,HP,Himachal Pradesh,-0.0,-9.0,84.0,0.0,4
+13,JK,Jammu and Kashmir,-0.0,-0.0,524.0,-2.0,4
+14,JH,Jharkhand,0.0,10.0,550.0,7.0,1
+15,KA,Karnataka,0.0,1.0,5478.0,3.0,2
+16,KL,Kerala,0.0,4.0,949.0,2.0,1
+17,LD,Ladakh,0.0,22.0,27.0,10.0,1
+18,MP,Madhya Pradesh,0.0,0.0,813.0,1.0,4
+19,MH,Maharashtra,0.0,3.0,9336.0,1.0,3
+20,MN,Manipur,0.0,16.0,83.0,10.0,1
+21,ML,Meghalaya,-0.0,-15.0,30.0,-1.0,4
+22,MZ,Mizoram,0.0,33.0,15.0,9.0,5
+23,NL,Nagaland,0.0,19.0,77.0,11.0,1
+24,OR,Odisha,0.0,2.0,1352.0,5.0,1
+25,PY,Puducherry,0.0,4.0,136.0,4.0,1
+26,PB,Punjab,0.0,8.0,626.0,6.0,1
+27,RJ,Rajasthan,0.0,7.0,1050.0,2.0,1
+28,SK,Sikkim,-0.0,-13.0,22.0,-5.0,4
+29,TN,Tamil Nadu,-0.0,-4.0,6429.0,1.0,4
+30,TS,Telengana,-0.0,-21.0,17418.0,16.0,2
+31,TR,Tripura,0.0,16.0,196.0,2.0,1
+32,UP,Uttar Pradesh,0.0,3.0,3615.0,5.0,1
+33,UK,Uttarakhand,0.0,2.0,212.0,-0.0,3
+34,WB,West Bengal,0.0,3.0,2343.0,1.0,3
