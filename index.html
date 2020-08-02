@@ -439,7 +439,7 @@ var factorsList = [
                     "---------"                                         //26
 
                     ];
-var dropdownlist = [factorsList[0], factorsList[1],factorsList[10],factorsList[20],factorsList[25]]
+var dropdownlist = [factorsList[0], factorsList[1],factorsList[20],factorsList[25]]
 var seasonaltempinterval = 10
 var winwidth = window.innerWidth 
       || document.documentElement.clientWidth
@@ -555,14 +555,14 @@ var promises = [
   d3.csv("county_case_data_slope.csv"),
   d3.csv("county_case_start_sorted.csv"),
   d3.csv("county_case_peak_data.csv"),
-  
+  /*
   d3.csv("county_deaths_change_data.csv"),
   d3.csv('county_daily_death_data.csv'),
   d3.csv('county_total_death_data.csv'),
   d3.csv("county_death_data_slope.csv"),
   d3.csv("county_death_start_sorted.csv"),
   d3.csv("county_death_peak_data.csv"),
-
+*/
   d3.csv("india_cases_change_data.csv"),
   d3.csv('india_daily_case_data.csv'),
   d3.csv('india_total_case_data.csv'),
@@ -596,8 +596,8 @@ Promise.all(promises).then(ready)
 function ready([us,us_counties,
                 us_cases_change_data,us_daily_case_data,us_total_case_data, us_case_data_slope,us_case_start_sorted,us_case_peak_data,
                 us_deaths_change_data,us_daily_death_data,us_total_death_data, us_death_data_slope,us_death_start_sorted,us_death_peak_data,
-                county_cases_change_data,county_daily_case_data,county_total_case_data, county_case_data_slope,county_case_start_sorted,county_case_peak_data,
-                county_deaths_change_data,county_daily_death_data,county_total_death_data, county_death_data_slope,county_death_start_sorted,county_death_peak_data,
+               // county_cases_change_data,county_daily_case_data,county_total_case_data, county_case_data_slope,county_case_start_sorted,county_case_peak_data,
+                //county_deaths_change_data,county_daily_death_data,county_total_death_data, county_death_data_slope,county_death_start_sorted,county_death_peak_data,
                 india_cases_change_data,india_daily_case_data,india_total_case_data, india_case_data_slope,india_case_start_sorted,india_case_peak_data,
                 india_deaths_change_data,india_daily_death_data,india_total_death_data, india_death_data_slope,india_death_start_sorted,india_death_peak_data,
                 global_cases_change_data,global_daily_case_data,global_total_case_data, global_case_data_slope,global_case_start_sorted,global_case_peak_data,
