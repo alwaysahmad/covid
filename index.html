@@ -451,6 +451,7 @@ var winwidth = window.innerWidth
     console.log(winwidth,winheight)
     wd = winwidth*.8
     wd_l = winwidth*.8
+    wd_s = winwidth*.75
   /*
   if(winwidth>800) {
     var wd = winwidth/2;
@@ -468,8 +469,8 @@ var width = wd - margin.left - margin.right,
   height = 700*scale - margin.top - margin.bottom;
 var width_l = wd_l - margin_l.left - margin_l.right,   //line and scatter
     height_l = wd_l*.65 - margin_l.top - margin_l.bottom;
-var width_s = wd - margin_s.left - margin_s.right, //heatmap
-    height_s = wd*2 - margin_s.top - margin_s.bottom;
+var width_s = wd_s - margin_s.left - margin_s.right, //heatmap
+    height_s = wd_s*2 - margin_s.top - margin_s.bottom;
 
 
 ////////////----------------------------------------------------------------slider
