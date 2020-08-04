@@ -796,7 +796,7 @@ function ready([us,us_counties,
 
 
                     //colorScale.domain(uniqueCluster);
-                    console.log(colorScale)
+                    //console.log(colorScale)
                                   //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
 
                     tooltiptext = "New Cases: ";
@@ -982,6 +982,7 @@ function ready([us,us_counties,
                           updateMap(lastday,'');
                           updateLegend();
 
+                          clusterdata = "no"
                           mapdata = us_daily_case_data
                           maptype = 'state'
                           minmap= Math.log10(d3.min(mapdata, function(d) { return +d.value; }));
@@ -998,6 +999,7 @@ function ready([us,us_counties,
                           tooltiptext = "New Cases: ";
                           legendText = "New Cases"
                           maptitle = "US - Daily New Cases"
+
                           svg = d3.selectAll("#map")
                                 .append("svg")
                                 .attr("width", width + margin.left + margin.right)
@@ -1008,7 +1010,7 @@ function ready([us,us_counties,
                                 ;
                           updateMap(lastday,'');
                           updateLegend();
-                          
+
 
                          // updateMap(lastday,'');
 
