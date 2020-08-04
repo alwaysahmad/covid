@@ -981,38 +981,8 @@ function ready([us,us_counties,
                             //heatmapScale.range(d3.range(0, 1, 50*.95/(max-minDailyRatioUS)));
                           updateMap(lastday,'');
                           updateLegend();
-/*
-                          clusterdata = "no"
-                          mapdata = us_daily_case_data
-                          maptype = 'state'
-                          minmap= Math.log10(d3.min(mapdata, function(d) { return +d.value; }));
-                          maxmap = Math.ceil(Math.log10(d3.max(mapdata, function(d) { return +d.value; })));
-                          //console.log(d3.range(minmap, maxmap,1))
-                          colorScale.domain(d3.range(0, maxmap, 1));//minmap is infinity
-                          colorScale.range(d3.schemeOranges[6]);
 
 
-                          //colorScale.domain(uniqueCluster);
-                          console.log(colorScale)
-                                        //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
-
-                          tooltiptext = "New Cases: ";
-                          legendText = "New Cases"
-                          maptitle = "US - Daily New Cases"
-
-                          svg = d3.selectAll("#map")
-                                .append("svg")
-                                .attr("width", width + margin.left + margin.right)
-                                .attr("height", height + margin.top + margin.bottom)
-                                .append("g")
-                                .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-                                .call(responsivefy)
-                                ;
-                          updateMap(lastday,'');
-                          updateLegend();
-*/
-
-                      
 
                           scatterdata = us_cases_change_data
                           scatterdata.forEach(d => {
@@ -1135,6 +1105,37 @@ function ready([us,us_counties,
                           linechartdropdown = uniquestatesorted;
                           updateLinechart(linechartdropdown[0]);
                           //-------------
+                          //2nd map
+                              factor = factorsList[1]
+                                                    clusterdata = "no"
+                                                    mapdata = us_daily_case_data
+                                                    maptype = 'state'
+                                                    minmap= Math.log10(d3.min(mapdata, function(d) { return +d.value; }));
+                                                    maxmap = Math.ceil(Math.log10(d3.max(mapdata, function(d) { return +d.value; })));
+                                                    //console.log(d3.range(minmap, maxmap,1))
+                                                    colorScale.domain(d3.range(0, maxmap, 1));//minmap is infinity
+                                                    colorScale.range(d3.schemeOranges[6]);
+
+
+                                                    //colorScale.domain(uniqueCluster);
+                                                    console.log(colorScale)
+                                                                  //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
+
+                                                    tooltiptext = "New Cases: ";
+                                                    legendText = "New Cases"
+                                                    maptitle = "US - Daily New Cases"
+
+                                                    svg = d3.selectAll("#map")
+                                                          .append("svg")
+                                                          .attr("width", width + margin.left + margin.right)
+                                                          .attr("height", height + margin.top + margin.bottom)
+                                                          .append("g")
+                                                          .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                                                          .call(responsivefy)
+                                                          ;
+                                                    updateMap(lastday,'');
+                                                    updateLegend();
+
 
 
                       document.getElementById("slideranimation").style.display = "none";
