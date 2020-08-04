@@ -802,6 +802,17 @@ function ready([us,us_counties,
                     tooltiptext = "New Cases: ";
                     legendText = "New Cases"
                     maptitle = "US - Daily New Cases"
+                    svg = d3.selectAll("#map")
+                          .append("svg")
+                          .attr("width", width + margin.left + margin.right)
+                          .attr("height", height + margin.top + margin.bottom)
+                          .append("g")
+                          .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                          .call(responsivefy)
+                          ;
+                    updateMap(lastday,'');
+                    updateLegend();
+
 
                     heatmaptype = "dailycase"
                     s_legendtext = "New cases"
@@ -823,18 +834,12 @@ function ready([us,us_counties,
                     //heatmapScale.domain(d3.range(minDailyRatioUS,maxDailyRatioUS, 50));
                     //heatmapScale.range(d3.range(0, 1, 50*.95/(max-minDailyRatioUS)));
 
+
+
+
                     updateMap(lastday,'');
 
                     updateLegend();
-                    svg = d3.selectAll("#map")
-                          .append("svg")
-                          .attr("width", width + margin.left + margin.right)
-                          .attr("height", height + margin.top + margin.bottom)
-                          .append("g")
-                          .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-                          .call(responsivefy)
-                          ;
-                    updateMap(lastday,'');
 
                     updateHeatmap();
                     linechartdropdown = uniquestatesorted;
@@ -976,6 +981,34 @@ function ready([us,us_counties,
                             //heatmapScale.range(d3.range(0, 1, 50*.95/(max-minDailyRatioUS)));
                           updateMap(lastday,'');
                           updateLegend();
+
+                          mapdata = us_daily_case_data
+                          maptype = 'state'
+                          minmap= Math.log10(d3.min(mapdata, function(d) { return +d.value; }));
+                          maxmap = Math.ceil(Math.log10(d3.max(mapdata, function(d) { return +d.value; })));
+                          //console.log(d3.range(minmap, maxmap,1))
+                          colorScale.domain(d3.range(0, maxmap, 1));//minmap is infinity
+                          colorScale.range(d3.schemeOranges[6]);
+
+
+                          //colorScale.domain(uniqueCluster);
+                          console.log(colorScale)
+                                        //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
+
+                          tooltiptext = "New Cases: ";
+                          legendText = "New Cases"
+                          maptitle = "US - Daily New Cases"
+                          svg = d3.selectAll("#map")
+                                .append("svg")
+                                .attr("width", width + margin.left + margin.right)
+                                .attr("height", height + margin.top + margin.bottom)
+                                .append("g")
+                                .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                                .call(responsivefy)
+                                ;
+                          updateMap(lastday,'');
+                          updateLegend();
+                          
 
                          // updateMap(lastday,'');
 
