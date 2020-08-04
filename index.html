@@ -824,7 +824,18 @@ function ready([us,us_counties,
                     //heatmapScale.range(d3.range(0, 1, 50*.95/(max-minDailyRatioUS)));
 
                     updateMap(lastday,'');
+
                     updateLegend();
+                    svg = d3.selectAll("#map")
+                          .append("svg")
+                          .attr("width", width + margin.left + margin.right)
+                          .attr("height", height + margin.top + margin.bottom)
+                          .append("g")
+                          .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                          .call(responsivefy)
+                          ;
+                    updateMap(lastday,'');
+
                     updateHeatmap();
                     linechartdropdown = uniquestatesorted;
                     updateLinechart(linechartdropdown[0]);
