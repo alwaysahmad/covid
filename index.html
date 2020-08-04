@@ -979,7 +979,7 @@ function ready([us,us_counties,
                                           "Short Term (7 days) vs Long Term (14 days) Trend in Daily New Cases",
                                           "Size represents the Daily Average",
 
-                                          "Short Term (7 days) Rate of Change(%) in Daily Number of Cases",
+                                          "7 days Rate of Change(%) in Daily Number of Cases",
                                           "Long Term  (14 days)  Rate of Change(%) in Daily Number of Cases","");
 
 
@@ -995,7 +995,7 @@ function ready([us,us_counties,
                             updateScatter(scatterdata,
                                           "Short Term (7 days) vs Long Term  (14 days)  Trend in Daily Deaths",
                                           "Size represents the Daily Average",
-                                          "Short Term (7 days) Rate of Change(%) in Daily Deaths",
+                                          "7 days Rate of Change(%) in Daily Deaths",
                                           "Long Term (14 days)  Rate of Change(%) in Daily Deaths",
                                           "");
 
@@ -1193,8 +1193,8 @@ function ready([us,us_counties,
                           updateScatter(scatterdata,
                                           "Short Term (7 days) vs Long Term (14 days) Trend in Daily New Cases",
                                           "Size represents the Daily Average",
-                                          "Short Term (7 days) Rate of Change(%) in Daily Number of Cases",
-                                          "Long Term (14 days) Rate of Change(%) in Daily Number of Cases","");
+                                          "7 days Rate of Change(%) in Daily Number of Cases",
+                                          "14 days Rate of Change(%) in Daily Number of Cases","");
 
 
                           scatterdata  = county_deaths_change_data
@@ -1208,8 +1208,8 @@ function ready([us,us_counties,
                             updateScatter(scatterdata,
                                           "Short Term (7 days) vs Long Term (14 days) Trend in Daily Deaths",
                                           "Size represents the Daily Average",
-                                          "Short Term (7 days) Rate of Change(%) in Daily Deaths",
-                                          "Long Term (14 days) Rate of Change(%) in Daily Deaths",
+                                          "7 days Rate of Change(%) in Daily Deaths",
+                                          "14 days Rate of Change(%) in Daily Deaths",
                                           "");
                           scatterdata  = county_deaths_change_data
                           //console.log(scatterdata)
@@ -1593,8 +1593,8 @@ function ready([us,us_counties,
                           updateScatter(scatterdata,
                                           "Short Term (7 days) vs Long Term (14 days) Trend in Daily New Cases",
                                           "Size represents the Daily Average",
-                                          "Short Term (7 days) Rate of Change(%) in Daily Number of Cases",
-                                          "Long Term (14 days) Rate of Change(%) in Daily Number of Cases","");
+                                          "7 days Rate of Change(%) in Daily Number of Cases",
+                                          "14 days Rate of Change(%) in Daily Number of Cases","");
 
                           scatterdata  = india_deaths_change_data
                           scatterdata.forEach(d => {
@@ -1612,8 +1612,8 @@ function ready([us,us_counties,
                             updateScatter(scatterdata,
                                           "Short Term (7 days) vs Long Term (14 days) Trend in Daily Deaths",
                                           "Size represents the Daily Average",
-                                          "Short Term (7 days) Rate of Change(%) in Daily Deaths",
-                                          "Long Term (14 days) Rate of Change(%) in Daily Deaths",
+                                          "7 days Rate of Change(%) in Daily Deaths",
+                                          "14 days Rate of Change(%) in Daily Deaths",
                                           "");
 
 
@@ -1839,7 +1839,7 @@ function ready([us,us_counties,
                                   //heatmapScale.range(d3.range(0, 1, 50*.95/(max-minDailyRatioUS)));
                               // updateMap(lastday,'');
                               // updateLegend();
-                              scatterdata = global_cases_change_data.filter(function (d){return d.avg>500})
+                              scatterdata = global_cases_change_data.filter(function (d){return d.avg>1000})
 
                              scatterdata.forEach(d => {
                                     d.x = (+d.long_term_slope)
@@ -1850,10 +1850,10 @@ function ready([us,us_counties,
                           updateScatter(scatterdata,
                                           "Short Term (7 days) vs Long Term (14 days) Trend in Daily New Cases",
                                           "Size represents the Daily Average",
-                                          "Short Term (7 days) Rate of Change(%) in Daily Number of Cases",
-                                          "Long Term (14 days) Rate of Change(%) in Daily Number of Cases","");
+                                          "7 days Rate of Change(%) in Daily Number of Cases",
+                                          "14 days Rate of Change(%) in Daily Number of Cases","");
 
-                          scatterdata  = global_deaths_change_data.filter(function (d){return d.avg>10})
+                          scatterdata  = global_deaths_change_data.filter(function (d){return d.avg>50})
                           scatterdata.forEach(d => {
                                         d.x = (+d.long_term_slope)
                                         d.y = (+d.short_term_slope)
@@ -1864,13 +1864,13 @@ function ready([us,us_counties,
                             updateScatter(scatterdata,
                                           "Short Term (7 days) vs Long Term (14 days) Trend in Daily Deaths",
                                           "Size represents the Daily Average",
-                                          "Short Term (7 days) Rate of Change(%) in Daily Deaths",
-                                          "Long Term (14 days) Rate of Change(%) in Daily Deaths",
+                                          "7 days Rate of Change(%) in Daily Deaths",
+                                          "14 days Rate of Change(%) in Daily Deaths",
                                           "");
 
 
 
-                        scatterdata  = global_deaths_change_data//.filter(function (d){return d.avg>10})
+                        scatterdata  = global_deaths_change_data.filter(function (d){return d.avg>50})
                           //console.log(scatterdata)
                           //console.log(scatterdata)
                           scatterdata.forEach(d => {
@@ -2088,7 +2088,7 @@ function ready([us,us_counties,
     function step() {
       //console.log("current value", currentValue,x.invert(currentValue))
       update(x_slider.invert(currentValue));
-      currentValue = currentValue + (targetValue/interval);
+      currentValue = currentValue + (7*targetValue/interval);
       if (currentValue > targetValue) {
           moving = false;
           currentValue = 0;
