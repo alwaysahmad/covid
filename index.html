@@ -801,7 +801,7 @@ function ready([us,us_counties,
                     //console.log(colorScale)
                                   //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
 
-                    tooltiptext = "New Cases: ";
+/*                    tooltiptext = "New Cases: ";
                     legendText = "New Cases"
                     maptitle = "US - Daily New Cases"
                     svg = d3.selectAll("#map")
@@ -812,6 +812,7 @@ function ready([us,us_counties,
                           .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
                           .call(responsivefy)
                           ;
+                          */
                     updateMap(lastday,'');
                     updateLegend();
 
@@ -839,9 +840,9 @@ function ready([us,us_counties,
 
 
 
-                    updateMap(lastday,'');
+                  //  updateMap(lastday,'');
 
-                    updateLegend();
+                  //  updateLegend();
 
                     updateHeatmap();
                     linechartdropdown = uniquestatesorted;
