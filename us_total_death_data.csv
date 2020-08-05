@@ -5368,7 +5368,7 @@
 5366,Hawaii,5/2/20,16
 5367,Idaho,5/2/20,64
 5368,Illinois,5/2/20,2559
-5369,Indiana,5/2/20,1115
+5369,Indiana,5/2/20,1229
 5370,Iowa,5/2/20,175
 5371,Kansas,5/2/20,142
 5372,Kentucky,5/2/20,248
@@ -5421,7 +5421,7 @@
 5419,Hawaii,5/3/20,17
 5420,Idaho,5/3/20,64
 5421,Illinois,5/3/20,2618
-5422,Indiana,5/3/20,1132
+5422,Indiana,5/3/20,1246
 5423,Iowa,5/3/20,184
 5424,Kansas,5/3/20,144
 5425,Kentucky,5/3/20,253
@@ -5474,7 +5474,7 @@
 5472,Hawaii,5/4/20,17
 5473,Idaho,5/4/20,64
 5474,Illinois,5/4/20,2659
-5475,Indiana,5/4/20,1151
+5475,Indiana,5/4/20,1264
 5476,Iowa,5/4/20,188
 5477,Kansas,5/4/20,156
 5478,Kentucky,5/4/20,261
@@ -5527,7 +5527,7 @@
 5525,Hawaii,5/5/20,17
 5526,Idaho,5/5/20,65
 5527,Illinois,5/5/20,2834
-5528,Indiana,5/5/20,1211
+5528,Indiana,5/5/20,1326
 5529,Iowa,5/5/20,207
 5530,Kansas,5/5/20,161
 5531,Kentucky,5/5/20,275
@@ -6072,7 +6072,7 @@
 6070,Montana,5/15/20,16
 6071,Nebraska,5/15/20,113
 6072,Nevada,5/15/20,343
-6073,New Hampshire,5/15/20,151
+6073,New Hampshire,5/15/20,159
 6074,New Jersey,5/15/20,11895
 6075,New Mexico,5/15/20,253
 6076,New York,5/15/20,28685
@@ -6394,7 +6394,7 @@
 6392,New Jersey,5/21/20,12623
 6393,New Mexico,5/21/20,294
 6394,New York,5/21/20,29479
-6395,North Carolina,5/21/20,728
+6395,North Carolina,5/21/20,734
 6396,North Dakota,5/21/20,51
 6397,Ohio,5/21/20,1837
 6398,Oklahoma,5/21/20,304
@@ -6498,7 +6498,7 @@
 6496,Nevada,5/23/20,387
 6497,New Hampshire,5/23/20,208
 6498,New Jersey,5/23/20,12869
-6499,New Mexico,5/23/20,302
+6499,New Mexico,5/23/20,308
 6500,New York,5/23/20,29771
 6501,North Carolina,5/23/20,778
 6502,North Dakota,5/23/20,52
@@ -7090,7 +7090,7 @@
 7088,Oregon,6/3/20,159
 7089,Pennsylvania,6/3/20,5742
 7090,Rhode Island,6/3/20,742
-7091,South Carolina,6/3/20,501
+7091,South Carolina,6/3/20,518
 7092,South Dakota,6/3/20,62
 7093,Tennessee,6/3/20,388
 7094,Texas,6/3/20,1744
@@ -7143,7 +7143,7 @@
 7141,Oregon,6/4/20,159
 7142,Pennsylvania,6/4/20,5832
 7143,Rhode Island,6/4/20,756
-7144,South Carolina,6/4/20,501
+7144,South Carolina,6/4/20,525
 7145,South Dakota,6/4/20,64
 7146,Tennessee,6/4/20,401
 7147,Texas,6/4/20,1776
@@ -7249,7 +7249,7 @@
 7247,Oregon,6/6/20,161
 7248,Pennsylvania,6/6/20,5931
 7249,Rhode Island,6/6/20,772
-7250,South Carolina,6/6/20,539
+7250,South Carolina,6/6/20,545
 7251,South Dakota,6/6/20,65
 7252,Tennessee,6/6/20,417
 7253,Texas,6/6/20,1833
@@ -8037,7 +8037,7 @@
 8035,New Jersey,6/21/20,14802
 8036,New Mexico,6/21/20,469
 8037,New York,6/21/20,31739
-8038,North Carolina,6/21/20,1223
+8038,North Carolina,6/21/20,1245
 8039,North Dakota,6/21/20,77
 8040,Ohio,6/21/20,2700
 8041,Oklahoma,6/21/20,369
@@ -10131,7 +10131,7 @@
 10129,Connecticut,7/31/20,4432
 10130,Delaware,7/31/20,585
 10131,Diamond Princess,7/31/20,0
-10132,District of Columbia,7/31/20,584
+10132,District of Columbia,7/31/20,585
 10133,Florida,7/31/20,6843
 10134,Georgia,7/31/20,3752
 10135,Grand Princess,7/31/20,3
@@ -10184,7 +10184,7 @@
 10182,Connecticut,8/1/20,4432
 10183,Delaware,8/1/20,585
 10184,Diamond Princess,8/1/20,0
-10185,District of Columbia,8/1/20,584
+10185,District of Columbia,8/1/20,585
 10186,Florida,8/1/20,7022
 10187,Georgia,8/1/20,3825
 10188,Grand Princess,8/1/20,3
@@ -10237,7 +10237,7 @@
 10235,Connecticut,8/2/20,4432
 10236,Delaware,8/2/20,585
 10237,Diamond Princess,8/2/20,0
-10238,District of Columbia,8/2/20,584
+10238,District of Columbia,8/2/20,586
 10239,Florida,8/2/20,7084
 10240,Georgia,8/2/20,3840
 10241,Grand Princess,8/2/20,3
@@ -10334,3 +10334,56 @@
 10332,West Virginia,8/3/20,117
 10333,Wisconsin,8/3/20,949
 10334,Wyoming,8/3/20,27
+10335,Alabama,8/4/20,1666
+10336,Alaska,8/4/20,25
+10337,Arizona,8/4/20,3845
+10338,Arkansas,8/4/20,490
+10339,California,8/4/20,9684
+10340,Colorado,8/4/20,1849
+10341,Connecticut,8/4/20,4437
+10342,Delaware,8/4/20,587
+10343,Diamond Princess,8/4/20,0
+10344,District of Columbia,8/4/20,587
+10345,Florida,8/4/20,7402
+10346,Georgia,8/4/20,3921
+10347,Grand Princess,8/4/20,3
+10348,Hawaii,8/4/20,27
+10349,Idaho,8/4/20,210
+10350,Illinois,8/4/20,7742
+10351,Indiana,8/4/20,2996
+10352,Iowa,8/4/20,888
+10353,Kansas,8/4/20,368
+10354,Kentucky,8/4/20,751
+10355,Louisiana,8/4/20,4051
+10356,Maine,8/4/20,123
+10357,Maryland,8/4/20,3530
+10358,Massachusetts,8/4/20,8657
+10359,Michigan,8/4/20,6471
+10360,Minnesota,8/4/20,1660
+10361,Mississippi,8/4/20,1753
+10362,Missouri,8/4/20,1290
+10363,Montana,8/4/20,64
+10364,Nebraska,8/4/20,332
+10365,Nevada,8/4/20,862
+10366,New Hampshire,8/4/20,418
+10367,New Jersey,8/4/20,15857
+10368,New Mexico,8/4/20,658
+10369,New York,8/4/20,32725
+10370,North Carolina,8/4/20,2061
+10371,North Dakota,8/4/20,107
+10372,Ohio,8/4/20,3570
+10373,Oklahoma,8/4/20,566
+10374,Oregon,8/4/20,333
+10375,Pennsylvania,8/4/20,7248
+10376,Rhode Island,8/4/20,1011
+10377,South Carolina,8/4/20,1847
+10378,South Dakota,8/4/20,136
+10379,Tennessee,8/4/20,1117
+10380,Texas,8/4/20,7271
+10381,Utah,8/4/20,321
+10382,Vermont,8/4/20,57
+10383,Virginia,8/4/20,2244
+10384,Washington,8/4/20,1619
+10385,West Virginia,8/4/20,124
+10386,Wisconsin,8/4/20,961
+10387,Wyoming,8/4/20,27

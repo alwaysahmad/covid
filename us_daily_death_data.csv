@@ -5368,7 +5368,7 @@
 5366,Hawaii,5/2/20,0
 5367,Idaho,5/2/20,1
 5368,Illinois,5/2/20,102
-5369,Indiana,5/2/20,0
+5369,Indiana,5/2/20,54
 5370,Iowa,5/2/20,5
 5371,Kansas,5/2/20,2
 5372,Kentucky,5/2/20,2
@@ -5474,7 +5474,7 @@
 5472,Hawaii,5/4/20,0
 5473,Idaho,5/4/20,0
 5474,Illinois,5/4/20,41
-5475,Indiana,5/4/20,19
+5475,Indiana,5/4/20,18
 5476,Iowa,5/4/20,4
 5477,Kansas,5/4/20,12
 5478,Kentucky,5/4/20,8
@@ -5527,7 +5527,7 @@
 5525,Hawaii,5/5/20,0
 5526,Idaho,5/5/20,1
 5527,Illinois,5/5/20,175
-5528,Indiana,5/5/20,60
+5528,Indiana,5/5/20,62
 5529,Iowa,5/5/20,19
 5530,Kansas,5/5/20,5
 5531,Kentucky,5/5/20,14
@@ -5580,7 +5580,7 @@
 5578,Hawaii,5/6/20,0
 5579,Idaho,5/6/20,1
 5580,Illinois,5/6/20,140
-5581,Indiana,5/6/20,166
+5581,Indiana,5/6/20,51
 5582,Iowa,5/6/20,12
 5583,Kansas,5/6/20,3
 5584,Kentucky,5/6/20,8
@@ -6072,7 +6072,7 @@
 6070,Montana,5/15/20,0
 6071,Nebraska,5/15/20,10
 6072,Nevada,5/15/20,10
-6073,New Hampshire,5/15/20,0
+6073,New Hampshire,5/15/20,8
 6074,New Jersey,5/15/20,206
 6075,New Mexico,5/15/20,11
 6076,New York,5/15/20,265
@@ -6125,7 +6125,7 @@
 6123,Montana,5/16/20,0
 6124,Nebraska,5/16/20,10
 6125,Nevada,5/16/20,4
-6126,New Hampshire,5/16/20,20
+6126,New Hampshire,5/16/20,12
 6127,New Jersey,5/16/20,118
 6128,New Mexico,5/16/20,6
 6129,New York,5/16/20,172
@@ -6394,7 +6394,7 @@
 6392,New Jersey,5/21/20,103
 6393,New Mexico,5/21/20,11
 6394,New York,5/21/20,90
-6395,North Carolina,5/21/20,2
+6395,North Carolina,5/21/20,8
 6396,North Dakota,5/21/20,2
 6397,Ohio,5/21/20,56
 6398,Oklahoma,5/21/20,5
@@ -6447,7 +6447,7 @@
 6445,New Jersey,5/22/20,146
 6446,New Mexico,5/22/20,8
 6447,New York,5/22/20,103
-6448,North Carolina,5/22/20,47
+6448,North Carolina,5/22/20,41
 6449,North Dakota,5/22/20,1
 6450,Ohio,5/22/20,35
 6451,Oklahoma,5/22/20,3
@@ -6498,7 +6498,7 @@
 6496,Nevada,5/23/20,1
 6497,New Hampshire,5/23/20,4
 6498,New Jersey,5/23/20,100
-6499,New Mexico,5/23/20,0
+6499,New Mexico,5/23/20,6
 6500,New York,5/23/20,189
 6501,North Carolina,5/23/20,3
 6502,North Dakota,5/23/20,0
@@ -6551,7 +6551,7 @@
 6549,Nevada,5/24/20,0
 6550,New Hampshire,5/24/20,1
 6551,New Jersey,5/24/20,58
-6552,New Mexico,5/24/20,15
+6552,New Mexico,5/24/20,9
 6553,New York,5/24/20,85
 6554,North Carolina,5/24/20,6
 6555,North Dakota,5/24/20,1
@@ -7090,7 +7090,7 @@
 7088,Oregon,6/3/20,2
 7089,Pennsylvania,6/3/20,75
 7090,Rhode Island,6/3/20,10
-7091,South Carolina,6/3/20,0
+7091,South Carolina,6/3/20,17
 7092,South Dakota,6/3/20,0
 7093,Tennessee,6/3/20,7
 7094,Texas,6/3/20,28
@@ -7143,7 +7143,7 @@
 7141,Oregon,6/4/20,0
 7142,Pennsylvania,6/4/20,90
 7143,Rhode Island,6/4/20,14
-7144,South Carolina,6/4/20,0
+7144,South Carolina,6/4/20,7
 7145,South Dakota,6/4/20,2
 7146,Tennessee,6/4/20,13
 7147,Texas,6/4/20,32
@@ -7196,7 +7196,7 @@
 7194,Oregon,6/5/20,2
 7195,Pennsylvania,6/5/20,66
 7196,Rhode Island,6/5/20,16
-7197,South Carolina,6/5/20,38
+7197,South Carolina,6/5/20,14
 7198,South Dakota,6/5/20,0
 7199,Tennessee,6/5/20,7
 7200,Texas,6/5/20,36
@@ -7249,7 +7249,7 @@
 7247,Oregon,6/6/20,0
 7248,Pennsylvania,6/6/20,33
 7249,Rhode Island,6/6/20,0
-7250,South Carolina,6/6/20,0
+7250,South Carolina,6/6/20,6
 7251,South Dakota,6/6/20,1
 7252,Tennessee,6/6/20,9
 7253,Texas,6/6/20,21
@@ -7302,7 +7302,7 @@
 7300,Oregon,6/7/20,2
 7301,Pennsylvania,6/7/20,12
 7302,Rhode Island,6/7/20,0
-7303,South Carolina,6/7/20,7
+7303,South Carolina,6/7/20,1
 7304,South Dakota,6/7/20,0
 7305,Tennessee,6/7/20,1
 7306,Texas,6/7/20,8
@@ -8037,7 +8037,7 @@
 8035,New Jersey,6/21/20,17
 8036,New Mexico,6/21/20,3
 8037,New York,6/21/20,36
-8038,North Carolina,6/21/20,8
+8038,North Carolina,6/21/20,30
 8039,North Dakota,6/21/20,1
 8040,Ohio,6/21/20,3
 8041,Oklahoma,6/21/20,1
@@ -8090,7 +8090,7 @@
 8088,New Jersey,6/22/20,38
 8089,New Mexico,6/22/20,0
 8090,New York,6/22/20,34
-8091,North Carolina,6/22/20,55
+8091,North Carolina,6/22/20,33
 8092,North Dakota,6/22/20,0
 8093,Ohio,6/22/20,4
 8094,Oklahoma,6/22/20,0
@@ -10131,7 +10131,7 @@
 10129,Connecticut,7/31/20,1
 10130,Delaware,7/31/20,4
 10131,Diamond Princess,7/31/20,0
-10132,District of Columbia,7/31/20,0
+10132,District of Columbia,7/31/20,1
 10133,Florida,7/31/20,257
 10134,Georgia,7/31/20,81
 10135,Grand Princess,7/31/20,0
@@ -10237,7 +10237,7 @@
 10235,Connecticut,8/2/20,0
 10236,Delaware,8/2/20,0
 10237,Diamond Princess,8/2/20,0
-10238,District of Columbia,8/2/20,0
+10238,District of Columbia,8/2/20,1
 10239,Florida,8/2/20,62
 10240,Georgia,8/2/20,15
 10241,Grand Princess,8/2/20,0
@@ -10290,7 +10290,7 @@
 10288,Connecticut,8/3/20,5
 10289,Delaware,8/3/20,0
 10290,Diamond Princess,8/3/20,0
-10291,District of Columbia,8/3/20,2
+10291,District of Columbia,8/3/20,0
 10292,Florida,8/3/20,73
 10293,Georgia,8/3/20,2
 10294,Grand Princess,8/3/20,0
@@ -10334,3 +10334,56 @@
 10332,West Virginia,8/3/20,0
 10333,Wisconsin,8/3/20,1
 10334,Wyoming,8/3/20,1
+10335,Alabama,8/4/20,33
+10336,Alaska,8/4/20,0
+10337,Arizona,8/4/20,66
+10338,Arkansas,8/4/20,15
+10339,California,8/4/20,243
+10340,Colorado,8/4/20,5
+10341,Connecticut,8/4/20,0
+10342,Delaware,8/4/20,2
+10343,Diamond Princess,8/4/20,0
+10344,District of Columbia,8/4/20,1
+10345,Florida,8/4/20,245
+10346,Georgia,8/4/20,79
+10347,Grand Princess,8/4/20,0
+10348,Hawaii,8/4/20,1
+10349,Idaho,8/4/20,10
+10350,Illinois,8/4/20,19
+10351,Indiana,8/4/20,16
+10352,Iowa,8/4/20,4
+10353,Kansas,8/4/20,1
+10354,Kentucky,8/4/20,7
+10355,Louisiana,8/4/20,27
+10356,Maine,8/4/20,0
+10357,Maryland,8/4/20,7
+10358,Massachusetts,8/4/20,9
+10359,Michigan,8/4/20,4
+10360,Minnesota,8/4/20,4
+10361,Mississippi,8/4/20,42
+10362,Missouri,8/4/20,11
+10363,Montana,8/4/20,0
+10364,Nebraska,8/4/20,4
+10365,Nevada,8/4/20,15
+10366,New Hampshire,8/4/20,1
+10367,New Jersey,8/4/20,11
+10368,New Mexico,8/4/20,3
+10369,New York,8/4/20,6
+10370,North Carolina,8/4/20,18
+10371,North Dakota,8/4/20,2
+10372,Ohio,8/4/20,31
+10373,Oklahoma,8/4/20,15
+10374,Oregon,8/4/20,5
+10375,Pennsylvania,8/4/20,24
+10376,Rhode Island,8/4/20,1
+10377,South Carolina,8/4/20,54
+10378,South Dakota,8/4/20,1
+10379,Tennessee,8/4/20,25
+10380,Texas,8/4/20,255
+10381,Utah,8/4/20,7
+10382,Vermont,8/4/20,0
+10383,Virginia,8/4/20,26
+10384,Washington,8/4/20,19
+10385,West Virginia,8/4/20,7
+10386,Wisconsin,8/4/20,12
+10387,Wyoming,8/4/20,0
