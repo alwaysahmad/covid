@@ -1,167 +1,167 @@
-,Province_State,A2,code,8/5/20,short_term_slope,avg,long_term_slope,risklevel
-0,Afghanistan,AF,AFG,-0.0,-18.0,58.0,-9.0,4
-1,Albania,AL,ALB,0.0,5.0,112.0,2.0,1
-2,Algeria,DZ,DZA,-0.0,-2.0,555.0,-1.0,4
-3,Andorra,AD,AND,-0.0,-18.0,4.0,-1.0,5
-4,Angola,AO,AGO,0.0,3.0,49.0,5.0,1
-5,Antigua and Barbuda,AG,ATG,0.0,-51.0,1.0,-11.0,5
-6,Argentina,AR,ARG,0.0,2.0,5916.0,1.0,1
-7,Armenia,AM,ARM,-0.0,-7.0,245.0,-6.0,4
-8,Australia,AU,AUS,-0.0,-3.0,538.0,3.0,2
-9,Austria,AT,AUT,-0.0,-10.0,111.0,-3.0,4
-10,Azerbaijan,AZ,AZE,-0.0,-8.0,281.0,-4.0,4
-11,Bahamas,BS,BHS,-0.0,-1.0,38.0,1.0,2
-12,Bahrain,BH,BHR,0.0,-2.0,324.0,-1.0,4
-13,Bangladesh,BD,BGD,-0.0,-6.0,2186.0,-3.0,4
-14,Barbados,BB,BRB,-0.0,2.0,3.0,13.0,5
-15,Belarus,BY,BLR,-0.0,-6.0,126.0,-3.0,4
-16,Belgium,BE,BEL,-0.0,-8.0,562.0,3.0,2
-17,Belize,BZ,BLZ,1.0,49.0,5.0,24.0,5
-18,Benin,BJ,BEN,1.0,26.0,21.0,-1.0,3
-19,Bhutan,BT,BTN,-0.0,3.0,1.0,2.0,5
-20,Bolivia,BO,BOL,-0.0,2.0,1602.0,1.0,1
-21,Bosnia and Herzegovina,BA,BIH,-0.0,-2.0,296.0,0.0,4
-22,Botswana,BW,BWA,,-67.0,8.0,-19.0,5
-23,Brazil,BR,BRA,-0.0,-6.0,46985.0,-2.0,4
-24,Bulgaria,BG,BGR,0.0,-1.0,231.0,-1.0,4
-25,Burkina Faso,BF,BFA,-0.0,-1.0,6.0,2.0,5
-26,Burundi,BI,BDI,-0.0,-40.0,2.0,-14.0,5
-27,Cambodia,KH,KHM,-0.0,-23.0,2.0,-10.0,5
-28,Cameroon,CM,CMR,0.0,32.0,67.0,4.0,1
-29,Canada,CA,CAN,0.0,-0.0,395.0,-2.0,4
-30,Central African Republic,CF,CAF,-0.0,-19.0,2.0,-17.0,5
-31,Chad,TD,TCD,-0.0,-23.0,2.0,-15.0,5
-32,Chile,CL,CHL,-0.0,-2.0,1865.0,-2.0,4
-33,China,CN,CHN,-0.0,-12.0,167.0,-2.0,4
-34,Colombia,CO,COL,-0.0,0.0,9791.0,2.0,2
-35,Comoros,KM,COM,-0.0,-46.0,4.0,-3.0,5
-36,Costa Rica,CR,CRI,0.0,2.0,509.0,-2.0,3
-37,Cote d'Ivoire,CI,CIV,-0.0,-13.0,80.0,-12.0,4
-38,Croatia,HR,HRV,-0.0,-11.0,57.0,-6.0,4
-39,Cuba,CU,CUB,0.0,5.0,21.0,6.0,1
-40,Cyprus,CY,CYP,0.0,4.0,16.0,13.0,5
-41,Denmark,DK,DNK,0.0,13.0,79.0,8.0,1
-42,Djibouti,DJ,DJI,0.0,30.0,33.0,21.0,1
+,Province_State,A2,code,8/6/20,short_term_slope,avg,long_term_slope,risklevel
+0,Afghanistan,AF,AFG,-0.0,-9.0,53.0,-8.0,4
+1,Albania,AL,ALB,0.0,6.0,114.0,2.0,1
+2,Algeria,DZ,DZA,0.0,-1.0,550.0,-1.0,4
+3,Andorra,AD,AND,0.0,4.0,3.0,1.0,5
+4,Angola,AO,AGO,0.0,15.0,51.0,7.0,1
+5,Antigua and Barbuda,AG,ATG,-0.0,10.0,0.0,-16.0,5
+6,Argentina,AR,ARG,0.0,4.0,6150.0,2.0,1
+7,Armenia,AM,ARM,-0.0,-5.0,235.0,-5.0,4
+8,Australia,AU,AUS,-0.0,-2.0,497.0,2.0,2
+9,Austria,AT,AUT,-0.0,-3.0,106.0,-3.0,4
+10,Azerbaijan,AZ,AZE,-0.0,-10.0,253.0,-5.0,4
+11,Bahamas,BS,BHS,-0.0,-8.0,35.0,-2.0,4
+12,Bahrain,BH,BHR,0.0,2.0,322.0,-1.0,3
+13,Bangladesh,BD,BGD,0.0,1.0,2182.0,-2.0,3
+14,Barbados,BB,BRB,-0.0,-17.0,3.0,8.0,5
+15,Belarus,BY,BLR,-0.0,-4.0,123.0,-2.0,4
+16,Belgium,BE,BEL,-0.0,-2.0,585.0,4.0,2
+17,Belize,BZ,BLZ,0.0,46.0,8.0,27.0,5
+18,Benin,BJ,BEN,0.0,32.0,16.0,7.0,5
+19,Bhutan,BT,BTN,0.0,12.0,1.0,4.0,5
+20,Bolivia,BO,BOL,-0.0,-2.0,1611.0,1.0,2
+21,Bosnia and Herzegovina,BA,BIH,0.0,-1.0,284.0,1.0,2
+22,Botswana,BW,BWA,,0.0,1.0,-24.0,5
+23,Brazil,BR,BRA,0.0,0.0,44993.0,-1.0,4
+24,Bulgaria,BG,BGR,0.0,4.0,232.0,1.0,1
+25,Burkina Faso,BF,BFA,-0.0,-12.0,7.0,-1.0,5
+26,Burundi,BI,BDI,-0.0,8.0,2.0,-15.0,5
+27,Cambodia,KH,KHM,-0.0,-42.0,2.0,-15.0,5
+28,Cameroon,CM,CMR,0.0,29.0,58.0,-1.0,3
+29,Canada,CA,CAN,-0.0,1.0,379.0,-3.0,3
+30,Central African Republic,CF,CAF,-0.0,-4.0,2.0,-14.0,5
+31,Chad,TD,TCD,0.0,-21.0,2.0,-17.0,5
+32,Chile,CL,CHL,-0.0,-2.0,1887.0,-2.0,4
+33,China,CN,CHN,-0.0,-11.0,156.0,-3.0,4
+34,Colombia,CO,COL,0.0,1.0,10207.0,3.0,1
+35,Comoros,KM,COM,0.0,20.0,2.0,-2.0,5
+36,Costa Rica,CR,CRI,0.0,3.0,534.0,-2.0,3
+37,Cote d'Ivoire,CI,CIV,0.0,-8.0,79.0,-11.0,4
+38,Croatia,HR,HRV,-0.0,-14.0,51.0,-6.0,4
+39,Cuba,CU,CUB,0.0,19.0,23.0,8.0,1
+40,Cyprus,CY,CYP,-0.0,0.0,16.0,10.0,5
+41,Denmark,DK,DNK,0.0,15.0,90.0,10.0,1
+42,Djibouti,DJ,DJI,0.0,16.0,31.0,17.0,1
 43,Dominica,DM,DMA,,0.0,1.0,0.0,5
-44,Dominican Republic,DO,DOM,-0.0,-6.0,1371.0,-2.0,4
-45,Ecuador,EC,ECU,-0.0,-4.0,823.0,-1.0,4
-46,Egypt,EG,EGY,-0.0,-20.0,241.0,-11.0,4
-47,El Salvador,SV,SLV,0.0,1.0,407.0,0.0,3
-48,Equatorial Guinea,GQ,GNQ,-0.0,-29.0,219.0,11.0,2
-49,Eritrea,ER,ERI,-1.0,-34.0,2.0,-7.0,5
-50,Estonia,EE,EST,0.0,13.0,9.0,15.0,5
-51,Ethiopia,ET,ETH,-0.0,-5.0,642.0,1.0,2
+44,Dominican Republic,DO,DOM,-0.0,-9.0,1294.0,-3.0,4
+45,Ecuador,EC,ECU,0.0,5.0,918.0,2.0,1
+46,Egypt,EG,EGY,-0.0,-19.0,206.0,-12.0,4
+47,El Salvador,SV,SLV,0.0,1.0,411.0,0.0,3
+48,Equatorial Guinea,GQ,GNQ,-1.0,-48.0,219.0,5.0,2
+49,Eritrea,ER,ERI,0.0,-53.0,2.0,-13.0,5
+50,Estonia,EE,EST,0.0,7.0,10.0,14.0,5
+51,Ethiopia,ET,ETH,-0.0,-7.0,636.0,-0.0,4
 52,Fiji,FJ,FJI,,0.0,1.0,0.0,5
-53,Finland,FI,FIN,0.0,16.0,14.0,8.0,5
-54,France,FR,FRA,-0.0,2.0,937.0,1.0,1
-55,Gabon,GA,GAB,0.0,0.0,75.0,-5.0,4
-56,Gambia,GM,GMB,0.0,22.0,59.0,10.0,1
-57,Georgia,GE,GEO,0.0,2.0,6.0,-9.0,5
-58,Germany,DE,DEU,0.0,2.0,801.0,3.0,1
-59,Ghana,GH,GHA,0.0,7.0,584.0,-1.0,3
-60,Greece,GR,GRC,0.0,9.0,87.0,11.0,1
-61,Grenada,GD,GRD,-1.0,-48.0,0.0,5.0,5
-62,Guatemala,GT,GTM,-0.0,-7.0,882.0,-2.0,4
-63,Guinea,GN,GIN,0.0,10.0,56.0,-1.0,3
-64,Guinea-Bissau,GW,GNB,0.0,27.0,10.0,26.0,5
-65,Guyana,GY,GUY,0.0,14.0,14.0,9.0,5
-66,Haiti,HT,HTI,-0.0,-7.0,26.0,-7.0,4
-67,Honduras,HN,HND,0.0,4.0,580.0,-2.0,3
-68,Hungary,HU,HUN,-0.0,-7.0,14.0,-4.0,5
-69,Iceland,IS,ISL,-0.0,-3.0,9.0,11.0,5
-70,India,IN,IND,-0.0,0.0,54108.0,1.0,2
-71,Indonesia,ID,IDN,-0.0,-3.0,1852.0,-0.0,4
-72,Iraq,IQ,IRQ,-0.0,-1.0,2778.0,1.0,2
-73,Ireland,IE,IRL,-0.0,2.0,47.0,10.0,1
-74,Israel,IL,ISR,0.0,-0.0,1453.0,-2.0,4
-75,Italy,IT,ITA,-0.0,-4.0,289.0,0.0,4
-76,Jamaica,JM,JAM,0.0,11.0,9.0,5.0,5
-77,Japan,JP,JPN,-0.0,-2.0,1321.0,4.0,2
-78,Jordan,JO,JOR,0.0,4.0,6.0,-5.0,5
-79,Kazakhstan,KZ,KAZ,-0.0,-3.0,1219.0,-3.0,4
-80,Kenya,KE,KEN,-0.0,-1.0,662.0,-0.0,4
-81,Kuwait,KW,KWT,0.0,-4.0,534.0,-3.0,4
-82,Kyrgyzstan,KG,KGZ,-0.0,-7.0,533.0,-7.0,4
-83,Latvia,LV,LVA,0.0,5.0,5.0,2.0,5
-84,Lebanon,LB,LBN,0.0,3.0,174.0,2.0,1
-85,Lesotho,LS,LSO,-0.0,-29.0,28.0,-1.0,4
-86,Liberia,LR,LBR,0.0,9.0,6.0,-5.0,5
-87,Libya,LY,LBY,0.0,2.0,182.0,4.0,1
-88,Liechtenstein,LI,LIE,-0.0,-29.0,0.0,5.0,5
-89,Lithuania,LT,LTU,-0.0,-5.0,15.0,2.0,5
-90,Luxembourg,LU,LUX,-0.0,-13.0,79.0,-5.0,4
-91,Madagascar,MG,MDG,-0.0,-1.0,265.0,-4.0,4
-92,Malawi,MW,MWI,-0.0,-7.0,90.0,-4.0,4
-93,Malaysia,MY,MYS,0.0,-0.0,10.0,-5.0,5
-94,Maldives,MV,MDV,0.0,7.0,136.0,9.0,1
-95,Mali,ML,MLI,-0.0,-7.0,3.0,-9.0,5
-96,Malta,MT,MLT,-0.0,-9.0,27.0,12.0,2
-97,Mauritania,MR,MRT,0.0,10.0,24.0,-4.0,3
-98,Mauritius,MU,MUS,,0.0,1.0,-27.0,5
-99,Mexico,MX,MEX,-0.0,-4.0,6675.0,-1.0,4
-100,Monaco,MC,MCO,1.0,7.0,1.0,0.0,5
-101,Mongolia,MN,MNG,-0.0,-10.0,0.0,-4.0,5
-102,Montenegro,ME,MNE,0.0,2.0,58.0,-4.0,3
-103,Morocco,MA,MAR,0.0,2.0,889.0,6.0,1
-104,Mozambique,MZ,MOZ,-0.0,1.0,45.0,6.0,1
-105,Namibia,,NAM,0.0,1.0,78.0,0.0,3
-106,Nepal,NP,NPL,0.0,7.0,291.0,8.0,1
-107,Netherlands,NL,NLD,0.0,7.0,388.0,8.0,1
-108,New Zealand,NZ,NZL,-0.0,-4.0,1.0,9.0,5
-109,Nicaragua,NI,NIC,0.0,48.0,29.0,13.0,1
-110,Niger,NE,NER,-0.0,7.0,2.0,-4.0,5
-111,Nigeria,NG,NGA,-0.0,-3.0,386.0,-4.0,4
-112,Norway,NO,NOR,0.0,9.0,32.0,10.0,1
-113,Oman,OM,OMN,0.0,1.0,298.0,-13.0,3
-114,Pakistan,PK,PAK,-0.0,-12.0,739.0,-7.0,4
-115,Panama,PA,PAN,-0.0,-2.0,1001.0,-0.0,4
-116,Papua New Guinea,PG,PNG,0.0,28.0,11.0,13.0,5
-117,Paraguay,PY,PRY,-0.0,-8.0,173.0,2.0,2
-118,Peru,PE,PER,0.0,11.0,6577.0,6.0,1
-119,Philippines,PH,PHL,0.0,6.0,4038.0,8.0,1
-120,Poland,PL,POL,0.0,2.0,611.0,3.0,1
-121,Portugal,PT,PRT,-0.0,-9.0,180.0,-4.0,4
-122,Qatar,QA,QAT,-0.0,-3.0,241.0,-5.0,4
-123,Romania,RO,ROU,-0.0,-1.0,1187.0,0.0,4
-124,Rwanda,RW,RWA,-0.0,-18.0,22.0,-6.0,4
+53,Finland,FI,FIN,0.0,16.0,15.0,9.0,5
+54,France,FR,FRA,0.0,5.0,1279.0,5.0,1
+55,Gabon,GA,GAB,-0.0,6.0,54.0,-7.0,3
+56,Gambia,GM,GMB,0.0,17.0,76.0,12.0,1
+57,Georgia,GE,GEO,0.0,11.0,6.0,-6.0,5
+58,Germany,DE,DEU,0.0,4.0,812.0,4.0,1
+59,Ghana,GH,GHA,0.0,10.0,562.0,-2.0,3
+60,Greece,GR,GRC,0.0,10.0,98.0,12.0,1
+61,Grenada,GD,GRD,,-67.0,0.0,-0.0,5
+62,Guatemala,GT,GTM,0.0,-4.0,842.0,-2.0,4
+63,Guinea,GN,GIN,0.0,14.0,60.0,2.0,1
+64,Guinea-Bissau,GW,GNB,1.0,8.0,10.0,21.0,5
+65,Guyana,GY,GUY,0.0,11.0,18.0,11.0,5
+66,Haiti,HT,HTI,0.0,2.0,26.0,-3.0,3
+67,Honduras,HN,HND,0.0,4.0,601.0,-2.0,3
+68,Hungary,HU,HUN,0.0,1.0,16.0,1.0,5
+69,Iceland,IS,ISL,-0.0,-11.0,9.0,8.0,5
+70,India,IN,IND,0.0,1.0,55639.0,1.0,1
+71,Indonesia,ID,IDN,0.0,-0.0,1790.0,0.0,4
+72,Iraq,IQ,IRQ,0.0,0.0,2788.0,1.0,2
+73,Ireland,IE,IRL,0.0,-1.0,54.0,10.0,2
+74,Israel,IL,ISR,0.0,5.0,1408.0,-1.0,3
+75,Italy,IT,ITA,0.0,-1.0,304.0,1.0,2
+76,Jamaica,JM,JAM,0.0,14.0,13.0,9.0,5
+77,Japan,JP,JPN,0.0,-2.0,1348.0,4.0,2
+78,Jordan,JO,JOR,-0.0,-5.0,6.0,-8.0,5
+79,Kazakhstan,KZ,KAZ,-0.0,-2.0,1157.0,-6.0,4
+80,Kenya,KE,KEN,-0.0,-5.0,661.0,-1.0,4
+81,Kuwait,KW,KWT,0.0,2.0,518.0,-2.0,3
+82,Kyrgyzstan,KG,KGZ,0.0,-2.0,508.0,-7.0,4
+83,Latvia,LV,LVA,0.0,20.0,6.0,8.0,5
+84,Lebanon,LB,LBN,0.0,7.0,183.0,3.0,1
+85,Lesotho,LS,LSO,-0.0,-21.0,21.0,-4.0,4
+86,Liberia,LR,LBR,-0.0,-1.0,6.0,-7.0,5
+87,Libya,LY,LBY,0.0,12.0,207.0,6.0,1
+88,Liechtenstein,LI,LIE,-0.0,-10.0,0.0,-0.0,5
+89,Lithuania,LT,LTU,0.0,1.0,16.0,2.0,5
+90,Luxembourg,LU,LUX,-0.0,-4.0,68.0,-4.0,4
+91,Madagascar,MG,MDG,0.0,-2.0,276.0,-1.0,4
+92,Malawi,MW,MWI,-0.0,-15.0,94.0,1.0,2
+93,Malaysia,MY,MYS,0.0,7.0,10.0,-4.0,5
+94,Maldives,MV,MDV,-0.0,-2.0,139.0,8.0,2
+95,Mali,ML,MLI,-0.0,-6.0,4.0,-1.0,5
+96,Malta,MT,MLT,0.0,-17.0,28.0,9.0,2
+97,Mauritania,MR,MRT,0.0,2.0,21.0,-6.0,3
+98,Mauritius,MU,MUS,,0.0,1.0,-32.0,5
+99,Mexico,MX,MEX,-0.0,-5.0,6780.0,-1.0,4
+100,Monaco,MC,MCO,0.0,32.0,1.0,-2.0,5
+101,Mongolia,MN,MNG,-0.0,-29.0,0.0,-9.0,5
+102,Montenegro,ME,MNE,-0.0,5.0,58.0,-3.0,3
+103,Morocco,MA,MAR,0.0,4.0,929.0,5.0,1
+104,Mozambique,MZ,MOZ,-0.0,-3.0,46.0,5.0,2
+105,Namibia,,NAM,0.0,3.0,83.0,-0.0,3
+106,Nepal,NP,NPL,0.0,5.0,310.0,8.0,1
+107,Netherlands,NL,NLD,0.0,9.0,446.0,9.0,1
+108,New Zealand,NZ,NZL,-0.0,-16.0,1.0,3.0,5
+109,Nicaragua,NI,NIC,0.0,29.0,29.0,8.0,1
+110,Niger,NE,NER,-0.0,-9.0,3.0,0.0,5
+111,Nigeria,NG,NGA,-0.0,-4.0,380.0,-4.0,4
+112,Norway,NO,NOR,0.0,11.0,37.0,10.0,1
+113,Oman,OM,OMN,1.0,20.0,268.0,-12.0,3
+114,Pakistan,PK,PAK,-0.0,-8.0,697.0,-5.0,4
+115,Panama,PA,PAN,-0.0,0.0,1019.0,-0.0,4
+116,Papua New Guinea,PG,PNG,0.0,15.0,12.0,11.0,5
+117,Paraguay,PY,PRY,0.0,0.0,189.0,5.0,2
+118,Peru,PE,PER,-0.0,2.0,5868.0,3.0,1
+119,Philippines,PH,PHL,-0.0,-1.0,4247.0,7.0,2
+120,Poland,PL,POL,0.0,1.0,637.0,3.0,1
+121,Portugal,PT,PRT,-0.0,-6.0,181.0,-3.0,4
+122,Qatar,QA,QAT,0.0,0.0,242.0,-4.0,4
+123,Romania,RO,ROU,0.0,-0.0,1208.0,0.0,4
+124,Rwanda,RW,RWA,-0.0,-20.0,18.0,-8.0,5
 125,Saint Kitts and Nevis,KN,KNA,,0.0,1.0,0.0,5
-126,Saint Lucia,LC,LCA,-1.0,-48.0,0.0,-13.0,5
-127,Saint Vincent and the Grenadines,VC,VCT,-0.0,5.0,0.0,1.0,5
+126,Saint Lucia,LC,LCA,,-67.0,0.0,-19.0,5
+127,Saint Vincent and the Grenadines,VC,VCT,-0.0,-14.0,0.0,15.0,5
 128,San Marino,SM,SMR,,0.0,1.0,0.0,5
-129,Sao Tome and Principe,ST,STP,-0.0,3.0,1.0,-22.0,5
-130,Saudi Arabia,SA,SAU,-0.0,-4.0,1499.0,-5.0,4
-131,Senegal,SN,SEN,-0.0,-14.0,92.0,-6.0,4
-132,Serbia,RS,SRB,-0.0,-4.0,314.0,-3.0,4
-133,Seychelles,SC,SYC,1.0,67.0,2.0,18.0,5
-134,Sierra Leone,SL,SLE,-0.0,-13.0,9.0,-3.0,5
-135,Singapore,SG,SGP,0.0,11.0,382.0,2.0,1
-136,Slovakia,SK,SVK,0.0,-3.0,27.0,-1.0,4
-137,Slovenia,SI,SVN,-0.0,-9.0,13.0,-6.0,5
-138,Somalia,SO,SOM,0.0,36.0,2.0,-14.0,5
-139,South Africa,ZA,ZAF,-0.0,-10.0,8764.0,-5.0,4
-140,South Sudan,SS,SSD,-0.0,-2.0,16.0,2.0,5
-141,Spain,ES,ESP,0.0,14.0,3145.0,8.0,1
-142,Sri Lanka,LK,LKA,0.0,21.0,4.0,-9.0,5
-143,Sudan,SD,SDN,-0.0,-11.0,36.0,-12.0,4
-144,Suriname,SR,SUR,0.0,4.0,68.0,2.0,1
-145,Sweden,SE,SWE,0.0,3.0,256.0,2.0,1
-146,Switzerland,CH,CHE,-0.0,-7.0,165.0,1.0,2
-147,Tajikistan,TJ,TJK,-0.0,-0.0,44.0,-0.0,4
-148,Thailand,TH,THA,-0.0,3.0,4.0,-6.0,5
-149,Timor-Leste,TL,TLS,0.0,48.0,0.0,32.0,5
-150,Togo,TG,TGO,-0.0,2.0,13.0,-1.0,5
-151,Trinidad and Tobago,TT,TTO,0.0,5.0,6.0,11.0,5
-152,Tunisia,TN,TUN,-0.0,-8.0,17.0,2.0,5
-153,Turkey,TR,TUR,0.0,3.0,1016.0,1.0,1
-154,Uganda,UG,UGA,0.0,5.0,10.0,3.0,5
-155,Ukraine,UA,UKR,0.0,1.0,1142.0,2.0,1
-156,United Arab Emirates,AE,ARE,-0.0,-8.0,258.0,-2.0,4
-157,United Kingdom,GB,GBR,-0.0,-18.0,626.0,-4.0,4
-158,US,US,USA,-0.0,-5.0,58460.0,-2.0,4
-159,Uruguay,UY,URY,-0.0,-11.0,11.0,-7.0,5
-160,Uzbekistan,UZ,UZB,0.0,0.0,762.0,4.0,2
-161,Venezuela,VE,VEN,0.0,2.0,716.0,3.0,1
+129,Sao Tome and Principe,ST,STP,-0.0,-10.0,1.0,-28.0,5
+130,Saudi Arabia,SA,SAU,-0.0,-3.0,1454.0,-4.0,4
+131,Senegal,SN,SEN,0.0,1.0,94.0,-3.0,3
+132,Serbia,RS,SRB,-0.0,-2.0,305.0,-3.0,4
+133,Seychelles,SC,SYC,0.0,48.0,2.0,13.0,5
+134,Sierra Leone,SL,SLE,0.0,3.0,9.0,-2.0,5
+135,Singapore,SG,SGP,0.0,8.0,378.0,1.0,1
+136,Slovakia,SK,SVK,0.0,13.0,29.0,3.0,1
+137,Slovenia,SI,SVN,0.0,-7.0,14.0,-4.0,5
+138,Somalia,SO,SOM,0.0,17.0,2.0,-10.0,5
+139,South Africa,ZA,ZAF,-0.0,-7.0,8383.0,-4.0,4
+140,South Sudan,SS,SSD,-0.0,-4.0,16.0,-1.0,5
+141,Spain,ES,ESP,0.0,12.0,3402.0,7.0,1
+142,Sri Lanka,LK,LKA,0.0,2.0,4.0,-8.0,5
+143,Sudan,SD,SDN,-1.0,-30.0,36.0,-5.0,4
+144,Suriname,SR,SUR,-0.0,7.0,61.0,1.0,1
+145,Sweden,SE,SWE,0.0,9.0,273.0,6.0,1
+146,Switzerland,CH,CHE,-0.0,-5.0,163.0,2.0,2
+147,Tajikistan,TJ,TJK,-0.0,-1.0,43.0,-0.0,4
+148,Thailand,TH,THA,-0.0,-8.0,4.0,-8.0,5
+149,Timor-Leste,TL,TLS,0.0,29.0,0.0,27.0,5
+150,Togo,TG,TGO,-0.0,-9.0,14.0,-2.0,5
+151,Trinidad and Tobago,TT,TTO,0.0,6.0,7.0,12.0,5
+152,Tunisia,TN,TUN,0.0,5.0,19.0,4.0,5
+153,Turkey,TR,TUR,0.0,3.0,1043.0,2.0,1
+154,Uganda,UG,UGA,-0.0,0.0,10.0,1.0,5
+155,Ukraine,UA,UKR,0.0,1.0,1180.0,2.0,1
+156,United Arab Emirates,AE,ARE,-0.0,-4.0,240.0,-2.0,4
+157,United Kingdom,GB,GBR,0.0,1.0,842.0,1.0,1
+158,US,US,USA,-0.0,-3.0,57075.0,-2.0,4
+159,Uruguay,UY,URY,-0.0,-7.0,10.0,-7.0,5
+160,Uzbekistan,UZ,UZB,-0.0,-1.0,716.0,2.0,2
+161,Venezuela,VE,VEN,0.0,3.0,765.0,3.0,1
 162,Western Sahara,EH,ESH,,0.0,1.0,0.0,5
-163,Yemen,YE,YEM,0.0,3.0,8.0,-4.0,5
-164,Zambia,ZM,ZMB,-0.0,-6.0,252.0,1.0,2
-165,Zimbabwe,ZW,ZWE,-0.0,-5.0,176.0,1.0,2
+163,Yemen,YE,YEM,0.0,1.0,7.0,-4.0,5
+164,Zambia,ZM,ZMB,-0.0,-10.0,239.0,-1.0,4
+165,Zimbabwe,ZW,ZWE,-0.0,-14.0,182.0,1.0,2
