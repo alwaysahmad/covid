@@ -994,7 +994,7 @@ function ready([us,us_counties,
                                         d.col = colorScale(+d.risklevel)
                                       })
                           updateScatter(scatterdata,
-                                          "Short Term (7 days) vs Long Term (14 days) Trend in Daily New Cases",
+                                          "7 days trend vs 14 days Trend in Daily New Cases",
                                           "Size represents the Daily Average",
 
                                           "7 days Rate of Change(%) in Daily Number of Cases",
@@ -1063,10 +1063,10 @@ function ready([us,us_counties,
                                       })
                          // console.log(scatterdata)
                           updateScatter(scatterdata,
-                                          "Current Daily Case count(average) as % of Peak and Days since the Peak",
+                                          "Current Daily Case count(avg) as % of Peak and Days since Peak",
                                           "Size represents the Daily Average",
 
-                                          "Current Daily Average as % of Peak number of Cases for the State",
+                                          "Current Daily Avg as % of Peak number of Cases",
                                           "Number of Days since Peak",
                                           "");
                           d3.select("#chart3").append("p").text("This chart shows how close or far the states are from their peak in terms of count and days. States on the left side on the plot(within 15 days of the peak), are too close to peak to establish a trend. For the states whose peak was more than 2 weeks ago, they are compared on trending down slope - States on the lower right region of the plot are trending faster than States on the top region. Size of the circle represents the current daily count.");
@@ -1091,10 +1091,10 @@ function ready([us,us_counties,
                                       })
 
                           updateScatter(scatterdata,
-                                          "Current Daily Death count(average) as % of Peak and Days since the Peak",
+                                          "Current Daily Death count(avg) as % of Peak and Days since Peak",
                                           "Size represents the Daily Average",
 
-                                          "Current Daily Average as % of Peak number of Daily Deaths for the State",
+                                          "Current Daily Avg as % of Peak number of Daily Deaths",
                                           "Number of Days since Peak",
                                           "");
 
@@ -1265,7 +1265,7 @@ function ready([us,us_counties,
                                     d.col = colorScale(+d.risklevel)
                                   })
                           updateScatter(scatterdata,
-                                          "Short Term (7 days) vs Long Term (14 days) Trend in Daily New Cases",
+                                          "7 days trend vs 14 days Trend in Daily New Cases",
                                           "Size represents the Daily Average",
                                           "7 days Rate of Change(%) in Daily Number of Cases",
                                           "14 days Rate of Change(%) in Daily Number of Cases","");
@@ -1280,7 +1280,7 @@ function ready([us,us_counties,
                                       })
 
                             updateScatter(scatterdata,
-                                          "Short Term (7 days) vs Long Term (14 days) Trend in Daily Deaths",
+                                          "7 days trend vs 14 days Trend in Daily Deaths",
                                           "Size represents the Daily Average",
                                           "7 days Rate of Change(%) in Daily Deaths",
                                           "14 days Rate of Change(%) in Daily Deaths",
@@ -1342,10 +1342,10 @@ function ready([us,us_counties,
 
 
                           updateScatter(scatterdata,
-                                          "Current Daily Case count(average) as % of Peak and Days since the Peak",
+                                          "Current Daily Case count(avg) as % of Peak and Days since Peak",
                                           "Size represents the Daily Average",
 
-                                          "Current Daily Average as % of Peak number of Cases for the County",
+                                          "Current Daily Avg as % of Peak number of Cases",
                                           "Number of Days since Peak",
                                           "");
 
@@ -1368,10 +1368,10 @@ function ready([us,us_counties,
                     // colorScale.domain(['0','1','2','3','4'])
                       colorScale.domain(uniqueCluster);
                           updateScatter(scatterdata,
-                                          "Current Daily Death count(average) as % of Peak and Days since the Peak",
+                                          "Current Daily Death count(avg) as % of Peak and Days since Peak",
                                           "Size represents the Daily Average",
 
-                                          "Current Daily Average as % of Peak number of Daily Deaths for the County",
+                                          "Current Daily Avg as % of Peak number of Daily Deaths",
                                           "Number of Days since Peak",
                                           "");
 
@@ -1665,7 +1665,7 @@ function ready([us,us_counties,
 
                                   })
                           updateScatter(scatterdata,
-                                          "Short Term (7 days) vs Long Term (14 days) Trend in Daily New Cases",
+                                          "7 days trend vs 14 days Trend in Daily New Cases",
                                           "Size represents the Daily Average",
                                           "7 days Rate of Change(%) in Daily Number of Cases",
                                           "14 days Rate of Change(%) in Daily Number of Cases","");
@@ -1684,7 +1684,7 @@ function ready([us,us_counties,
                                       })
 
                             updateScatter(scatterdata,
-                                          "Short Term (7 days) vs Long Term (14 days) Trend in Daily Deaths",
+                                          "7 days trend vs 14 days Trend in Daily Deaths",
                                           "Size represents the Daily Average",
                                           "7 days Rate of Change(%) in Daily Deaths",
                                           "14 days Rate of Change(%) in Daily Deaths",
@@ -1735,10 +1735,10 @@ function ready([us,us_counties,
 
 
                           updateScatter(scatterdata,
-                                          "Current Daily Case count(average) as % of Peak and Days since the Peak",
+                                          "Current Daily Case count(avg) as % of Peak and Days since Peak",
                                           "Size represents the Daily Average",
 
-                                          "Current Daily Average as % of Peak number of Cases for the State",
+                                          "Current Daily Average as % of Peak number of Cases",
                                           "Number of Days since Peak",
                                           "");
 
@@ -1761,10 +1761,10 @@ function ready([us,us_counties,
                     // colorScale.domain(['0','1','2','3','4'])
                       colorScale.domain(uniqueCluster);
                           updateScatter(scatterdata,
-                                          "Current Daily Death count(average) as % of Peak and Days since the Peak",
+                                          "Current Daily Death count(avg) as % of Peak and Days since Peak",
                                           "Size represents the Daily Average",
 
-                                          "Current Daily Average as % of Peak number of Daily Deaths for the States",
+                                          "Current Daily Average as % of Peak number of Daily Deaths",
                                           "Number of Days since Peak",
                                           "");
 
@@ -1922,7 +1922,7 @@ function ready([us,us_counties,
                                     d.col = colorScale(+d.risklevel)
                                   })
                           updateScatter(scatterdata,
-                                          "Short Term (7 days) vs Long Term (14 days) Trend in Daily New Cases",
+                                          "7 days trend vs 14 days Trend in Daily New Cases",
                                           "Size represents the Daily Average",
                                           "7 days Rate of Change(%) in Daily Number of Cases",
                                           "14 days Rate of Change(%) in Daily Number of Cases","");
@@ -1936,7 +1936,7 @@ function ready([us,us_counties,
                                       })
 
                             updateScatter(scatterdata,
-                                          "Short Term (7 days) vs Long Term (14 days) Trend in Daily Deaths",
+                                          "7 days trend vs 14 days Trend in Daily Deaths",
                                           "Size represents the Daily Average",
                                           "7 days Rate of Change(%) in Daily Deaths",
                                           "14 days Rate of Change(%) in Daily Deaths",
