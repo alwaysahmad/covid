@@ -780,7 +780,6 @@ function ready([us,us_counties,
 
                   }
                 //console.log(firsttime, factor)
-                d3.select("#selection").text(factor)
                 if(factor == factorsList[1]){
 
                   d3.select("#main").text("Main")
@@ -2545,6 +2544,9 @@ function ready([us,us_counties,
 
             //---------------------------------------Line Chart
     function createLineChart(dailyLine, title, linecolor,xscale_type, yscale_type,avg)  {
+      startDate = d3.min(dailyLine, function(d) { return parser(d.Date); });
+        endDate = d3.max(dailyLine, function(d) { return parser(d.Date); });
+                  x_line.domain([startDate, endDate]);
           var y_line_scale
           //console.log(dailyLine)
               miny = d3.min(dailyLine, function(d) { return +d.value; });
