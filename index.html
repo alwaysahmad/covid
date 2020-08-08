@@ -10,6 +10,10 @@
             color:rgb(255, 255, 255);
             background-color:rgb(222, 76, 47);
         }
+        h2{
+            color:rgb(255, 255, 255);
+            background-color:rgb(218, 114, 29);
+        }
         .stripe{
             color:rgb(222, 76, 47);
         }
@@ -274,8 +278,8 @@
 
 
     </div>
-    <h5></h5>
-    <h5></h5>
+    <h2 id="selection">
+      Trend</h2>
     <!--div id = "details" class = "right"-->
     <div id = "details" >
         <div class="tab">
@@ -441,7 +445,7 @@ var factorsList = [
                     "---------"                                         //26
 
                     ];
-var dropdownlist = [factorsList[0], factorsList[1],factorsList[20],factorsList[25]]
+var dropdownlist = [factorsList[0],factorsList[20],factorsList[25]]
 var seasonaltempinterval = 10
 var winwidth = window.innerWidth
       || document.documentElement.clientWidth
@@ -776,6 +780,7 @@ function ready([us,us_counties,
 
                   }
                 //console.log(firsttime, factor)
+                d3.select("#selection").text(factor)
                 if(factor == factorsList[1]){
 
                   d3.select("#main").text("Main")
