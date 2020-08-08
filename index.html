@@ -2941,6 +2941,7 @@ function ready([us,us_counties,
                           svg_sc.selectAll("text")
                               .data(scatterdata)
                             .enter().append("text")
+                            .style("font-size", 25*scale+"px")
                              // .attr("class", "dot")
                              // .attr("r", 3.5)
                               .attr("x", function(d){
