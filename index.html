@@ -176,7 +176,7 @@
   }
     /* Create an active/current tablink class */
     .tab button.active {
-      background-color:skyblue;
+      background-color:orange;
       font-weight: bold;
 
     }
@@ -715,6 +715,7 @@ function ready([us,us_counties,
   console.log(articles);
   */
     factor = factorsList[0];
+    d3.select("#selection").text(factor)
     var tooltiptext;
     var colorScale = d3.scaleThreshold();
     colorScale.range(d3.schemeOranges[9]);
@@ -780,6 +781,7 @@ function ready([us,us_counties,
 
                   }
                 //console.log(firsttime, factor)
+                d3.select("#selection").text(factor)
                 if(factor == factorsList[1]){
 
                   d3.select("#main").text("Main")
@@ -1112,7 +1114,37 @@ function ready([us,us_counties,
                           updateLinechart(linechartdropdown[0]);
                           //-------------
                           //2nd map
+                          factor = factorsList[1]
+                                                clusterdata = "no"
+                                                mapdata = us_daily_case_data
+                                                maptype = 'state'
+                                                tooltiptext = "New Cases: ";
+                                                legendText = "New Cases"
+                                                maptitle = "US - Daily New Cases"
 
+                                                minmap= Math.log10(d3.min(mapdata, function(d) { return +d.value; }));
+                                                maxmap = Math.ceil(Math.log10(d3.max(mapdata, function(d) { return +d.value; })));
+                                                //console.log(d3.range(minmap, maxmap,1))
+                                                colorScale.domain(d3.range(0, maxmap, 1));//minmap is infinity
+                                                colorScale.range(d3.schemeReds[7]);
+
+
+                                                //colorScale.domain(uniqueCluster);
+                                                //console.log(colorScale)
+                                                              //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
+
+
+
+                                                svg = d3.selectAll("#map")
+                                                      .append("svg")
+                                                      .attr("width", width + margin.left + margin.right)
+                                                      .attr("height", height + margin.top + margin.bottom)
+                                                      .append("g")
+                                                      .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                                                      .call(responsivefy)
+                                                      ;
+                                                updateMap(lastday,'');
+                                                updateLegend();
                           factor = factorsList[2]
                                               clusterdata = "no"
                                               tooltiptext = "Total Cases: ";
@@ -1137,37 +1169,7 @@ function ready([us,us_counties,
                                                     updateMap(lastday,'');
                                                     updateLegend();
 
-                              factor = factorsList[1]
-                                                    clusterdata = "no"
-                                                    mapdata = us_daily_case_data
-                                                    maptype = 'state'
-                                                    tooltiptext = "New Cases: ";
-                                                    legendText = "New Cases"
-                                                    maptitle = "US - Daily New Cases"
 
-                                                    minmap= Math.log10(d3.min(mapdata, function(d) { return +d.value; }));
-                                                    maxmap = Math.ceil(Math.log10(d3.max(mapdata, function(d) { return +d.value; })));
-                                                    //console.log(d3.range(minmap, maxmap,1))
-                                                    colorScale.domain(d3.range(0, maxmap, 1));//minmap is infinity
-                                                    colorScale.range(d3.schemeReds[7]);
-
-
-                                                    //colorScale.domain(uniqueCluster);
-                                                    //console.log(colorScale)
-                                                                  //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
-
-
-
-                                                    svg = d3.selectAll("#map")
-                                                          .append("svg")
-                                                          .attr("width", width + margin.left + margin.right)
-                                                          .attr("height", height + margin.top + margin.bottom)
-                                                          .append("g")
-                                                          .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-                                                          .call(responsivefy)
-                                                          ;
-                                                    updateMap(lastday,'');
-                                                    updateLegend();
 
                       document.getElementById("slideranimation").style.display = "none";
                       //document.getElementById("linechart").click();
