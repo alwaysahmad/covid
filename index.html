@@ -1049,6 +1049,7 @@ function ready([us,us_counties,
                           var uniqueCluster = [...new Set(scatterdata.map(item =>+item.cluster))].sort()
                     // colorScale.domain(['0','1','2','3','4'])
                     clusterDesc = ["Peaked in last 2 weeks","Below AVG Rate","Above AVG Rate","90% down from Peak"]
+                    legendText = "Trend"
                     colorScale.range(["",d3.interpolateSpectral(.10),d3.interpolateSpectral(.25),d3.interpolateSpectral(.7),d3.interpolateSpectral(.85),d3.interpolateGreys(.2)])
 
                           colorScale.domain(uniqueCluster);
@@ -1323,6 +1324,7 @@ function ready([us,us_counties,
                     // colorScale.domain(['0','1','2','3','4'])
                       colorScale.domain(uniqueCluster);
                       clusterDesc = ["Peaked in last 2 weeks","Below AVG Rate","Above AVG Rate","90% down from Peak"]
+                      legendText = "Trend"
                     colorScale.range(["",d3.interpolateSpectral(.10),d3.interpolateSpectral(.25),d3.interpolateSpectral(.7),d3.interpolateSpectral(.85),d3.interpolateGreys(.2)])
 
                           scatterdata.forEach(d => {
@@ -1723,6 +1725,7 @@ function ready([us,us_counties,
                     //console.log(uniqueCluster)
                     //colorScale.domain(uniqueCluster);
                       clusterDesc = ["Peaked in last 2 weeks","Below AVG Rate","Above AVG Rate","90% down from Peak"]
+                      legendText = "Trend"
                       colorScale.range(["",d3.interpolateSpectral(.10),d3.interpolateSpectral(.25),d3.interpolateSpectral(.7),d3.interpolateSpectral(.85),d3.interpolateGreys(.2)])
 
                           scatterdata.forEach(d => {
@@ -1971,6 +1974,7 @@ function ready([us,us_counties,
                               "");
 
                         clusterDesc = ["Peaked in last 2 weeks","Below AVG Rate","Above AVG Rate","90% down from Peak"]
+                        legendText = "Trend"
                     colorScale.range(["",d3.interpolateSpectral(.10),d3.interpolateSpectral(.25),d3.interpolateSpectral(.7),d3.interpolateSpectral(.85),d3.interpolateGreys(.2)])
 
                           scatterdata  =  global_case_peak_data.filter(function (d){return d.avg>200})
