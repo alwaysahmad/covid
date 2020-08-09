@@ -265,12 +265,12 @@
 <body>
     <h1><strong> Covid-19 Insight Beyond the Numbers!</strong></h1>
     <h4>
-      <p>
+
         We have all heard of <em>"Flattening the curve"</em> and are bombarded with high volume of <em>"Covid 19 Statistics"</em>. But making sense of these numbers is no easy task, considering that the numbers and trend vary so much by the region. Here we will take you beyond the numbers!
         Leveraging Machine Learning algorithms, the Interactive visualizations on this page provides insights you cant get from simple graph or daily cases and deaths count.
       </h4>
       <!--p>             Ahmad Ali       </p-->
-        </p>
+
         <div id="dropdown-container"><h4>Choose an option to explore: </h4>
         </div>
     <!--div id="state" class = "left"-->
@@ -945,7 +945,7 @@ function ready([us,us_counties,
                       colorScale.range(["",d3.interpolateSpectral(.15),d3.interpolateSpectral(.25),d3.interpolateSpectral(.4),d3.interpolateSpectral(.72),d3.interpolateGreys(.2)])
                       clusterDesc = ["Not Improving","Short Term Improving","Was Improving but Uptick","Improving or Flat","Low # of Current Cases"]
                       tooltiptext = "Trend: ";
-                      legendText = "Trend"
+                      legendText = "Trend in last 2 Wks"
                       maptitle = "Short Term (7 days) and Long Term (14 Days) Trend "
                       mapjson = topojson.feature(us, us.objects.states).features
                       /*
@@ -1204,7 +1204,7 @@ function ready([us,us_counties,
                         colorScale.range(["",d3.interpolateRdYlGn(.2),d3.interpolateRdYlGn(.3),d3.interpolateRdYlGn(.4),d3.interpolateRdYlGn(.6),d3.interpolateGreys(.2)])
                         clusterDesc = [ "Not Improving","Short Term Improving","Was Improving but Uptick","Improving or Flat","Low # of Current Cases"]
                         tooltiptext = "Trend: ";
-                        legendText = "Trend"
+                        legendText = "Trend in last 2 Wks"
                         maptitle = "Short Term (7 days) and Long Term (14 Days) Trend "
                         //mapjson = topojson.feature(us_counties, us_counties.objects.counties).features
                         maptype = 'county'
@@ -1543,7 +1543,7 @@ function ready([us,us_counties,
                           colorScale.range(["",d3.interpolateRdYlGn(.2),d3.interpolateRdYlGn(.3),d3.interpolateRdYlGn(.4),d3.interpolateRdYlGn(.6),d3.interpolateGreys(.2)])
                           clusterDesc = ["Not Improving","Short Term Improving","Was Improving but Uptick","Improving or Flat","Low # of Current Cases"]
                           tooltiptext = "Trend: ";
-                          legendText = "Trend"
+                          legendText = "Trend in last 2 Wks"
 
                           /*
                           mapjson.forEach(d => {
@@ -1819,7 +1819,7 @@ function ready([us,us_counties,
                             colorScale.range(["",d3.interpolateRdYlGn(.2),d3.interpolateRdYlGn(.3),d3.interpolateRdYlGn(.4),d3.interpolateRdYlGn(.6),d3.interpolateGreys(.2)])
                             clusterDesc = ["Not Improving","Short Term Improving","Was Improving but Uptick","Improving or Flat","Low # of Current Cases"]
                             tooltiptext = "Trend: ";
-                            legendText = "Trend"
+                            legendText = "Trend in last 2 Wks"
                             /*
 
                                   scatterdata = global_cases_change_data.filter(function (d){return d.avg>200})
