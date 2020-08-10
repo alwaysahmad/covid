@@ -937,8 +937,8 @@ function ready([us,us_counties,
                       mapdata = us_cases_change_data
                       maptype = 'state'
                       var uniqueCluster = [...new Set(us_cases_change_data.map(item =>+item.risklevel))].sort()
-                    // colorScale.domain(['0','1','2','3','4'])
-                      colorScale.domain(uniqueCluster);
+                    colorScale.domain(['1','2','3','4','5'])
+                    //  colorScale.domain(uniqueCluster);
                     // console.log(colorScale)
                                     //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
                       //colorScale.range(["",d3.interpolateRdYlGn(.2),d3.interpolateRdYlGn(.3),d3.interpolateRdYlGn(.4),d3.interpolateRdYlGn(.65),d3.interpolateGreys(.2)])
@@ -1198,8 +1198,9 @@ function ready([us,us_counties,
                         mapdata = county_cases_change_data
 
                         var uniqueCluster = [...new Set(county_cases_change_data.map(item =>+item.risklevel))].sort()
-                        //colorScale.domain(['0','1','2','3','4'])
-                        colorScale.domain(uniqueCluster);
+                        colorScale.domain(['1','2','3','4','5'])
+                        //  colorScale.domain(uniqueCluster);
+
                       // console.log(colorScale)
                                       //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
                         colorScale.range(["",d3.interpolateRdYlGn(.2),d3.interpolateRdYlGn(.3),d3.interpolateRdYlGn(.4),d3.interpolateRdYlGn(.6),d3.interpolateGreys(.2)])
@@ -1538,8 +1539,9 @@ function ready([us,us_counties,
                           mapjson = topojson.feature(us, us.objects.states).features
 
                           var uniqueCluster = [...new Set( india_cases_change_data.map(item =>+item.risklevel))].sort()
-                        // colorScale.domain(['0','1','2','3','4'])
-                          colorScale.domain(uniqueCluster);
+                          colorScale.domain(['1','2','3','4','5'])
+                          //  colorScale.domain(uniqueCluster);
+
                         // console.log(colorScale)
                                         //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
                           colorScale.range(["",d3.interpolateRdYlGn(.2),d3.interpolateRdYlGn(.3),d3.interpolateRdYlGn(.4),d3.interpolateRdYlGn(.6),d3.interpolateGreys(.2)])
@@ -1815,8 +1817,9 @@ function ready([us,us_counties,
                             mapjson = topojson.feature(us, us.objects.states).features
 
                             var uniqueCluster = [...new Set( global_cases_change_data.map(item =>+item.risklevel))].sort()
-                          // colorScale.domain(['0','1','2','3','4'])
-                            colorScale.domain(uniqueCluster);
+                            colorScale.domain(['1','2','3','4','5'])
+                            //  colorScale.domain(uniqueCluster);
+
                           // console.log(colorScale)
                                           //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
                             colorScale.range(["",d3.interpolateRdYlGn(.2),d3.interpolateRdYlGn(.3),d3.interpolateRdYlGn(.4),d3.interpolateRdYlGn(.6),d3.interpolateGreys(.2)])
