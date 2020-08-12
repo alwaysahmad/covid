@@ -1,24 +1,22 @@
-
+  
 <!DOCTYPE html>
 <meta charset="utf-8">
-<!--meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"-->
-
 <head>
   <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"-->
   <style>
         h1{
             color:rgb(255, 255, 255);
-            background-color:rgb(222, 76, 47);
+            background-color:rgb(204, 65, 37);
         }
         h2{
             color:rgb(255, 255, 255);
-            background-color:rgb(218, 114, 29);
+            background-color:rgb(218, 114, 29);;
         }
         .stripe{
-            color:rgb(222, 76, 47);
+            color:rgb(0, 238, 255);
         }
   .states {
-    fill: none;
+    fill: none;  
   }
   .grid .tick {
       stroke: lightgrey;
@@ -38,7 +36,7 @@
     fill: none;
     stroke:lightgray;
     stroke-linejoin: round;
-
+    
   }
   /*
   .d3-tip {
@@ -72,8 +70,8 @@
       }
       #play-button:hover {
         background-color: #696969;
-      }
-
+      }    
+      
       .ticks {
         font-size: 10px;
       }
@@ -111,7 +109,7 @@
       fill: none;
       stroke: #000;
       shape-rendering: crispEdges;
-
+      
     }
     .row {
     display: flex;
@@ -128,7 +126,7 @@
     /* Style the tab */
     /*
     .tab {
-
+      
       overflow: hidden;
       font-weight: normal;
       background-color: lightcyan;
@@ -178,7 +176,7 @@
     .tab button.active {
       background-color:orange;
       font-weight: bold;
-
+      
     }
     /* Style the tab content */
     /*
@@ -213,13 +211,13 @@
   /* left - right */
   .left {
   /* background-color:#2196F3;*/
-
+    
     float:left;
     width:50%; /* The width is 20%, by default */
   }
   .right {
   /* background-color:#4CAF50;*/
-
+  
     float:left;
     width:50%; /* The width is 20%, by default */
   }
@@ -233,7 +231,7 @@
     }
 
     .focus text {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .tooltip {
@@ -261,93 +259,90 @@
   <script src="d3.button.js"></script>
   <script src="lib/d3-tip.min.js"></script>
   <script src="https://d3js.org/d3-random.v2.min.js"></script>
+  <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script> <!--// world-->
 </head>
 <body>
     <h1><strong> Covid-19 Insight Beyond the Numbers!</strong></h1>
     <h4>
-
-        We have all heard of <em>"Flattening the curve"</em> and are bombarded with high volume of <em>"Covid 19 Statistics"</em>. But making sense of these numbers is no easy task, considering that the numbers and trend vary so much by the region. Here we will take you beyond the numbers!
-        Leveraging Machine Learning algorithms, the Interactive visualizations on this page provides insights you cant get from simple graph or daily cases and deaths count.
-      </h4>
-      <!--p>             Ahmad Ali       </p-->
-
+     
+        We have all heard of <em>"Flattening the curve"</em> and are bombarded with high volume of <em>"Covid 19 Statistics"</em>. But making sense of these numbers is no easy task, considering that the numbers and trend vary so much by the region. Here we will take you beyond the numbers! 
+        Leveraging Machine Learning algorithms, the Interactive visualizations on this page provides insights you can't get from simple graph or daily cases and deaths count.
+        </h4>
+  
         <div id="dropdown-container"><h4>Choose an option to explore: </h4>
-        </div>
+        </div> 
     <!--div id="state" class = "left"-->
       <div id="state" >
-
-
+   
+          
     </div>
     <h2 id="selection">
-      Trend</h2>
+      Trend</h2>   
     <!--div id = "details" class = "right"-->
-    <div id = "details" >
+    <div id = "details" >  
         <div class="tab">
           <button class="tablinks" onclick="openTab(event, 'map')" id="main">Main</button>
           <button class="tablinks" onclick="openTab(event, 'chart3')" id="scatter">Trend Comparison</button>
           <button class="tablinks" onclick="openTab(event, 'chart1')" id="linechart">Daily Trend By Region</button>
           <button class="tablinks" onclick="openTab(event, 'chart2')" id="heatmap">Heat Map</button>
-
-
-
-        </div>
+  
+            
+           
+        </div>   
         <!--div id="main" class="tabcontent">
           <div id="map"></div>
-
+  
           <div id="slideranimation">
-            <button id="play-button">Play</button>
+            <button id="play-button">Play</button> 
                 <div id="slider"> </div>
-
-
+                
+                  
           </div-->
       </div>
       <div id="map" class="tabcontent">
         <h4>Click on a state to explore State specific trend.</h4>
         <div id="slideranimation">
-          <button id="play-button">Play</button>
+          <button id="play-button">Play</button> 
               <div id="slider"> </div>
-
-
+              
+                
         </div>
         <!--div id="map"></div-->
       </div>
       <div id="chart1" class="tabcontent">
 
-
-
-        <div id="state-dropdown-container"><h5> To select another state's trend, please click on the desired state on the map or select a value in drop dropDown:</h5>
-        </div>
-
-
+        
+        
+        <div id="state-dropdown-container"><h5> To select another state's trend, please click on the desired state on the map or select a value in dropdown:</h5>
+        </div> 
+        
+ 
       </div>
       <div id="chart2" class="tabcontent">
           <h1> </h1>
           <h1> </h1>
           <p id="heatmapdesc">             </p>
-
+            
       </div>
       <div id="chart3" class="tabcontent">
         <h1> </h1>
         <h1> </h1>
         <p>           </p>
-
+           
     </div>
     </div>
-
+      
 
   <div class="row">
     <div class="column">
 
-
+    
     <div class="column">
-
+  
     </div>
   </div>
   </div>
-
-
-
-
+  
         <!--svg width="960" height="600"></svg-->
 <script>
   //Tab management
@@ -381,24 +376,24 @@
         width = parseInt(svg.style('width'), 10),
         height = parseInt(svg.style('height'), 10),
         aspect = width / height;
-
+  
     // set viewBox attribute to the initial size
     // control scaling with preserveAspectRatio
     // resize svg on inital page load
     svg.attr('viewBox', `0 0 ${width} ${height}`)
         .attr('preserveAspectRatio', 'xMinYMid')
         .call(resize);
-
+  
     // add a listener so the chart will be resized
     // when the window resizes
     // multiple listeners for the same event type
     // requires a namespace, i.e., 'click.foo'
     // api docs: https://goo.gl/F3ZCFr
     d3.select(window).on(
-        'resize.' + container.attr('id'),
+        'resize.' + container.attr('id'), 
         resize
     );
-
+  
     // this is the code that resizes the chart
     // it will be called on load
     // and in response to window resizes
@@ -436,7 +431,7 @@ var factorsList = [
                     "---------",                                          //17
                     "---------",                                          //18
                     "---------",                                          //19
-                    "India - States - Trend",                           //20
+                    "India - States - Trend",                           //20                    
                     "---------",                                          //21
                     "---------" ,                                         //22
                     "---------"  ,                                        //23
@@ -445,19 +440,19 @@ var factorsList = [
                     "---------"                                         //26
 
                     ];
-var dropdownlist = [factorsList[0],factorsList[20],factorsList[25]]
+var dropdownlist = [factorsList[0],factorsList[10],factorsList[20],factorsList[25]]
 var seasonaltempinterval = 10
-var winwidth = window.innerWidth
+var winwidth = window.innerWidth 
       || document.documentElement.clientWidth
       || document.body.clientWidth;
     winheight = window.innerHeight
     || document.documentElement.clientHeight
     || document.body.clientHeight;
     console.log(winwidth,winheight)
-    wd = winwidth*.7
-    wd_l = winwidth*.7
+    wd = winwidth*.65
+    wd_l = winwidth*.65
     wd_s = winwidth*.6
-  /*
+  /*  
   if(winwidth>800) {
     var wd = winwidth/2;
     }
@@ -498,7 +493,7 @@ var playButton = d3.select("#play-button")
 var svgslider = d3.select("#slider")
     .append("svg")
     .attr("width", width + margin.left + margin.right)
-    .attr("height", height/25 + margin.top + margin.bottom);
+    .attr("height", height/25 + margin.top + margin.bottom); 
 var slider = svgslider.append("g")
     .attr("class", "slider")
     .attr("transform", "translate(" + (margin.left+15) + "," + 10 + ")");
@@ -524,25 +519,36 @@ var projection = d3.geoAlbersUsa()
     .translate([width / 2, height / 2]);
 var path = d3.geoPath()
             .projection(projection);
-var projection1 = d3.geoAlbersUsa().scale(1300).translate([487.5, 305])
+var projection1 = d3.geoAlbersUsa().scale(1300).translate([487.5, 305]) 
+var path1 = d3.geoPath()
+             .projection(projection);
+// world Map and projection
+var worldprojection = d3.geoNaturalEarth()
+    .scale(width / 1.6 / Math.PI)
+    .translate([width / 2, height / 2])
+var worldpath = d3.geoPath()
+            .projection(worldprojection);
 
 /*  d3.geoAlbersUsa()
         .scale(800)
           .translate([width / 2, height / 2])  */
+              
 
-var path1 = d3.geoPath()
- .projection(projection);
 
 var long_data = [];
 var linemaptype;
 var heatmaptype;
 var heatmaptitle
+var mapdetail;
+var mapscale;
 var promises = [
   //d3.json("https://d3js.org/us-10m.v1.json"),
   d3.json("states-10m.json"),
   d3.json('counties-10m.json'),
+  //d3.json('countries-10m.json'),
+  d3.json("https://raw.githubusercontent.com/enjalot/wwsd/master/data/world/world-110m.geojson"),
   //d3.json("counties-albers-10m.json"),
-  d3.csv("us_cases_change_data.csv"),
+  d3.csv("us_cases_change_datav1.csv"),
   d3.csv('us_daily_case_data.csv'),
   d3.csv('us_total_case_data.csv'),
   d3.csv("us_case_data_slope.csv"),
@@ -555,21 +561,21 @@ var promises = [
   d3.csv("us_death_data_slope.csv"),
   d3.csv("us_death_start_sorted.csv"),
   d3.csv("us_death_peak_data.csv"),
-  /*county
+  //city
   d3.csv("county_cases_change_data.csv"),
   d3.csv('county_daily_case_data.csv'),
   d3.csv('county_total_case_data.csv'),
   d3.csv("county_case_data_slope.csv"),
   d3.csv("county_case_start_sorted.csv"),
   d3.csv("county_case_peak_data.csv"),
-
+  
   d3.csv("county_deaths_change_data.csv"),
   d3.csv('county_daily_death_data.csv'),
   d3.csv('county_total_death_data.csv'),
   d3.csv("county_death_data_slope.csv"),
   d3.csv("county_death_start_sorted.csv"),
   d3.csv("county_death_peak_data.csv"),
-*/
+
   d3.csv("india_cases_change_data.csv"),
   d3.csv('india_daily_case_data.csv'),
   d3.csv('india_total_case_data.csv'),
@@ -583,7 +589,7 @@ var promises = [
   d3.csv("india_death_data_slope.csv"),
   d3.csv("india_death_start_sorted.csv"),
   d3.csv("india_death_peak_data.csv"),
-
+  
   d3.csv("global_cases_change_data.csv"),
   d3.csv('global_daily_case_data.csv'),
   d3.csv('global_total_case_data.csv'),
@@ -600,17 +606,17 @@ var promises = [
 
 ]
 Promise.all(promises).then(ready)
-function ready([us,us_counties,
+function ready([us,us_counties,world,
                 us_cases_change_data,us_daily_case_data,us_total_case_data, us_case_data_slope,us_case_start_sorted,us_case_peak_data,
                 us_deaths_change_data,us_daily_death_data,us_total_death_data, us_death_data_slope,us_death_start_sorted,us_death_peak_data,
-               // county_cases_change_data,county_daily_case_data,county_total_case_data, county_case_data_slope,county_case_start_sorted,county_case_peak_data,
-                //county_deaths_change_data,county_daily_death_data,county_total_death_data, county_death_data_slope,county_death_start_sorted,county_death_peak_data,
+                county_cases_change_data,county_daily_case_data,county_total_case_data, county_case_data_slope,county_case_start_sorted,county_case_peak_data,
+                county_deaths_change_data,county_daily_death_data,county_total_death_data, county_death_data_slope,county_death_start_sorted,county_death_peak_data,
                 india_cases_change_data,india_daily_case_data,india_total_case_data, india_case_data_slope,india_case_start_sorted,india_case_peak_data,
                 india_deaths_change_data,india_daily_death_data,india_total_death_data, india_death_data_slope,india_death_start_sorted,india_death_peak_data,
                 global_cases_change_data,global_daily_case_data,global_total_case_data, global_case_data_slope,global_case_start_sorted,global_case_peak_data,
                 global_deaths_change_data,global_daily_death_data,global_total_death_data, global_death_data_slope,global_death_start_sorted,global_death_peak_data,
-
-          ])
+          
+          ]) 
   {
   var bisectDate = d3.bisector(function(d) { return d.date; }).left
   var  formatValue = d3.format(",")
@@ -618,22 +624,40 @@ function ready([us,us_counties,
   var parser4d = d3.timeParse("%m/%d/%Y")
   //console.log(topojson.feature(us, us.objects.states).features)
  // console.log(us)
- console.log(us_counties)
+ console.log(world.features)
+ world.features.forEach(d => {
+
+           if (d.properties.name =='USA'){ d.properties.name = 'US'}
+           if (d.properties.name =='Democratic Republic of the Congo'){ d.properties.name = 'Congo (Kinshasa)'}
+           if (d.properties.name =='Republic of the Congo'){ d.properties.name = 'Congo (Brazzaville)'}
+           if (d.properties.name =='United Republic of Tanzania'){ d.properties.name = 'Tanzania'}
+           if (d.properties.name =='South Korea'){ d.properties.name = 'Korea, South'}
+           if (d.properties.name =='North Korea'){ d.properties.name = 'Korea, North'}
+           //if (d.properties.name =='Turkmenistan'){ d.properties.name = 'Tanzania'}
+           
+                    });
+                     
+                    //if (t.Province_State =='Congo (Kinshasa)' ){ t.Province_State = 'Democratic Republic of the Congo'}
+                    //if (t.Province_State =='Congo (Kinshasa)' ){ t.Province_State = 'Democratic Republic of the Congo'}
+//console.log(world.features)
+ 
+ //console.log(us)
+ //console.log(us_counties)
   //console.log(topojson.feature(us_counties, us_counties.objects.counties).features)
 
-
+ 
   minDailyCaseUS= d3.min(us_daily_case_data, function(d) { return +d.value; });
     maxDailyCaseUS = d3.max(us_daily_case_data, function(d) { return +d.value; });
-
-
-
+  
+ 
+  
     startDate = d3.min(us_daily_case_data, function(d) { return parser(d.Date); });
   endDate = d3.max(us_daily_case_data, function(d) { return parser(d.Date); });
-
+  
   //minDailyRatioUS= d3.min(us_case_data_slope, function(d) { return +d.value; });
-  //maxDailyRatioUS = d3.max(us_case_data_slope, function(d) { return +d.value; });
+  //maxDailyRatioUS = d3.max(us_case_data_slope, function(d) { return +d.value; }); 
   //console.log(minDailyRatioUS,maxDailyRatioUS)
-
+  
   //console.log(us_cases_change_data)
   //startDate = new Date();
   //startDate.setDate(sDate.getDate()-90);
@@ -654,13 +678,13 @@ function ready([us,us_counties,
   //console.log(us_cases_change_data)
     /* Initialize tooltip */
   //console.log("in promises")
-
+  
   //var uniquestate = [...new Set(us_cases_change_data.map(item =>item.Province_State))].sort()
   var uniquestate = [...new Set(us_case_start_sorted.map(item =>item.Province_State))]
   var uniquestatesorted =  [...new Set(us_case_start_sorted.map(item =>item.Province_State))].sort()
 
-  //var uniquecounty = [...new Set(county_case_start_sorted.map(item =>item.Province_State))]
-  //var uniquecountysorted =  [...new Set(county_case_start_sorted.map(item =>item.Province_State))].sort()
+  var uniquecounty = [...new Set(county_case_start_sorted.map(item =>item.Province_State))]
+  var uniquecountysorted =  [...new Set(county_case_start_sorted.map(item =>item.Province_State))].sort()
 
   var uniqueIndiaState = [...new Set(india_case_start_sorted.map(item =>item.Province_State))]
   var uniqueIndiaStatesorted =  [...new Set(india_case_start_sorted.map(item =>item.Province_State))].sort()
@@ -685,7 +709,7 @@ function ready([us,us_counties,
                         y_lineLog = d3.scaleLog().range([height_l, 0]),
                         x_line = d3.scaleTime().range([0, width_l])
                         x_line.domain([startDate, endDate]);
-
+                        
                         y_heat = d3.scaleBand().range([0, height_s]),
                         y_heat.domain(uniquestate);
 
@@ -701,7 +725,7 @@ function ready([us,us_counties,
     var s = "00000" + num;
     return s.substr(s.length-5);
 
-
+  
 }
 //console.log(FIPS('234'), FIPS('1234'),FIPS('12345'))
     /*
@@ -714,6 +738,7 @@ function ready([us,us_counties,
   });
   console.log(articles);
   */
+
     factor = factorsList[0];
     d3.select("#selection").text(factor)
     var tooltiptext;
@@ -721,9 +746,9 @@ function ready([us,us_counties,
     colorScale.range(d3.schemeOranges[9]);
     //tooltiptext = "Max Temp: ";
     //legendText = "Temperature  (F)"
-    //maptitle = "Max Temperature for "
+    //maptitle = "Max Temperature for " 
     firsttime = 0
-
+    
     cdata = []
     var y_scatter = d3.scaleLinear().range([height_l, 0]),
       y_scatterLog = d3.scaleLog().range([height_l, 0])
@@ -752,7 +777,7 @@ function ready([us,us_counties,
     var dropdownChange = function(){
             //console.log(firsttime, factor)
                 d3.select("#map").selectAll("svg").remove();
-
+                  
                 svg = d3.selectAll("#map")
                       .append("svg")
                       .attr("width", width + margin.left + margin.right)
@@ -760,7 +785,7 @@ function ready([us,us_counties,
                       .append("g")
                       .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
                       .call(responsivefy)
-                      ;
+                      ; 
 
                 d3.select("#chart1").selectAll("svg").remove();
                 d3.select("#chart2").selectAll("svg").remove();
@@ -780,56 +805,45 @@ function ready([us,us_counties,
                   factor = d3.select(this).property('value');
 
                   }
-                //console.log(firsttime, factor)
+
                 d3.select("#selection").text(factor)
+              
                 if(factor == factorsList[1]){
 
                   d3.select("#main").text("Main")
                    //   d3.select("#linechart").text("Daily New Cases")
-
+                
                       document.getElementById("scatter").style.display = "none";
                    // heatmaptitle = "New Cases for all States"
                    // d3.select("#heatmap").text(heatmaptitle)
                    // d3.select("#heatmapdesc").text("This heat map provides insight into number of new cases for each state")
-
+              
 
                     mapdata = us_daily_case_data
                     maptype = 'state'
                     minmap= Math.log10(d3.min(mapdata, function(d) { return +d.value; }));
-                    maxmap = Math.ceil(Math.log10(d3.max(mapdata, function(d) { return +d.value; })));
-                    //console.log(d3.range(minmap, maxmap,1))
+                    maxmap = Math.ceil(Math.log10(d3.max(mapdata, function(d) { return +d.value; }))); 
+                    //console.log(d3.range(minmap, maxmap,1))  
                     colorScale.domain(d3.range(0, maxmap, 1));//minmap is infinity
                     colorScale.range(d3.schemeOranges[6]);
-
+                  
 
                     //colorScale.domain(uniqueCluster);
                     //console.log(colorScale)
                                   //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
-
-/*                    tooltiptext = "New Cases: ";
+                    
+                    tooltiptext = "New Cases: ";
                     legendText = "New Cases"
                     maptitle = "US - Daily New Cases"
-                    svg = d3.selectAll("#map")
-                          .append("svg")
-                          .attr("width", width + margin.left + margin.right)
-                          .attr("height", height + margin.top + margin.bottom)
-                          .append("g")
-                          .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-                          .call(responsivefy)
-                          ;
-                          */
-                    updateMap(lastday,'');
-                    updateLegend();
-
 
                     heatmaptype = "dailycase"
                     s_legendtext = "New cases"
 
                     heatmapdata = us_daily_case_data
-
-
+                    
+                    
                     x_heat.domain(heatmapdata.map(function(d) { return parser4d(d.Date); }));
-
+                    
                     y_heat_domain = uniquestate
                     height_ratio = height_ratio_s * y_heat_domain.length/50
                     height_s = height_ratio*width_s
@@ -842,24 +856,19 @@ function ready([us,us_counties,
                     //heatmapScale.domain(d3.range(minDailyRatioUS,maxDailyRatioUS, 50));
                     //heatmapScale.range(d3.range(0, 1, 50*.95/(max-minDailyRatioUS)));
 
-
-
-
-                  //  updateMap(lastday,'');
-
-                  //  updateLegend();
-
+                    updateMap(lastday,'');
+                    updateLegend();
                     updateHeatmap();
                     linechartdropdown = uniquestatesorted;
                     updateLinechart(linechartdropdown[0]);
 
                     document.getElementById("slideranimation").style.display = "block";
-                    document.getElementById("linechart").click();
+                    document.getElementById("linechart").click();   
                     document.getElementById("main").style.display = "block";
-                  document.getElementById("main").click();
+                  document.getElementById("main").click();             
                 }
                 else if(factor == factorsList[2]){
-
+                  
                         d3.select("#main").text("Main")
                         d3.select("#linechart").text("Total Cases for State")
                         document.getElementById("scatter").style.display = "none";
@@ -868,16 +877,16 @@ function ready([us,us_counties,
                         d3.select("#heatmapdesc").text("This heat map provides insight into number of total cases for each state")
 
 
-
+                    
                     minmap= Math.log10(d3.min(mapdata, function(d) { return +d.value; }));
-                    maxmap = Math.log10(d3.max(mapdata, function(d) { return +d.value; }));
+                    maxmap = Math.log10(d3.max(mapdata, function(d) { return +d.value; })); 
 
                     colorScale.domain(d3.range(0, maxmap+1, 1));//minmap is infinity
                     colorScale.range(d3.schemeOranges[7]);
 
                     console.log(colorScale)
 
-
+                    
                     tooltiptext = "Total Cases: ";
                     legendText = "Total Cases"
                     maptitle = "US - Total Cases"
@@ -890,7 +899,7 @@ function ready([us,us_counties,
                     s_legendtext = "Total cases"
 
 
-
+                    
                     x_heat.domain(heatmapdata.map(function(d) { return parser4d(d.Date); }));
                     //maxheatmap = 50
                     y_heat_domain = uniquestate
@@ -913,17 +922,13 @@ function ready([us,us_counties,
                     updateLinechart(linechartdropdown[0]);
 
                     document.getElementById("slideranimation").style.display = "block";
-                    document.getElementById("linechart").click();
+                    document.getElementById("linechart").click();  
                     document.getElementById("main").style.display = "block";
-                    document.getElementById("main").click();
+                    document.getElementById("main").click();              
                 }
                 else if(factor == factorsList[0]){
 
                     clusterdata = "yes"
-
-
-
-
                       d3.select("#main").text("Main")
                    //   d3.select("#linechart").text("Daily New Cases for State")
 
@@ -933,26 +938,27 @@ function ready([us,us_counties,
                   //    d3.select("#heatmap").text(heatmaptitle)
                   //    d3.select("#heatmapdesc").text("This heat map provides insight into how the number of new cases have trended over the period")
                       document.getElementById("scatter").style.display = "block";
-
+                      
                       mapdata = us_cases_change_data
+                      mapdetail ='slope'
                       maptype = 'state'
                       var uniqueCluster = [...new Set(us_cases_change_data.map(item =>+item.risklevel))].sort()
-                    colorScale.domain(['1','2','3','4','5'])
-                    //  colorScale.domain(uniqueCluster);
+                      colorScale.domain(['1','2','3','4','5'])
+                     //colorScale.domain(uniqueCluster);
                     // console.log(colorScale)
                                     //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
                       //colorScale.range(["",d3.interpolateRdYlGn(.2),d3.interpolateRdYlGn(.3),d3.interpolateRdYlGn(.4),d3.interpolateRdYlGn(.65),d3.interpolateGreys(.2)])
                       colorScale.range(["",d3.interpolateSpectral(.15),d3.interpolateSpectral(.25),d3.interpolateSpectral(.4),d3.interpolateSpectral(.72),d3.interpolateGreys(.2)])
                       clusterDesc = ["Not Improving","Short Term Improving","Was Improving but Uptick","Improving or Flat","Low # of Current Cases"]
                       tooltiptext = "Trend: ";
-                      legendText = "Trend in last 2 Wks"
+                      legendText = "Trend in last 2 wks"
                       maptitle = "Short Term (7 days) and Long Term (14 Days) Trend "
                       mapjson = topojson.feature(us, us.objects.states).features
                       /*
                       mapjson.forEach(d => {
 
                         var mdata = mapdata.filter(function(t){return t.Province_State == d.properties.name ;})
-
+                        
                         //console.log(mdata)
                         if (mdata.length > 0){
                           d.mapvalue = +mdata[0].risklevel
@@ -965,12 +971,12 @@ function ready([us,us_counties,
                       //console.log(mapjson)
 
 
-
+                            
                             heatmaptype = "trend"
                             s_legendtext = "% Change in Daily Cases"
                             heatmapdata = us_case_data_slope
                             x_heat.domain(heatmapdata.map(function(d) { return parser4d(d.Date); }));
-
+                            
                             y_heat_domain = uniquestate
                             height_ratio = height_ratio_s * y_heat_domain.length/60
                             //console.log(height_s)
@@ -978,9 +984,9 @@ function ready([us,us_counties,
                             //console.log(height_s)
                             y_heat.range([0, height_s])
                             y_heat.domain(y_heat_domain);
-
-
-
+                        
+                            
+                            
                             maxheatmap = 50
                             band = 10
                             heatmapScale.domain(d3.range(-maxheatmap,maxheatmap+1, band));
@@ -990,7 +996,7 @@ function ready([us,us_counties,
                           updateMap(lastday,'');
                           updateLegend();
 
-
+                         // updateMap(lastday,'');
 
                           scatterdata = us_cases_change_data
                           scatterdata.forEach(d => {
@@ -1000,14 +1006,14 @@ function ready([us,us_counties,
                                         d.col = colorScale(+d.risklevel)
                                       })
                           updateScatter(scatterdata,
-                                          "7 days trend vs 14 days Trend in Daily New Cases",
+                                          "7 days vs Long Term 14 days Trend in Daily New Cases", 
                                           "Size represents the Daily Average",
-
+                                          
                                           "7 days Rate of Change(%) in Daily Number of Cases",
-                                          "Long Term  (14 days)  Rate of Change(%) in Daily Number of Cases","");
+                                          "14 days Rate of Change(%) in Daily Number of Cases",
+                                          "",'yes');
 
-
-
+ 
                           scatterdata  = us_deaths_change_data
                           scatterdata.forEach(d => {
                                         d.x = (+d.long_term_slope)
@@ -1015,14 +1021,51 @@ function ready([us,us_counties,
                                         d.size = (+d.avg)
                                         d.col = colorScale(+d.risklevel)
                                       })
-
+                            
                             updateScatter(scatterdata,
-                                          "Short Term (7 days) vs Long Term  (14 days)  Trend in Daily Deaths",
+                                          "Short Term (7 days) vs Long Term  (14 days)  Trend in Daily Deaths", 
                                           "Size represents the Daily Average",
                                           "7 days Rate of Change(%) in Daily Deaths",
-                                          "Long Term (14 days)  Rate of Change(%) in Daily Deaths",
-                                          "");
+                                          "14 days Rate of Change(%) in Daily Deaths", 
+                                          "", 'yes');                         
+                        
+// death per million vs density
+                          scatterdata = us_cases_change_data
+                          clusterDesc = []
+                          scatterdata.forEach(d => {
+                                        d.x = (+d['Population Density'])
+                                        d.y = (+d.deathpermillion)
+                                        d.size = (4)
+                                        d.col = colorScale(1)
+                                      })
+                          updateScatter(scatterdata,
+                                          "Population Density vs Total Deaths per Million", 
+                                          "",
+                                          
+                                          
+                                          "Total Deaths per Million",
+                                          "Population Density (per square mile)",
+                                          "",'no');
+// cases per million vs density
+                        scatterdata = us_cases_change_data
+                          clusterDesc = []
+                          scatterdata.forEach(d => {
+                                        d.x = (+d['Population Density'])
+                                        d.y = (+d.casepermillion)
+                                        d.size = (4)
+                                        d.col = colorScale(2)
+                                      })
+                          updateScatter(scatterdata,
+                                          "Population Density vs Total Cases per Million", 
+                                          "",
+                                          
+                                          
+                                          "Total Cases per Million",
+                                          "Population Density (per square mile)",
+                                          "", 'no');
+                                        
 
+                          
                            scatterdata  = us_deaths_change_data
                           //console.log(scatterdata)
                           //console.log(scatterdata)
@@ -1036,29 +1079,28 @@ function ready([us,us_counties,
                                           }
                                         d.col = colorScale(+d.risklevel)
                                       })
-                          updateScatter(scatterdata,
+                          updateScatter(scatterdata, 
                           "Death Rate (% of Total Cases)",
                             "Size represents the Daily Average",
                               "Death Rate as % of Total Cases",
                               "Total Deaths(Log Scale)",
-                              "log");
+                              "log",'no');
 
 
                           scatterdata  =  us_case_peak_data
-
+                          
                           var uniqueCluster = [...new Set(scatterdata.map(item =>+item.cluster))].sort()
                     // colorScale.domain(['0','1','2','3','4'])
                     clusterDesc = ["Peaked in last 2 weeks","Below AVG Rate","Above AVG Rate","90% down from Peak"]
-                    legendText = "Trend"
                     colorScale.range(["",d3.interpolateSpectral(.10),d3.interpolateSpectral(.25),d3.interpolateSpectral(.7),d3.interpolateSpectral(.85),d3.interpolateGreys(.2)])
-
+                    legendText = "Trend"
                           colorScale.domain(uniqueCluster);
                           scatterdata.forEach(d => {
                               var temp = us_cases_change_data.filter(function (t){ return t.Province_State === d.Province_State })
                               //console.log(temp)
-                              if (temp.length>0)   {
-                                d.code = temp[0].code
-
+                              if (temp.length>0)   {       
+                                d.code = temp[0].code 
+                              
                                         d.x = (+d.days_since_peak)
                                         d.y = (+d.percent_of_peak)
                                         d.size = (+d.avg)
@@ -1070,13 +1112,13 @@ function ready([us,us_counties,
                                       })
                          // console.log(scatterdata)
                           updateScatter(scatterdata,
-                                          "Current Daily Case count(avg) as % of Peak and Days since Peak",
+                                          "Current Daily Case count(avg) as % of Peak and Days since the Peak", 
                                           "Size represents the Daily Average",
-
-                                          "Current Daily Avg as % of Peak number of Cases",
+                                          
+                                          "Current Daily Avg as % of Peak number of Cases", 
                                           "Number of Days since Peak",
-                                          "");
-                          d3.select("#chart3").append("p").text("This chart shows how close or far the states are from their peak in terms of count and days. States on the left side on the plot(within 15 days of the peak), are too close to peak to establish a trend. For the states whose peak was more than 2 weeks ago, they are compared on trending down slope - States on the lower right region of the plot are trending faster than States on the top region. Size of the circle represents the current daily count.");
+                                          "", 'yes');
+                          d3.select("#chart3").append("p").text("This chart shows how close or far the states are from their peak in terms of count and days. States on the left side on the plot(within 15 days of the peak), are too close to peak to establish a trend. For the states whose peak was more than 2 weeks ago, they are compared on trending down slope - States on the lower right region of the plot are trending faster than States on the top region. Size of the circle represents the current daily count."); 
 
                       //clusterDesc = ["Peaked in last 2 weeks","Trending down but slowly","Trending down "]
                           var uniqueCluster = [...new Set(scatterdata.map(item =>+item.cluster))].sort()
@@ -1087,9 +1129,9 @@ function ready([us,us_counties,
                           scatterdata.forEach(d => {
                               var temp = us_deaths_change_data.filter(function (t){ return t.Province_State === d.Province_State })
                               //console.log(scatterdata)
-                              if (temp.length>0)   {
-                                d.code = temp[0].code
-
+                              if (temp.length>0)   {       
+                                d.code = temp[0].code 
+                              
                                         d.x = (+d.days_since_peak)
                                         d.y = (+d.percent_of_peak)
                                         d.size = (+d.avg)
@@ -1098,55 +1140,293 @@ function ready([us,us_counties,
                                       })
 
                           updateScatter(scatterdata,
-                                          "Current Daily Death count(avg) as % of Peak and Days since Peak",
+                                          "Current Daily Death count(avg) as % of Peak and Days since the Peak", 
                                           "Size represents the Daily Average",
-
-                                          "Current Daily Avg as % of Peak number of Daily Deaths",
+                                          
+                                          "Current Daily Avg as % of Peak number of Daily Deaths", 
                                           "Number of Days since Peak",
-                                          "");
+                                          "", 'yes');
+                                                                      
 
 
-
-
-
-
+                          
+                                
+                          
                           updateHeatmap();
                           linechartdropdown = uniquestatesorted;
                           updateLinechart(linechartdropdown[0]);
                           //-------------
                           //2nd map
-                          factor = factorsList[1]
-                                                clusterdata = "no"
-                                                mapdata = us_daily_case_data
-                                                maptype = 'state'
-                                                tooltiptext = "New Cases: ";
-                                                legendText = "New Cases"
-                                                maptitle = "US - Daily New Cases"
+                          mapscale = "logscalemap"
+                          mapdetail ='currentdata'
+                                                    clusterdata = "no"
+                                                    mapdata = us_cases_change_data
+                                                    mapdata.forEach(d => {
 
-                                                minmap= Math.log10(d3.min(mapdata, function(d) { return +d.value; }));
-                                                maxmap = Math.ceil(Math.log10(d3.max(mapdata, function(d) { return +d.value; })));
-                                                //console.log(d3.range(minmap, maxmap,1))
-                                                colorScale.domain(d3.range(0, maxmap, 1));//minmap is infinity
-                                                colorScale.range(d3.schemeReds[7]);
+                                                                      d.value = (+d.deathpermillion)
+
+                                                                    })
+                                                    //console.log(mapdata)
+                                                    maptype = 'state'
+                                                    tooltiptext = "Deaths per million: ";
+                                                    legendText = "Deaths per million"
+                                                    maptitle = "US - Total Deaths per million"
+
+                                                    minmap= Math.floor(Math.log10(d3.min(mapdata, function(d) { return +d.value; })));
+                                                    maxmap = Math.ceil(Math.log10(d3.max(mapdata, function(d) { return +d.value; })));
+                                                    //console.log(d3.range(minmap, maxmap,1))
+                                                    colorScale.domain(d3.range(0, maxmap, 1));//minmap is infinity
+                                                    colorScale.domain([0,Math.log10(10), Math.log10(100),Math.log10(500),Math.log10(1000),Math.log10(5000)])
+                                                    //colorScale.domain(d3.range(0,1200,200))
+                                                    colorScale.range(d3.schemeYlOrBr[7]);
 
 
-                                                //colorScale.domain(uniqueCluster);
-                                                //console.log(colorScale)
-                                                              //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
+                                                    //colorScale.domain(uniqueCluster);
+                                                    //console.log(colorScale)
+                                                                  //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
 
 
 
-                                                svg = d3.selectAll("#map")
-                                                      .append("svg")
-                                                      .attr("width", width + margin.left + margin.right)
-                                                      .attr("height", height + margin.top + margin.bottom)
-                                                      .append("g")
-                                                      .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-                                                      .call(responsivefy)
-                                                      ;
-                                                updateMap(lastday,'');
-                                                updateLegend();
-                          factor = factorsList[2]
+                                                    svg = d3.selectAll("#map")
+                                                          .append("svg")
+                                                          .attr("width", width + margin.left + margin.right)
+                                                          .attr("height", height + margin.top + margin.bottom)
+                                                          .append("g")
+                                                          .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                                                          .call(responsivefy)
+                                                          ;
+                                                    updateMap(lastday,'');
+                                                    updateLegend();
+
+
+                                                    mapscale = "linearscalemap"
+                                                    mapdetail ='currentdata'
+                                                    clusterdata = "no"
+                                                    mapdata = us_cases_change_data
+                                                    mapdata.forEach(d => {
+
+                                                                      d.value = (+d.casepermillion)
+
+                                                                    })
+                                                   // console.log(mapdata)
+                                                    maptype = 'state'
+                                                    tooltiptext = "Cases per million: ";
+                                                    legendText = "Cases per million"
+                                                    maptitle = "US - Total Cases per million"
+
+                                                    minmap= Math.floor((d3.min(mapdata, function(d) { return +d.value; })));
+                                                    maxmap = Math.ceil((d3.max(mapdata, function(d) { return +d.value; })));
+                                                    //console.log(d3.range(minmap, maxmap,1))
+                                                    //colorScale.domain(d3.range(minmap, maxmap, (maxmap-minmap)/6));//minmap is infinity
+                                                    colorScale.domain(d3.range(0,26000,5000))
+                                                    colorScale.range(d3.schemeBlues[7]);
+
+
+                                                    //colorScale.domain(uniqueCluster);
+                                                    //console.log(colorScale)
+                                                                  //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
+
+
+
+                                                    svg = d3.selectAll("#map")
+                                                          .append("svg")
+                                                          .attr("width", width + margin.left + margin.right)
+                                                          .attr("height", height + margin.top + margin.bottom)
+                                                          .append("g")
+                                                          .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                                                          .call(responsivefy)
+                                                          ;
+                                                    updateMap(lastday,'');
+                                                    updateLegend();
+//since peak
+                                                    clusterdata = "no"
+                                                    mapdetail ='currentdata'
+                                                    mapscale = "linearscalemap"
+                                                    mapdata = us_case_peak_data
+                                                    mapdata.forEach(d => {
+
+                                                                      d.value = (100-d.percent_of_peak)
+
+                                                                    })
+                                                    //console.log(mapdata)
+                                                    maptype = 'state'
+                                                    tooltiptext = "Percent Down: ";
+                                                    legendText = "% down from last peak"
+                                                    maptitle = "US - Current daily average as % of last peak"
+
+                                                    minmap= Math.floor((d3.min(mapdata, function(d) { return +d.value; })));
+                                                    maxmap = Math.ceil((d3.max(mapdata, function(d) { return +d.value; })));
+                                                    //console.log(d3.range(minmap, maxmap,1))
+                                                    colorScale.domain(d3.range(0, maxmap, 20));//minmap is infinity
+                                                    //colorScale.domain(d3.range(0,26000,5000))
+                                                    colorScale.range(d3.schemeSpectral[7]);
+
+
+                                                    //colorScale.domain(uniqueCluster);
+                                                    //console.log(colorScale)
+                                                                  //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
+
+
+
+                                                    svg = d3.selectAll("#map")
+                                                          .append("svg")
+                                                          .attr("width", width + margin.left + margin.right)
+                                                          .attr("height", height + margin.top + margin.bottom)
+                                                          .append("g")
+                                                          .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                                                          .call(responsivefy)
+                                                          ;
+                                                    updateMap(lastday,'');
+                                                    updateLegend();
+
+//since peak
+
+                                                    mapdetail ='currentdata'
+                                                    mapscale = "linearscalemap"
+                                                    mapdata = us_case_peak_data
+                                                    mapdata.forEach(d => {
+
+                                                                      d.value = +d.days_since_peak
+
+                                                                    })
+                                                    //console.log(mapdata)
+                                                    maptype = 'state'
+                                                    tooltiptext = "Days since peak: ";
+                                                    legendText = "Days since peak"
+                                                    maptitle = "US - Days since last peak"
+
+                                                    minmap= Math.floor((d3.min(mapdata, function(d) { return +d.value; })));
+                                                    maxmap = Math.ceil((d3.max(mapdata, function(d) { return +d.value; })));
+                                                    //console.log(d3.range(minmap, maxmap,1))
+                                                    colorScale.domain(d3.range(0, maxmap, 30));//minmap is infinity
+                                                    //colorScale.domain(d3.range(0,26000,5000))
+                                                    colorScale.range(d3.schemeSpectral[8]);
+                                                    svg = d3.selectAll("#map")
+                                                          .append("svg")
+                                                          .attr("width", width + margin.left + margin.right)
+                                                          .attr("height", height + margin.top + margin.bottom)
+                                                          .append("g")
+                                                          .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                                                          .call(responsivefy)
+                                                          ;
+                                                    updateMap(lastday,'');
+                                                    updateLegend();
+
+//positivity rate
+                                                    clusterdata = "no"
+                                                    mapscale = "linearscalemap"
+                                                    mapdetail ='currentdata'
+                                                    mapdata = us_cases_change_data
+                                                    mapdata.forEach(d => {
+
+                                                                      d.value = (+d.positivityrate)
+
+                                                                    })
+                                                   // console.log(mapdata)
+                                                    maptype = 'state'
+                                                    tooltiptext = "Positivity Rate: ";
+                                                    legendText = "Positivity Rate"
+                                                    maptitle = "US - Positivity Rate"
+
+                                                    minmap= Math.floor((d3.min(mapdata, function(d) { return +d.value; })));
+                                                    maxmap = Math.ceil((d3.max(mapdata, function(d) { return +d.value; })));
+                                                    //console.log(d3.range(minmap, maxmap,1))
+                                                    colorScale.domain(d3.range(0, maxmap, 5));//minmap is infinity
+                                                    //colorScale.domain(d3.range(0,26000,5000))
+                                                    colorScale.range(d3.schemeGnBu[7]);
+                                                    svg = d3.selectAll("#map")
+                                                          .append("svg")
+                                                          .attr("width", width + margin.left + margin.right)
+                                                          .attr("height", height + margin.top + margin.bottom)
+                                                          .append("g")
+                                                          .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                                                          .call(responsivefy)
+                                                          ;
+                                                    updateMap(lastday,'');
+                                                    updateLegend();
+
+                                                    mapscale = "logscalemap"
+                                                    mapdetail ='currentdata'
+                                                    mapdata = us_cases_change_data
+                                                    mapdata.forEach(d => {
+
+                                                                      d.value = (+d['Population Density'])
+
+                                                                    })
+                                                    //console.log(mapdata)
+                                                    maptype = 'state'
+                                                    tooltiptext = "Population Density: ";
+                                                    legendText = "Population Density"
+                                                    maptitle = "US - Population Density (per square mile)"
+
+                                                    minmap= Math.floor(Math.log10(d3.min(mapdata, function(d) { return +d.value; })));
+                                                    maxmap = Math.ceil(Math.log10(d3.max(mapdata, function(d) { return +d.value; })));
+                                                    //console.log(d3.range(minmap, maxmap,1))
+                                                    colorScale.domain(d3.range(0, maxmap, 1));//minmap is infinity
+                                                    //colorScale.domain(d3.range(0,1000,100))
+                                                    colorScale.range(d3.schemeOranges[6]);
+
+
+                                                    //colorScale.domain(uniqueCluster);
+                                                    //console.log(colorScale)
+                                                                  //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
+
+
+
+                                                    svg = d3.selectAll("#map")
+                                                          .append("svg")
+                                                          .attr("width", width + margin.left + margin.right)
+                                                          .attr("height", height + margin.top + margin.bottom)
+                                                          .append("g")
+                                                          .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                                                          .call(responsivefy)
+                                                          ;
+                                                    updateMap(lastday,'');
+                                                    updateLegend();
+
+                          //factor = factorsList[1]
+                          //clusterdata = "no"
+                                                    
+
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    clusterdata = "no"
+                                                    mapscale = "logscalemap"
+                                                    mapdetail ='historicaldata'
+                                                    mapdata = us_daily_case_data
+                                                    maptype = 'state'
+                                                    tooltiptext = "New Cases: ";
+                                                    legendText = "New Cases"
+                                                    maptitle = "US - Daily New Cases"
+
+                                                    minmap= Math.log10(d3.min(mapdata, function(d) { return +d.value; }));
+                                                    maxmap = Math.ceil(Math.log10(d3.max(mapdata, function(d) { return +d.value; })));
+                                                    //console.log(d3.range(minmap, maxmap,1))
+                                                    colorScale.domain(d3.range(0, maxmap, 1));//minmap is infinity
+                                                    colorScale.range(d3.schemeReds[7]);
+
+
+                                                    //colorScale.domain(uniqueCluster);
+                                                    //console.log(colorScale)
+                                                                  //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
+
+
+
+                                                    svg = d3.selectAll("#map")
+                                                          .append("svg")
+                                                          .attr("width", width + margin.left + margin.right)
+                                                          .attr("height", height + margin.top + margin.bottom)
+                                                          .append("g")
+                                                          .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                                                          .call(responsivefy)
+                                                          ;
+                                                    updateMap(lastday,'');
+                                                    updateLegend();
+                       
+                                                  mapscale = "logscalemap"
+                                                    mapdetail ='historicaldata'
                                               clusterdata = "no"
                                               tooltiptext = "Total Cases: ";
                                               legendText = "Total Cases"
@@ -1155,10 +1435,10 @@ function ready([us,us_counties,
                                               mapdata = us_total_case_data
                                               maptype = 'state'
                                               minmap= Math.log10(d3.min(mapdata, function(d) { return +d.value; }));
-                                              maxmap = Math.log10(d3.max(mapdata, function(d) { return +d.value; }));
+                                              maxmap = Math.log10(d3.max(mapdata, function(d) { return +d.value; })); 
 
-                                              colorScale.domain(d3.range(0, maxmap+1, 1));//minmap is infinity
-                                              colorScale.range(d3.schemeOranges[9]);
+                                              colorScale.domain(d3.range(0, maxmap, 1));//minmap is infinity
+                                              colorScale.range(d3.schemeYlOrRd[9]);
                                               svg = d3.selectAll("#map")
                                                           .append("svg")
                                                           .attr("width", width + margin.left + margin.right)
@@ -1172,18 +1452,20 @@ function ready([us,us_counties,
 
 
 
+                         
+
                       document.getElementById("slideranimation").style.display = "none";
                       //document.getElementById("linechart").click();
                       document.getElementById("main").style.display = "block";
                       document.getElementById("main").click();
-
+                    
                     }
-
+                
                 else if(factor == factorsList[10]){
 
                       clusterdata = "yes"
 
-
+                                            
 
                         d3.select("#main").text("Main")
                         //document.getElementById("main").style.display = "none";
@@ -1194,13 +1476,12 @@ function ready([us,us_counties,
                         //d3.select("#heatmap").text(heatmaptitle)
                         //d3.select("#heatmapdesc").text("This heat map provides insight into how the number of new cases have trended over the period")
                         document.getElementById("scatter").style.display = "block";
-
+                        
                         mapdata = county_cases_change_data
-
+                          
                         var uniqueCluster = [...new Set(county_cases_change_data.map(item =>+item.risklevel))].sort()
                         colorScale.domain(['1','2','3','4','5'])
-                        //  colorScale.domain(uniqueCluster);
-
+                        //colorScale.domain(uniqueCluster);
                       // console.log(colorScale)
                                       //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
                         colorScale.range(["",d3.interpolateRdYlGn(.2),d3.interpolateRdYlGn(.3),d3.interpolateRdYlGn(.4),d3.interpolateRdYlGn(.6),d3.interpolateGreys(.2)])
@@ -1227,10 +1508,10 @@ function ready([us,us_counties,
                               console.log(sc_legend_x)
                               sc_legend_y = [y_scatter(maxy_scatter),y_scatter(0),y_scatter(maxy_scatter),y_scatter(0)]
                               sc_legend_Xend = [x_scatter(maxx_scatter),x_scatter(maxx_scatter), x_scatter(0),x_scatter(0)]
-
+                                                
                               sc_legend_yend = [y_scatter(0),y_scatter(miny_scatter),y_scatter(0),y_scatter(miny_scatter)]
                               scatter_domain = colorScale.domain().slice(0, 4);
-
+                              
                               minSize = d3.min(scatterdata, function(d) { return +d.avg ; });
                               maxSize = d3.max(scatterdata, function(d) { return +d.avg ; });
                               sizeLogscale.domain([minSize, maxSize])
@@ -1247,7 +1528,7 @@ function ready([us,us_counties,
                               //y_heat.domain(uniquecounty);
                               heatmapdata = county_case_data_slope
                               x_heat.domain(heatmapdata.map(function(d) { return parser4d(d.Date); }));
-
+                              
                               y_heat_domain = uniquecounty
                               height_ratio = height_ratio_s * y_heat_domain.length/50
                               height_s = height_ratio*width_s
@@ -1255,7 +1536,7 @@ function ready([us,us_counties,
                               y_heat.domain(y_heat_domain);
 
 
-
+                              
                               maxheatmap = 50
                               band = 10
                               heatmapScale.domain(d3.range(-maxheatmap,maxheatmap+1, band));
@@ -1273,11 +1554,12 @@ function ready([us,us_counties,
                                     d.col = colorScale(+d.risklevel)
                                   })
                           updateScatter(scatterdata,
-                                          "7 days trend vs 14 days Trend in Daily New Cases",
+                                          "7 days vs 14 days Trend in Daily New Cases", 
                                           "Size represents the Daily Average",
                                           "7 days Rate of Change(%) in Daily Number of Cases",
-                                          "14 days Rate of Change(%) in Daily Number of Cases","");
-
+                                          "14 days Rate of Change(%) in Daily Number of Cases",
+                                          "", 'yes');
+                          
 
                           scatterdata  = county_deaths_change_data
                           scatterdata.forEach(d => {
@@ -1286,13 +1568,13 @@ function ready([us,us_counties,
                                         d.size = (+d.avg)
                                         d.col = colorScale(+d.risklevel)
                                       })
-
+                            
                             updateScatter(scatterdata,
-                                          "7 days trend vs 14 days Trend in Daily Deaths",
+                                          "7 days vs 14 days Trend in Daily Deaths", 
                                           "Size represents the Daily Average",
                                           "7 days Rate of Change(%) in Daily Deaths",
-                                          "14 days Rate of Change(%) in Daily Deaths",
-                                          "");
+                                          "14 days Rate of Change(%) in Daily Deaths", 
+                                          "", 'yes');
                           scatterdata  = county_deaths_change_data
                           //console.log(scatterdata)
                           //console.log(scatterdata)
@@ -1312,31 +1594,30 @@ function ready([us,us_counties,
                                         delete d
                                         }
                                       })
-                            updateScatter(scatterdata,
+                            updateScatter(scatterdata, 
                             "Death Rate (% of Total Cases)",
                             "Size represents the Daily Average",
                               "Death Rate as % of Total Cases",
                               "Total Deaths(Log Scale)",
-                              "");
+                              "",'no');
 
-
+                            
                           scatterdata  =  county_case_peak_data
                           var uniqueCluster = [...new Set(scatterdata.map(item =>+item.cluster))].sort()
                     // colorScale.domain(['0','1','2','3','4'])
                       colorScale.domain(uniqueCluster);
                       clusterDesc = ["Peaked in last 2 weeks","Below AVG Rate","Above AVG Rate","90% down from Peak"]
-                      legendText = "Trend"
                     colorScale.range(["",d3.interpolateSpectral(.10),d3.interpolateSpectral(.25),d3.interpolateSpectral(.7),d3.interpolateSpectral(.85),d3.interpolateGreys(.2)])
-
+                    legendText = "Trend"
                           scatterdata.forEach(d => {
                             if (+d.percent_of_peak != NaN )
                                     {
-                                      console.log(d)
+                                    //  console.log(d)
                               var temp = county_cases_change_data.filter(function (t){ return t.Province_State === d.Province_State })
                               //console.log(temp)
-                              if (temp.length>0)   {
-                                d.code = temp[0].code
-
+                              if (temp.length>0)   {       
+                                d.code = temp[0].code 
+                              
                                         d.x = (+d.days_since_peak)
                                         d.y = (+d.percent_of_peak)
                                         d.size = (+d.avg)
@@ -1344,28 +1625,28 @@ function ready([us,us_counties,
                                       }
                                     }
                                     else
-
+                                    
                                     {console.log(d)
                                       delete d}
                                       })
-
-
+                         
+                     
                           updateScatter(scatterdata,
-                                          "Current Daily Case count(avg) as % of Peak and Days since Peak",
+                                          "Current Daily Case count(avg) as % of Peak and Days since Peak", 
                                           "Size represents the Daily Average",
-
-                                          "Current Daily Avg as % of Peak number of Cases",
+                                          
+                                          "Current Daily Avg as % of Peak number of Cases", 
                                           "Number of Days since Peak",
-                                          "");
+                                          "", 'yes');
 
 
                           scatterdata  =  county_death_peak_data
                           scatterdata.forEach(d => {
                               var temp = county_deaths_change_data.filter(function (t){ return t.Province_State === d.Province_State })
                               //console.log(temp)
-                              if (temp.length>0)   {
-                                d.code = temp[0].code
-
+                              if (temp.length>0)   {       
+                                d.code = temp[0].code 
+                              
                                         d.x = (+d.days_since_peak)
                                         d.y = (+d.percent_of_peak)
                                         d.size = (+d.avg)
@@ -1377,17 +1658,17 @@ function ready([us,us_counties,
                     // colorScale.domain(['0','1','2','3','4'])
                       colorScale.domain(uniqueCluster);
                           updateScatter(scatterdata,
-                                          "Current Daily Death count(avg) as % of Peak and Days since Peak",
+                                          "Current Daily Death count(avg) as % of Peak and Days since Peak", 
                                           "Size represents the Daily Average",
-
-                                          "Current Daily Avg as % of Peak number of Daily Deaths",
+                                          
+                                          "Current Daily Avg as % of Peak number of Daily Deaths", 
                                           "Number of Days since Peak",
-                                          "");
+                                          "", 'yes');
+                                                                      
 
 
 
-
-
+                          
                      //  updateHeatmap();
                             linechartdropdown = uniquecountysorted;
                             updateLinechart(linechartdropdown[0]);
@@ -1396,7 +1677,7 @@ function ready([us,us_counties,
                         document.getElementById("main").click();
 
                       }
-
+                
                 else if(factor == factorsList[11]){
 
                         d3.select("#main").text("Main")
@@ -1411,16 +1692,16 @@ function ready([us,us_counties,
                           mapdata = county_daily_case_data
                           maptype = 'county'
                           minmap= Math.log10(d3.min(mapdata, function(d) { return +d.value; }));
-                          maxmap = Math.ceil(Math.log10(d3.max(mapdata, function(d) { return +d.value; })));
-                          console.log(minmap, maxmap)
+                          maxmap = Math.ceil(Math.log10(d3.max(mapdata, function(d) { return +d.value; }))); 
+                          console.log(minmap, maxmap)  
                           colorScale.domain(d3.range(0, maxmap+1, 1));//minmap is infinity
                           colorScale.range(d3.schemeOranges[6]);
-
+                        
 
                           //colorScale.domain(uniqueCluster);
                           console.log(colorScale)
                                         //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
-
+                          
                           tooltiptext = "New Cases: ";
                           legendText = "New Cases"
                           maptitle = "US - Counties - Daily New Cases"
@@ -1429,10 +1710,10 @@ function ready([us,us_counties,
                           s_legendtext = "New cases"
 
                           heatmapdata = county_daily_case_data
-
-
+                          
+                          
                           x_heat.domain(heatmapdata.map(function(d) { return parser4d(d.Date); }));
-
+                          
                           y_heat_domain = uniquecounty
                           height_ratio = height_ratio_s * y_heat_domain.length/50
                           height_s = height_ratio*width_s
@@ -1452,12 +1733,12 @@ function ready([us,us_counties,
                           updateLinechart(linechartdropdown[0]);
 
                           document.getElementById("slideranimation").style.display = "block";
-                          //document.getElementById("linechart").click();
+                          //document.getElementById("linechart").click();   
                           document.getElementById("main").style.display = "block";
-                        document.getElementById("main").click();
+                        document.getElementById("main").click();             
                         }
                 else if(factor == factorsList[12]){
-
+              
                             d3.select("#main").text("Main")
                             d3.select("#linechart").text("Total Cases for Counties")
                             document.getElementById("scatter").style.display = "none";
@@ -1465,16 +1746,16 @@ function ready([us,us_counties,
                             d3.select("#heatmap").text(heatmaptitle)
                             d3.select("#heatmapdesc").text("This heat map provides insight into number of total cases for each County")
 
-
+                        
                         minmap= Math.log10(d3.min(mapdata, function(d) { return +d.value; }));
-                        maxmap = Math.log10(d3.max(mapdata, function(d) { return +d.value; }));
+                        maxmap = Math.log10(d3.max(mapdata, function(d) { return +d.value; })); 
 
                         colorScale.domain(d3.range(0, maxmap+1, 1));//minmap is infinity
                         colorScale.range(d3.schemeOranges[7]);
 
                         console.log(colorScale)
 
-
+                        
                         tooltiptext = "Total Cases: ";
                         legendText = "Total Cases"
                         maptitle = "US - Total Cases"
@@ -1487,7 +1768,7 @@ function ready([us,us_counties,
                         s_legendtext = "Total cases"
 
 
-
+                        
                         x_heat.domain(heatmapdata.map(function(d) { return parser4d(d.Date); }));
                         //maxheatmap = 50
                         y_heat_domain = uniquecounty
@@ -1510,9 +1791,9 @@ function ready([us,us_counties,
                         updateLinechart(linechartdropdown[0]);
 
                         document.getElementById("slideranimation").style.display = "block";
-                        //document.getElementById("linechart").click();
+                        //document.getElementById("linechart").click();  
                         document.getElementById("main").style.display = "block";
-                        document.getElementById("main").click();
+                        document.getElementById("main").click();              
                     }
 
                 else if(factor == factorsList[20]){
@@ -1522,26 +1803,25 @@ function ready([us,us_counties,
                         startDate = d3.min(india_daily_case_data, function(d) { return parser(d.Date); });
                         endDate = d3.max(india_daily_case_data, function(d) { return parser(d.Date); });
                         x_line.domain([startDate, endDate]);
-
+                          
                       //    d3.select("#main").text("Main")
                      //     d3.select("#linechart").text("Daily New Cases for State")
 
                        //   d3.select("#scatter").text("Short Term and Long Term trend")
-
+                          
 
                       //    d3.select("#heatmap").text(heatmaptitle)
                       //    d3.select("#heatmapdesc").text("This heat map provides insight into how the number of new cases have trended over the period")
                        //   document.getElementById("scatter").style.display = "block";
-
+                          
                           mapdata = us_cases_change_data
                           maptype = 'state'
                           maptitle = " India - Short Term (7 days) and Long Term (14 Days) Trend "
                           mapjson = topojson.feature(us, us.objects.states).features
 
                           var uniqueCluster = [...new Set( india_cases_change_data.map(item =>+item.risklevel))].sort()
-                          colorScale.domain(['1','2','3','4','5'])
-                          //  colorScale.domain(uniqueCluster);
-
+                         colorScale.domain(['1','2','3','4','5'])
+                        //  colorScale.domain(uniqueCluster);
                         // console.log(colorScale)
                                         //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
                           colorScale.range(["",d3.interpolateRdYlGn(.2),d3.interpolateRdYlGn(.3),d3.interpolateRdYlGn(.4),d3.interpolateRdYlGn(.6),d3.interpolateGreys(.2)])
@@ -1549,59 +1829,12 @@ function ready([us,us_counties,
                           tooltiptext = "Trend: ";
                           legendText = "Trend in last 2 Wks"
 
-                          /*
-                          mapjson.forEach(d => {
-
-                            var mdata = mapdata.filter(function(t){return t.Province_State == d.properties.name ;})
-
-                            //console.log(mdata)
-                            if (mdata.length > 0){
-                              d.mapvalue = +mdata[0].risklevel
-                              d.color = colorScale((+mdata[0].risklevel))
-                              d.Date = lastday
-                            }// colorScale(Math.log10(d.fact))
-                            console.log(d)
-                          });
-                            */
-                          //console.log(mapjson)
-
-                           //     scatterdata = india_cases_change_data
-                                //console.log(scatterdata)
-                         /*       minx_scatter= 1.1*d3.min(scatterdata, function(d) { return +d.long_term_slope ; });
-                                maxx_scatter= 1.1*d3.max(scatterdata, function(d) { return +d.long_term_slope ; });
-                                miny_scatter= 1.1*d3.min(scatterdata, function(d) { return +d.short_term_slope ; });
-                                maxy_scatter= 1.1*d3.max(scatterdata, function(d) { return +d.short_term_slope ; });
-
-                                x_scatter.domain([minx_scatter, maxx_scatter]);
-                                y_scatter.domain([miny_scatter, maxy_scatter]);
-
-                                sc_legend_x = [x_scatter(0),x_scatter(0),x_scatter(minx_scatter), x_scatter(minx_scatter)]
-                                console.log(sc_legend_x)
-                                sc_legend_y = [y_scatter(maxy_scatter),y_scatter(0),y_scatter(maxy_scatter),y_scatter(0)]
-                                sc_legend_Xend = [x_scatter(maxx_scatter),x_scatter(maxx_scatter), x_scatter(0),x_scatter(0)]
-
-                                sc_legend_yend = [y_scatter(0),y_scatter(miny_scatter),y_scatter(0),y_scatter(miny_scatter)]
-
-                                scatter_domain = colorScale.domain().slice(0, 4);
-
-                                minSize = d3.min(scatterdata, function(d) { return +d.avg ; });
-                              maxSize = d3.max(scatterdata, function(d) { return +d.avg ; });
-                              console.log(minSize, maxSize)
-                              sizeLogscale.domain([minSize, maxSize])
-                              console.log(minSize, maxSize)
-                              scatterdata.forEach(d => {
-                                    d.col = colorScale(+d.risklevel)
-                                    d.x = x_scatter(+d.long_term_slope)
-                                    d.y = y_scatter(+d.short_term_slope)
-                                    d.size = sizeLogscale(+d.avg)
-                                  })
-                                */
                                 heatmaptype = "trend"
                                 s_legendtext = "% Change in Daily Cases"
                                 heatmaptitle = "Trend in New Cases by State"
                                 heatmapdata = india_case_data_slope
                                 x_heat.domain(heatmapdata.map(function(d) { return parser4d(d.Date); }));
-
+                                
                                 y_heat_domain = uniqueIndiaState
                                 height_ratio = height_ratio_s * y_heat_domain.length/60
                                 console.log(height_s)
@@ -1609,7 +1842,7 @@ function ready([us,us_counties,
                                 console.log(height_s)
                                 y_heat.range([0, height_s])
                                 y_heat.domain(y_heat_domain);
-
+                                                      
                                 maxheatmap = 50
                                 band = 10
                                 heatmapScale.domain(d3.range(-maxheatmap,maxheatmap+1, band));
@@ -1644,7 +1877,7 @@ function ready([us,us_counties,
                                 heatmaptitle = "Total Cases by State"
 
                                 x_heat.domain(heatmapdata.map(function(d) { return parser4d(d.Date); }));
-
+                                
                                 y_heat_domain = uniqueIndiaState
                                 height_ratio = height_ratio_s * y_heat_domain.length/50
                                 height_s = height_ratio*width_s
@@ -1658,49 +1891,46 @@ function ready([us,us_counties,
                                 heatmapScale.range(d3.range(0, 1, band*.8/(maxHmap)));
                                 //console.log(heatmapdata)
                                 updateHeatmap();
-                                //---
-                                //heatmapScale.domain(d3.range(minDailyRatioUS,maxDailyRatioUS, 50));
-                                //heatmapScale.range(d3.range(0, 1, 50*.95/(max-minDailyRatioUS)));
-                             // updateMap(lastday,'');
-                             // updateLegend();
+                    
                              scatterdata = india_cases_change_data
                              console.log(india_cases_change_data)
                              scatterdata.forEach(d => {
-
+     
                                 //console.log(d)
                                     d.x = (+d.long_term_slope)
                                     d.y = (+d.short_term_slope)
                                     d.size = (+d.avg)
                                     d.col = colorScale(+d.risklevel)
-
+                              
                                   })
                           updateScatter(scatterdata,
-                                          "7 days trend vs 14 days Trend in Daily New Cases",
+                                          "7 days vs 14 days Trend in Daily New Cases", 
                                           "Size represents the Daily Average",
                                           "7 days Rate of Change(%) in Daily Number of Cases",
-                                          "14 days Rate of Change(%) in Daily Number of Cases","");
-
+                                          "14 days Rate of Change(%) in Daily Number of Cases",
+                                          "", 'yes');
+                          
                           scatterdata  = india_deaths_change_data
                           scatterdata.forEach(d => {
                             var temp = india_cases_change_data.filter(function (t){ return t.Province_State === d.Province_State })
                               //console.log(temp)
-                              if (temp.length>0)   {
-                                d.code = temp[0].code
+                              if (temp.length>0)   {       
+                                d.code = temp[0].code 
                                         d.x = (+d.long_term_slope)
                                         d.y = (+d.short_term_slope)
                                         d.size = (+d.avg)
                                         d.col = colorScale(+d.risklevel)
                                     }
                                       })
-
+                            
                             updateScatter(scatterdata,
-                                          "7 days trend vs 14 days Trend in Daily Deaths",
+                                          "7 days vs Long Term (14 days) Trend in Daily Deaths", 
                                           "Size represents the Daily Average",
                                           "7 days Rate of Change(%) in Daily Deaths",
-                                          "14 days Rate of Change(%) in Daily Deaths",
-                                          "");
+                                          "14 days Rate of Change(%) in Daily Deaths", 
+                                          "", 'yes');
 
-
+                                                    
                           scatterdata  = india_deaths_change_data
                          // console.log(scatterdata)
                          // console.log(scatterdata)
@@ -1714,28 +1944,27 @@ function ready([us,us_counties,
                                           }
                                         d.col = colorScale(+d.risklevel)
                                       })
-                          updateScatter(scatterdata,
+                          updateScatter(scatterdata, 
                           "Death Rate (% of Total Cases)",
                             "Size represents the Daily Average",
                               "Death Rate as % of Total Cases",
                               "Total Deaths",
-                              "");
-
+                              "",'no');
+                          
                            scatterdata  =  india_case_peak_data
                            var uniqueCluster = [...new Set(scatterdata.map(item =>+item.cluster))].sort()
                     colorScale.domain(['1','2','3','4'])
                     //console.log(uniqueCluster)
                     //colorScale.domain(uniqueCluster);
                       clusterDesc = ["Peaked in last 2 weeks","Below AVG Rate","Above AVG Rate","90% down from Peak"]
-                      legendText = "Trend"
                       colorScale.range(["",d3.interpolateSpectral(.10),d3.interpolateSpectral(.25),d3.interpolateSpectral(.7),d3.interpolateSpectral(.85),d3.interpolateGreys(.2)])
-
+                      legendText = "Trend"
                           scatterdata.forEach(d => {
                               var temp = india_cases_change_data.filter(function (t){ return t.Province_State === d.Province_State })
                              // console.log(d)
-                              if (temp.length>0)   {
-                                d.code = temp[0].code
-
+                              if (temp.length>0)   {       
+                                d.code = temp[0].code 
+                              
                                         d.x = (+d.days_since_peak)
                                         d.y = (+d.percent_of_peak)
                                         d.size = (+d.avg)
@@ -1744,23 +1973,23 @@ function ready([us,us_counties,
                                       })
                          // clusterDesc = ["Peaked in last 2 weeks","Trending down but slowly","Trending down "]
 
-
+                     
                           updateScatter(scatterdata,
-                                          "Current Daily Case count(avg) as % of Peak and Days since Peak",
+                                          "Current Daily Case count(avg) as % of Peak and Days since Peak", 
                                           "Size represents the Daily Average",
-
-                                          "Current Daily Average as % of Peak number of Cases",
+                                          
+                                          "Current Daily Avg as % of Peak number of Cases", 
                                           "Number of Days since Peak",
-                                          "");
+                                          "", 'yes');
 
 
                           scatterdata  =  india_death_peak_data
                           scatterdata.forEach(d => {
                               var temp = india_cases_change_data.filter(function (t){ return t.Province_State === d.Province_State })
                               //console.log(temp)
-                              if (temp.length>0)   {
-                                d.code = temp[0].code
-
+                              if (temp.length>0)   {       
+                                d.code = temp[0].code 
+                              
                                         d.x = (+d.days_since_peak)
                                         d.y = (+d.percent_of_peak)
                                         d.size = (+d.avg)
@@ -1772,19 +2001,19 @@ function ready([us,us_counties,
                     // colorScale.domain(['0','1','2','3','4'])
                       colorScale.domain(uniqueCluster);
                           updateScatter(scatterdata,
-                                          "Current Daily Death count(avg) as % of Peak and Days since Peak",
+                                          "Current Daily Death count(avg) as % of Peak and Days since Peak", 
                                           "Size represents the Daily Average",
-
-                                          "Current Daily Average as % of Peak number of Daily Deaths",
+                                          
+                                          "Current Daily Avg as % of Peak number of Daily Deaths", 
                                           "Number of Days since Peak",
-                                          "");
+                                          "",'no');
+                                                                      
 
 
+      
 
 
-
-
-
+                              
                               linechartdropdown = uniqueIndiaStatesorted;
                               updateLinechart(linechartdropdown[0]);
 
@@ -1800,70 +2029,189 @@ function ready([us,us_counties,
                           clusterdata = "yes"
                           region = 'global'
 
-
-                       //     d3.select("#main").text("Main")
+                            
+                           d3.select("#main").text("Main")
                         //    d3.select("#linechart").text("Daily New Cases for Countries")
 
                         //    d3.select("#scatter").text("Short Term and Long Term trend")
-
+                            
 
                           //  d3.select("#heatmap").text(heatmaptitle)
                          //   d3.select("#heatmapdesc").text("This heat map provides insight into how the number of new cases have trended over the period")
                             document.getElementById("scatter").style.display = "block";
+                      mapdetail = 'slope'
+                      clusterdata = "yes"
+                     
+                      mapdata = global_cases_change_data
+                      maptype = 'world'
+                      var uniqueCluster = [...new Set(global_cases_change_data.map(item =>+item.risklevel))].sort()
+                      colorScale.domain(['1','2','3','4','5'])
+                     //colorScale.domain(uniqueCluster);
+                    // console.log(colorScale)
+                                    //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
+                      //colorScale.range(["",d3.interpolateRdYlGn(.2),d3.interpolateRdYlGn(.3),d3.interpolateRdYlGn(.4),d3.interpolateRdYlGn(.65),d3.interpolateGreys(.2)])
+                      colorScale.range(["",d3.interpolateSpectral(.15),d3.interpolateSpectral(.25),d3.interpolateSpectral(.4),d3.interpolateSpectral(.72),d3.interpolateGreys(.2)])
+                      clusterDesc = ["Not Improving","Short Term Improving","Was Improving but Uptick","Improving or Flat","Low # of Current Cases"]
+                      tooltiptext = "Trend: ";
+                      legendText = "Trend in last 2 wks"
+                      maptitle = "Short Term (7 days) and Long Term (14 Days) Trend "
+                      updateMap(lastday,'');
+                      updateLegend();
+                            
+                      //factor = factorsList[25]
 
-                            mapdata = us_cases_change_data
-                            maptype = 'state'
-                            maptitle = " India - Short Term (7 days) and Long Term (14 Days) Trend "
-                            mapjson = topojson.feature(us, us.objects.states).features
+
+//since peak
+                                        clusterdata = "no"
+
+                                        mapdetail ='currentdata'
+                                        mapscale = "linearscalemap"
+                                                    mapdata = global_case_peak_data
+                                                    mapdata.forEach(d => {
+
+                                                                      d.value = (100-d.percent_of_peak)
+
+                                                                    })
+                                                    //console.log(mapdata)
+                                                    maptype = 'world'
+                                                    tooltiptext = "Percent Down: ";
+                                                    legendText = "% down from last peak"
+                                                    maptitle = "World - Current daily average as % of last peak"
+
+                                                    minmap= Math.floor((d3.min(mapdata, function(d) { return +d.value; })));
+                                                    maxmap = Math.ceil((d3.max(mapdata, function(d) { return +d.value; })));
+                                                    //console.log(d3.range(minmap, maxmap,1))
+                                                    colorScale.domain(d3.range(0, maxmap, 20));//minmap is infinity
+                                                    //colorScale.domain(d3.range(0,26000,5000))
+                                                    colorScale.range(d3.schemeSpectral[7]);
+
+                                                    svg = d3.selectAll("#map")
+                                                          .append("svg")
+                                                          .attr("width", width + margin.left + margin.right)
+                                                          .attr("height", height + margin.top + margin.bottom)
+                                                          .append("g")
+                                                          .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                                                          .call(responsivefy)
+                                                          ;
+                                                    updateMap(lastday,'');
+                                                    updateLegend();
+
+                                                    mapdetail ='currentdata'
+                                                    mapscale = "linearscalemap"
+                                                    mapdata = global_case_peak_data
+                                                    mapdata.forEach(d => {
+
+                                                                      d.value = +d.days_since_peak
+
+                                                                    })
+                                                    //console.log(mapdata)
+                                                    maptype = 'world'
+                                                    tooltiptext = "Days since peak: ";
+                                                    legendText = "Days since peak"
+                                                    maptitle = "World - Days since last peak"
+
+                                                    minmap= Math.floor((d3.min(mapdata, function(d) { return +d.value; })));
+                                                    maxmap = Math.ceil((d3.max(mapdata, function(d) { return +d.value; })));
+                                                    //console.log(d3.range(minmap, maxmap,1))
+                                                    colorScale.domain(d3.range(0, maxmap, 30));//minmap is infinity
+                                                    //colorScale.domain(d3.range(0,26000,5000))
+                                                    colorScale.range(d3.schemeSpectral[8]);
+                                                    svg = d3.selectAll("#map")
+                                                          .append("svg")
+                                                          .attr("width", width + margin.left + margin.right)
+                                                          .attr("height", height + margin.top + margin.bottom)
+                                                          .append("g")
+                                                          .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                                                          .call(responsivefy)
+                                                          ;
+                                                    updateMap(lastday,'');
+                                                    updateLegend();
+
+
+
+
+
+
+// daily
+                            mapscale = "logscalemap"
+                            mapdetail ='historicaldata'
+                          
+                            clusterdata = "no"
+                            mapdata = global_daily_case_data
+                            maptype = 'world'
+                            tooltiptext = "New Cases: ";
+                            legendText = "New Cases"
+                            maptitle = "World - Daily New Cases"
+
+                            minmap= Math.log10(d3.min(mapdata, function(d) { return +d.value; }));
+                            maxmap = Math.ceil(Math.log10(d3.max(mapdata, function(d) { return +d.value; })));
+                            //console.log(d3.range(minmap, maxmap,1))
+                            colorScale.domain(d3.range(0, maxmap, 1));//minmap is infinity
+                            colorScale.range(d3.schemeReds[7]);
+
+
+                            //colorScale.domain(uniqueCluster);
+                            //console.log(colorScale)
+                                          //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
+
+
+
+                            svg = d3.selectAll("#map")
+                                  .append("svg")
+                                  .attr("width", width + margin.left + margin.right)
+                                  .attr("height", height + margin.top + margin.bottom)
+                                  .append("g")
+                                  .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                                  .call(responsivefy)
+                                  ;
+                            updateMap(lastday,'');
+                            updateLegend();
+
+                            clusterdata = "no"
+                            mapdetail ='historicaldata'
+                            tooltiptext = "Total Cases: ";
+                            legendText = "Total Cases"
+                            mapdata = global_total_case_data
+                            maptype = 'world'
+                            maptitle = "World- Total Cases "
+                            mapjson = world.features
+                            minmap= Math.log10(d3.min(mapdata, function(d) { return +d.value; }));
+                            maxmap = Math.log10(d3.max(mapdata, function(d) { return +d.value; })); 
+
+                            colorScale.domain(d3.range(0, maxmap, 1));//minmap is infinity
+                            colorScale.range(d3.schemeYlOrRd[9]);
+                            console.log(d3.range(0, maxmap, 1))
+                            svg = d3.selectAll("#map")
+                                  .append("svg")
+                                  .attr("width", width + margin.left + margin.right)
+                                  .attr("height", height + margin.top + margin.bottom)
+                                  .append("g")
+                                  .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                                  .call(responsivefy)
+                                  ;
+                            updateMap(lastday,'');
+                            updateLegend();
+
+
+
+
 
                             var uniqueCluster = [...new Set( global_cases_change_data.map(item =>+item.risklevel))].sort()
                             colorScale.domain(['1','2','3','4','5'])
-                            //  colorScale.domain(uniqueCluster);
-
+                           // colorScale.domain(uniqueCluster);
                           // console.log(colorScale)
                                           //colorScale.range("",d3.schemeRdYlGn[9],d3.schemeRdYlGn[0])
                             colorScale.range(["",d3.interpolateRdYlGn(.2),d3.interpolateRdYlGn(.3),d3.interpolateRdYlGn(.4),d3.interpolateRdYlGn(.6),d3.interpolateGreys(.2)])
                             clusterDesc = ["Not Improving","Short Term Improving","Was Improving but Uptick","Improving or Flat","Low # of Current Cases"]
                             tooltiptext = "Trend: ";
-                            legendText = "Trend in last 2 Wks"
-                            /*
-
-                                  scatterdata = global_cases_change_data.filter(function (d){return d.avg>200})
-
-                                  console.log(scatterdata)
-                                  minx_scatter= 1.1*d3.min(scatterdata, function(d) { return +d.long_term_slope ; });
-                                  maxx_scatter= 1.1*d3.max(scatterdata, function(d) { return +d.long_term_slope ; });
-                                  miny_scatter= 1.1*d3.min(scatterdata, function(d) { return +d.short_term_slope ; });
-                                  maxy_scatter= 1.1*d3.max(scatterdata, function(d) { return +d.short_term_slope ; });
-
-                                  x_scatter.domain([minx_scatter, maxx_scatter]);
-                                  y_scatter.domain([miny_scatter, maxy_scatter]);
-
-                                  sc_legend_x = [x_scatter(0),x_scatter(0),x_scatter(minx_scatter), x_scatter(minx_scatter)]
-                                  console.log(sc_legend_x)
-                                  sc_legend_y = [y_scatter(maxy_scatter),y_scatter(0),y_scatter(maxy_scatter),y_scatter(0)]
-                                  sc_legend_Xend = [x_scatter(maxx_scatter),x_scatter(maxx_scatter), x_scatter(0),x_scatter(0)]
-
-                                  sc_legend_yend = [y_scatter(0),y_scatter(miny_scatter),y_scatter(0),y_scatter(miny_scatter)]
-
-                                  scatter_domain = colorScale.domain().slice(0, 4);
-                                  minSize = d3.min(scatterdata, function(d) { return +d.avg ; });
-                                  maxSize = d3.max(scatterdata, function(d) { return +d.avg ; });
-                                  console.log(minSize, maxSize)
-                                  sizeLogscale.domain([minSize, maxSize])
-
-                                  scatterdata.forEach(d => {
-                                    d.col = colorScale(+d.risklevel)
-                                    d.x = x_scatter(+d.long_term_slope)
-                                    d.y = y_scatter(+d.short_term_slope)
-                                    d.size = sizeLogscale(+d.avg)
-                                  })*/
+                            legendText = "Trend in last 2 wks"
+                            
                                   heatmaptype = "trend"
                                   s_legendtext = "% Change in Daily Cases"
                                   heatmaptitle = "Trend in New Cases by Country"
                                   heatmapdata = global_case_data_slope
                                   x_heat.domain(heatmapdata.map(function(d) { return parser4d(d.Date); }));
-
+                                  
                                   y_heat_domain = uniqueGlobalState
                                   height_ratio = height_ratio_s * y_heat_domain.length/60
                                   console.log(height_s)
@@ -1871,7 +2219,7 @@ function ready([us,us_counties,
                                   console.log(height_s)
                                   y_heat.range([0, height_s])
                                   y_heat.domain(y_heat_domain);
-
+                                                        
                                   maxheatmap = 50
                                   band = 10
                                   heatmapScale.domain(d3.range(-maxheatmap,maxheatmap+1, band));
@@ -1906,7 +2254,7 @@ function ready([us,us_counties,
                                   heatmaptitle = "Total Cases by Country"
 
                                   x_heat.domain(heatmapdata.map(function(d) { return parser4d(d.Date); }));
-
+                                  
                                   y_heat_domain = uniqueGlobalState
                                   height_ratio = height_ratio_s * y_heat_domain.length/50
                                   height_s = height_ratio*width_s
@@ -1925,7 +2273,7 @@ function ready([us,us_counties,
                                   //heatmapScale.range(d3.range(0, 1, 50*.95/(max-minDailyRatioUS)));
                               // updateMap(lastday,'');
                               // updateLegend();
-                              scatterdata = global_cases_change_data.filter(function (d){return d.avg>1000})
+                              scatterdata = global_cases_change_data.filter(function (d){return d.avg>500})
 
                              scatterdata.forEach(d => {
                                     d.x = (+d.long_term_slope)
@@ -1934,29 +2282,30 @@ function ready([us,us_counties,
                                     d.col = colorScale(+d.risklevel)
                                   })
                           updateScatter(scatterdata,
-                                          "7 days trend vs 14 days Trend in Daily New Cases",
+                                          "7 days vs Long Term 14 days Trend in Daily New Cases", 
                                           "Size represents the Daily Average",
                                           "7 days Rate of Change(%) in Daily Number of Cases",
-                                          "14 days Rate of Change(%) in Daily Number of Cases","");
-
-                          scatterdata  = global_deaths_change_data.filter(function (d){return d.avg>50})
+                                          "14 days Rate of Change(%) in Daily Number of Cases",
+                                          "", 'yes');
+                          
+                          scatterdata  = global_deaths_change_data.filter(function (d){return d.avg>10})
                           scatterdata.forEach(d => {
                                         d.x = (+d.long_term_slope)
                                         d.y = (+d.short_term_slope)
                                         d.size = (+d.avg)
                                         d.col = colorScale(+d.risklevel)
                                       })
-
+                            
                             updateScatter(scatterdata,
-                                          "7 days trend vs 14 days Trend in Daily Deaths",
+                                          "7 days vs 14 days Trend in Daily Deaths", 
                                           "Size represents the Daily Average",
                                           "7 days Rate of Change(%) in Daily Deaths",
-                                          "14 days Rate of Change(%) in Daily Deaths",
-                                          "");
+                                          "14 days Rate of Change(%) in Daily Deaths", 
+                                          "", 'yes');
+                          
 
-
-
-                        scatterdata  = global_deaths_change_data.filter(function (d){return d.avg>50})
+                            
+                        scatterdata  = global_deaths_change_data.filter(function (d){return d.avg>20})
                           //console.log(scatterdata)
                           //console.log(scatterdata)
                           scatterdata.forEach(d => {
@@ -1969,7 +2318,7 @@ function ready([us,us_counties,
                                           }
                                         d.col = colorScale(+d.risklevel)
                                       })
-                          updateScatter(scatterdata,
+                          updateScatter(scatterdata, 
                           "Death Rate (% of Total Cases)",
                             "Size represents the Daily Average",
                               "Death Rate as % of Total Cases",
@@ -1977,16 +2326,15 @@ function ready([us,us_counties,
                               "");
 
                         clusterDesc = ["Peaked in last 2 weeks","Below AVG Rate","Above AVG Rate","90% down from Peak"]
-                        legendText = "Trend"
                     colorScale.range(["",d3.interpolateSpectral(.10),d3.interpolateSpectral(.25),d3.interpolateSpectral(.7),d3.interpolateSpectral(.85),d3.interpolateGreys(.2)])
-
-                          scatterdata  =  global_case_peak_data.filter(function (d){return d.avg>200})
+                    legendText = "Trend"
+                          scatterdata  =  global_case_peak_data.filter(function (d){return d.avg>900})
                           scatterdata.forEach(d => {
                               var temp = global_cases_change_data.filter(function (t){ return t.Province_State === d.Province_State })
                               //console.log(temp)
-                              if (temp.length>0)   {
-                                d.code = temp[0].code
-
+                              if (temp.length>0)   {       
+                                d.code = temp[0].code 
+                              
                                         d.x = (+d.days_since_peak)
                                         d.y = (+d.percent_of_peak)
                                         d.size = (+d.avg)
@@ -1999,21 +2347,21 @@ function ready([us,us_counties,
                       colorScale.domain(uniqueCluster);
 
                       updateScatter(scatterdata,
-                                          "Current Daily Case count(average) as % of Peak and Days since the Peak",
+                                          "Current Daily Case count(average) as % of Peak and Days since the Peak", 
                                           "Size represents the Daily Average",
-
-                                          "Current Daily Average as % of Peak number of Cases for the Countries",
+                                          
+                                          "Current Daily Average as % of Peak number of Cases for the Countries", 
                                           "Number of Days since Peak",
-                                          "");
+                                          "", 'yes');
 
 
-                          scatterdata  =  global_death_peak_data//.filter(function (d){return d.avg>10})
+                          scatterdata  =  global_death_peak_data.filter(function (d){return d.avg>10})
                           scatterdata.forEach(d => {
                               var temp = global_deaths_change_data.filter(function (t){ return t.Province_State === d.Province_State })
                               //console.log(temp)
-                              if (temp.length>0)   {
-                                d.code = temp[0].code
-
+                              if (temp.length>0)   {       
+                                d.code = temp[0].code 
+                              
                                         d.x = (+d.days_since_peak)
                                         d.y = (+d.percent_of_peak)
                                         d.size = (+d.avg)
@@ -2025,41 +2373,41 @@ function ready([us,us_counties,
                     // colorScale.domain(['0','1','2','3','4'])
                       colorScale.domain(uniqueCluster);
                           updateScatter(scatterdata,
-                                          "Current Daily Death count(average) as % of Peak and Days since the Peak",
+                                          "Current Daily Death count(average) as % of Peak and Days since the Peak", 
                                           "Size represents the Daily Average",
-
-                                          "Current Daily Average as % of Peak number of Daily Deaths for the Countries",
+                                          
+                                          "Current Daily Average as % of Peak number of Daily Deaths for the Countries", 
                                           "Number of Days since Peak",
-                                          "");
+                                          "", 'yes');
+                                                                      
 
-
-
+                                
                                 linechartdropdown = uniqueGlobalStatesorted;
                                 updateLinechart(linechartdropdown[0]);
 
                             document.getElementById("slideranimation").style.display = "none";
-                            document.getElementById("scatter").click();
-                            document.getElementById("main").style.display = "none";
-                            //document.getElementById("main").click();
+                            //document.getElementById("scatter").click();
+                            //document.getElementById("main").style.display = "none";
+                            document.getElementById("main").click();
 
                   }
 
         }
-
+              
         var dropDown = d3.select("#dropdown-container")
                         .append("select")
                         .attr("id","dropdown")
                         .attr("text-anchor", "middle")
-                        .style("alignment-baseline", "start")
+                        .style("alignment-baseline", "start")  
                         .on("change", dropdownChange);
                        // .on("change", ;
-
+            
         var options = dropDown.selectAll("option")
                 .data(dropdownlist)
                 .enter()
                 .append("option");
         options.text(function(d) {
-                    return d;
+                    return d;   
                 })
                 .attr("value", function(d) {
                     return d;
@@ -2067,17 +2415,17 @@ function ready([us,us_counties,
                 .property("selected", function(d){
                     return d == factorsList[0];
                 })
-                ;
-
+                ;         
+    
     var tip = d3.tip()
-          .attr('class', 'd3-tip')
+                .attr('class', 'd3-tip')
           .offset([120*scale, 180*scale])
-          .html(function(d) {
+          .html(function(d) { 
           // console.log(d)
           //console.log(clusterdata)
             if (d.type == 'scatter'){
-
-                return  d.Province_State + "<br/>"
+             
+                return  d.Province_State + "<br/>"  
                         +"X value: " + d.x + "<br/>"
                         +"Y value: " + d.y + "<br/>"
                        /*   +"Daily Rate of Change:" + "<br/>"
@@ -2085,26 +2433,28 @@ function ready([us,us_counties,
                           + "Long Term : " + d.long_term_slope + "%" */
                   // return  "State: "+d.properties.name + "<br/>"  + tooltiptext+ clusterDesc[d.fact-1]
 
-                }
+                } 
             else if (d.type == 'heatmap' | d.type == 'linechart' ){
-                return   d.Province_State + "<br/>" + "Date: "+d.Date+ "<br/>" + tooltiptext+ d.fact ;
+              tooltiptext =""
+                return   d.Province_State + "<br/>" + "Date: "+d.Date+ "<br/>" + tooltiptext+ formatValue(Math.round(d.fact)) ; 
 
                }
 
             else if(d.type='map') {
               if (clusterdata == 'yes'){
-
+                
                // console.log("inside tip")
-               return   d.properties.name+ "<br/>"
+               return   d.properties.name+ "<br/>"  
                           +"Daily Rate of Change:" + "<br/>"
                           +"Short Term : " + d.short_term_slope + "%" + "<br/>"
                           + "Long Term : " + d.long_term_slope + "%"
 
               }
+              
+              else{  
 
-              else{
-
-                return  d.properties.name + "<br/>" + "Date: "+d.Date+ "<br/>" + tooltiptext+ d.fact ;
+                tooltiptext =""
+                return  d.properties.name + "<br/>" + "Date: "+d.Date+ "<br/>" + tooltiptext+ formatValue(Math.round(d.fact)) ; 
               }
             }
         });
@@ -2122,7 +2472,7 @@ function ready([us,us_counties,
           .on("start.interrupt", function() { slider.interrupt(); })
           .on("start drag", function() {
             currentValue = d3.event.x;
-            update(x_slider.invert(currentValue));
+            update(x_slider.invert(currentValue)); 
           })
       );
       slider.insert("g", ".track-overlay")
@@ -2139,8 +2489,8 @@ function ready([us,us_counties,
     var handle = slider.insert("circle", ".track-overlay")
       .attr("class", "handle")
       .attr("r", 9);
-
-    var label = slider.append("text")
+      
+    var label = slider.append("text")  
       .attr("class", "label")
       .attr("text-anchor", "middle")
       .text(formatDate(startDate))
@@ -2163,11 +2513,11 @@ function ready([us,us_counties,
         } else {
         moving = true;
           if (maptype =='county'){
-            timer = setInterval(step, 100);
+            timer = setInterval(step, 1000);
           }
           else{
-          timer = setInterval(step, 30);
-          }
+          timer = setInterval(step, 1000);
+          } 
         button.text("Pause");
         }
         console.log("Slider moving: " + moving);
@@ -2205,16 +2555,28 @@ function ready([us,us_counties,
     //var count
     svg.call(tip)
     // console.log("~~~~~~~~~~");
-      //console.log(factor)
+      console.log(mapdetail, mapscale, maptype)
       if (maptype == 'county')
-      {
+      { 
         mapjson = topojson.feature(us_counties, us_counties.objects.counties).features
         mapdata.forEach(d => {
           d.FIPS = FIPS(+d.FIPS)
         map_path = path1
         region = "county"
-        //console.log(d.FIPS)
-      });
+        //console.log(d.FIPS)    
+        });
+      }
+      else if (maptype == 'world')
+      { 
+        mapjson = world.features
+        //console.log(mapjson)
+        mapdata.forEach(d => {
+          //d.FIPS = FIPS(+d.FIPS)
+        map_path = worldpath
+       // region = "world"
+        //console.log(d.FIPS)    
+        });
+       // console.log(mapdata)
       }
       else{
         mapjson = topojson.feature(us, us.objects.states).features
@@ -2224,14 +2586,14 @@ function ready([us,us_counties,
       svg.append("g")
           .attr("class", region)
           //.attr("transform", "translate(" + -margin.left + "," + -margin.top + ")")
-          .selectAll("path")
+          .selectAll("path")  
           .data(mapjson)
           .enter().append("path")
-          .attr("fill", function(d) {
+          .attr("fill", function(d) { 
             d.Date = fordate
               if (maptype == 'county'){
                   var sdata = mapdata.filter(function(t){return t.FIPS == d.id ;})
-
+                  
                   if (sdata.length > 0) {
                     d.county = sdata[0].Province_State
                    // console.log(d.id)
@@ -2249,27 +2611,72 @@ function ready([us,us_counties,
                       var col = colorScale(Math.log10(d.fact))
                     }
                   }
-              }
-              else{
+              }  
+              else if (maptype == 'world'){
+                  var sdata = mapdata.filter(function(t){return t.Province_State == d.properties.name ;})
+                  
+                  if (sdata.length > 0) {
+                   
+                        if(mapdetail == 'slope'){
+                          //console.log(sdata)
+                          d.fact = +sdata[0].risklevel
+                          var col = colorScale(d.fact)
+                          //console.log(d)
+                          d.long_term_slope = +sdata[0].long_term_slope
+                          d.short_term_slope = +sdata[0].short_term_slope
+                          //console.log(d)
+                        }
+                        else if (mapdetail == 'historicaldata' ){
+                          var sdata = mapdata.filter(function(t){return t.Province_State == d.properties.name && t.Date == fordate;})
+                          d.fact = +sdata[0].value
+                          var col = colorScale(Math.log10(d.fact))
+                        }
+                        else if(mapdetail == 'currentdata' ){
+                        //console.log(d.id)
+                      // d.fact = 0
+                          var sdata = mapdata.filter(function(t){return t.Province_State == d.properties.name ;})
+                          d.fact = +sdata[0].value
+                          if (mapscale == 'logscalemap'){
+                            var col = colorScale(Math.log10(d.fact))
+                          }
+                          else{var col = colorScale((d.fact))}
+
+                        } 
+                    
+                  }
+              }  
+
+              else{   // US states map
 
                   var sdata = mapdata.filter(function(t){return t.Province_State == d.properties.name ;})
-                  if (sdata.length > 0){
-                    if(factor == factorsList[0]){
+                  //console.log(sdata)
+                  if (sdata.length > 0)
+                  {                              
+                    if(mapdetail == 'slope'){
                     d.fact = +sdata[0].risklevel
                     d.long_term_slope = +sdata[0].long_term_slope
                     d.short_term_slope = +sdata[0].short_term_slope
 
                     var col = colorScale(d.fact)
                     }
-                    else if (factor == factorsList[1]|factor == factorsList[2] ){
+                    else if (mapdetail == 'historicaldata' ){
+                      //console.log('^^^^^^^^')
+                      //console.log(mapdata)
                       var sdata = mapdata.filter(function(t){return t.Province_State == d.properties.name && t.Date == fordate;})
                       d.fact = +sdata[0].value
                       var col = colorScale(Math.log10(d.fact))
                     }
-                  else{
-                    console.log(d.id)
-                    d.fact = 0
-                  }
+                   else if(mapdetail == 'currentdata' ){
+                    //console.log(d.id)
+                   // d.fact = 0
+                      var sdata = mapdata.filter(function(t){return t.Province_State == d.properties.name ;})
+                      d.fact = +sdata[0].value
+                      if (mapscale == 'logscalemap'){
+                        var col = colorScale(Math.log10(d.fact))
+                      }
+                      else{var col = colorScale((d.fact))}
+
+                    } 
                  }
               }
               if (col) {
@@ -2277,7 +2684,7 @@ function ready([us,us_counties,
               } else {
                 return '#ffffff'
               }
-            })
+            }) 
         .attr("d", map_path)
         .attr("width", width)
         .attr("height", height)
@@ -2293,14 +2700,14 @@ function ready([us,us_counties,
         )
         .on('click',showstatetrend)
         .append("title") ;
-
+        
       if (maptitle!= ""){
         maptitlecombined = maptitle + " - "+ fordate
       }
       else{
         maptitlecombined = factor
       }
-
+    
     svg.selectAll("text.maptitle").remove();
         // title
     svg.append("text")
@@ -2324,6 +2731,10 @@ function ready([us,us_counties,
    // d3.selectAll("g.legend").remove();
     var legendX = (width*.82),
       legendY = height/2.25;
+      if (maptype == 'world') {
+        legendX = (width*.05)
+        legendY = height/2;
+      }
    //console.log(scale,width)
     svg.selectAll("g.legend").remove();
     svg.selectAll("text.legend").remove();
@@ -2336,23 +2747,23 @@ function ready([us,us_counties,
        // .attr("font-weight","bold")
         //.text(String);
         .text(legendText);
-
+    
     var legendUpdate = svg.selectAll("g.legend")
         .data(colorScale.domain());
     //console.log(colorScale.domain())
     var legendEnter = legendUpdate.enter().append("g")
         .attr("class", "legend")
-        .attr("id",function(d){
+        .attr("id",function(d){ 
             return d})
         .attr("transform", function(d, i) { return "translate(" + (legendX ) + "," + (legendY+ i*30*scale ) + ")"; });
-
+    
     var legendExit = legendUpdate.exit();
     legendExit.remove()
     legendUpdate.merge(legendEnter)
         .append("rect")
         .attr("width", 20*scale)
-        .attr("height", 30*scale)
-        .style("fill", function(d){
+        .attr("height", 30*scale) 
+        .style("fill", function(d){ 
                  return (colorScale(d))});
     legendUpdate.merge(legendEnter)
         .append("text")
@@ -2362,22 +2773,22 @@ function ready([us,us_counties,
         .attr("font-size",14*scale)
         .attr("text-anchor", "start")
         //.text(String);
-        .text(function(d,i){
-
+        .text(function(d,i){ 
+          
           if (clusterdata == "yes"){
            // console.log(d,i)
               return clusterDesc[d-1]
-
+              
           }
           else if (clusterdata=="change")
           {
-            return legendDesctext[i]
+            return legendDesctext[i] 
           }
-          else if (factor == factorsList[1]|factor == factorsList[2]|factor == factorsList[11]|factor == factorsList[12]){
-            return Math.pow(10,d)
+          else if (factor == factorsList[1]|factor == factorsList[2]|factor == factorsList[11]|factor == factorsList[12] | mapscale == 'logscalemap'){
+            return formatValue(Math.round(Math.pow(10,d)))
           }
           else{
-            return Math.round((d))
+            return formatValue(Math.round((d)))
           }
         });
   }
@@ -2394,21 +2805,21 @@ function ready([us,us_counties,
       .attr("class", "legend")
         .attr("x", legendX)
         .attr("y", legendY-20*scale)
-        .attr("font-size",13*scale)
+        .attr("font-size",15*scale)
         .attr("text-anchor", "start")
        // .attr("font-weight","bold")
         //.text(String);
         .text(legendText);
-
+    
     var legendUpdate = SVG_parent.selectAll("g.legend")
         .data(colorScale.domain());
     //console.log(colorScale.domain())
     var legendEnter = legendUpdate.enter().append("g")
         .attr("class", "legend")
-        .attr("id",function(d){
+        .attr("id",function(d){ 
             return d})
         .attr("transform", function(d, i) { return "translate(" + (legendX ) + "," + (legendY+ i*20*scale ) + ")"; });
-
+    
     var legendExit = legendUpdate.exit();
     legendExit.remove()
     legendUpdate.merge(legendEnter)
@@ -2417,30 +2828,30 @@ function ready([us,us_counties,
         .attr("r",6*scale)
       //
       //  .attr("width", 20*scale)
-      //  .attr("height", 30*scale)
-        .style("fill", function(d){
+      //  .attr("height", 30*scale) 
+        .style("fill", function(d){ 
                  return (colorScale(d))});
     legendUpdate.merge(legendEnter)
         .append("text")
-        .attr("x", 13*scale)
+        .attr("x", 15*scale)
         .attr("y", 6*scale)//30*scale)
         //.attr("dy", ".35em")
-        .attr("font-size",13*scale)
+        .attr("font-size",14*scale)
         .attr("text-anchor", "start")
         //.text(String);
-        .text(function(d,i){
-
+        .text(function(d,i){ 
+          
           if (clusterdata == "yes"){
            // console.log(d,i)
               return clusterDesc[d-1]
-
+              
           }
           else if (clusterdata=="change")
           {
-            return legendDesctext[i]
+            return legendDesctext[i] 
           }
           else if (factor == factorsList[1]|factor == factorsList[2]|factor == factorsList[11]|factor == factorsList[12]){
-            return Math.pow(10,d)
+            return Math.round(Math.pow(10,d))
           }
           else{
             return Math.round((d))
@@ -2450,35 +2861,35 @@ function ready([us,us_counties,
 
 
   //---------------------------------------------on click of state
-
+   
   function showstatetrend(d){
      // console.log(factor)
      // console.log(d)
         //document.getElementById("details").style.display = "block";
-        document.getElementById("linechart").click();
+        document.getElementById("linechart").click(); 
         d3.select("#chart1").selectAll("svg").remove();
         //d3.select("#chart2").select("svg").remove();
         //d3.select("#chart3").select("svg").remove();
                     //d3.select("#seasonal").remove();
 
             if (d.type == 'scatter'| d.type== 'heatmap'){
-
-              var st = d.Province_State;
-
+            
+              var st = d.Province_State; 
+              
             }
             else {
               if (maptype == 'county'){
                     var st = d.county
               }
               else{
-
-                    var st = d.properties.name;
+              
+                    var st = d.properties.name;  
                 }
               }
-            console.log(st)
+            console.log(st)      
             updateLinechart(st)
-
-  }
+  
+  }         
   // ---- Line Chart functions
   function updateLinechart(st){
      // console.log(factor)
@@ -2489,7 +2900,7 @@ function ready([us,us_counties,
                         .append("select")
                         .attr("id","stdropdown")
                         .attr("text-anchor", "middle")
-                        .style("alignment-baseline", "start")
+                        .style("alignment-baseline", "start")  
                         .on("change", statedropdownChange);
        //console.log(uniquestate)
         var stateoptions = statedropDown.selectAll("option")
@@ -2497,18 +2908,18 @@ function ready([us,us_counties,
                   .data(linechartdropdown)
                 .enter()
                 .append("option");
-
+        
             stateoptions.text(function(d) {
-                    return d;
+                    return d;   
                 })
                 .attr("value", function(d) {
                     return d;
                 })
                 .property("selected", function(d){
-                    return d == st
+                    return d == st 
                     //d == linechartdropdown[0];
                 })
-                ;
+                ;  
       if (factor == factorsList[0] || factor == factorsList[1] || factor == factorsList[2]){
             linemaptype = "casecount"
             linelegendtext = "Daily New Cases"
@@ -2529,16 +2940,16 @@ function ready([us,us_counties,
 
               }
             else if(factor == factorsList[20]){
-
+              
                 var dailycase = india_daily_case_data.filter(function(t){return t.Province_State == st }).sort(function(a, b){ return d3.ascending(parser(a.Date), parser(b.Date)); })
                 dailydeath = india_daily_death_data.filter(function(t){return t.Province_State == st }).sort(function(a, b){ return d3.ascending(parser(a.Date), parser(b.Date)); })
                 totalcase = india_total_case_data.filter(function(t){return t.Province_State == st }).sort(function(a, b){ return d3.ascending(parser(a.Date), parser(b.Date)); })
                 totaldeath = india_total_death_data.filter(function(t){return t.Province_State == st }).sort(function(a, b){ return d3.ascending(parser(a.Date), parser(b.Date)); })
 
-
+ 
             }
             else if(factor == factorsList[25]){
-
+         
                 var dailycase = global_daily_case_data.filter(function(t){return t.Province_State == st }).sort(function(a, b){ return d3.ascending(parser(a.Date), parser(b.Date)); })
                 dailydeath = global_daily_death_data.filter(function(t){return t.Province_State == st }).sort(function(a, b){ return d3.ascending(parser(a.Date), parser(b.Date)); })
                 totalcase = global_total_case_data.filter(function(t){return t.Province_State == st }).sort(function(a, b){ return d3.ascending(parser(a.Date), parser(b.Date)); })
@@ -2550,26 +2961,26 @@ function ready([us,us_counties,
             createLineChart(totalcase, "Total Cases", "red","","",'')
             createLineChart(dailydeath, "Daily Deaths", "gray","","",'avg')
             createLineChart(totaldeath, "Total Deaths", "darkgray","","",'')
-
+    
             //---------------------------------------Line Chart
     function createLineChart(dailyLine, title, linecolor,xscale_type, yscale_type,avg)  {
       startDate = d3.min(dailyLine, function(d) { return parser(d.Date); });
-        endDate = d3.max(dailyLine, function(d) { return parser(d.Date); });
-                  x_line.domain([startDate, endDate]);
+      endDate = d3.max(dailyLine, function(d) { return parser(d.Date); });
+                        x_line.domain([startDate, endDate]);
           var y_line_scale
           //console.log(dailyLine)
               miny = d3.min(dailyLine, function(d) { return +d.value; });
-              maxy = 1.1*d3.max(dailyLine, function(d) { return +d.value; });
-
+              maxy = 1.1*d3.max(dailyLine, function(d) { return +d.value; }); 
+              
             if (yscale_type == "log"){
-
+             
               miny = 1
               y_lineLog.domain([miny,maxy])
               y_line_scale = y_lineLog
-            }
+            }  
             else
             {
-
+              
               miny = 0
               y_line.domain([miny,maxy])
               y_barScale.domain([miny,maxy])
@@ -2577,44 +2988,44 @@ function ready([us,us_counties,
             }
 
            // console.log(miny, maxy)
-
+            
             y_line_scale.domain([miny,maxy])
            // console.log(maxy, y_line_scale(maxy))
           //var gridlinerange = d3.range(miny, maxy, (maxy-miny)/10)
-
+            
           var svg_y = d3.select("#chart1")
             .append("svg")
             .attr("class","line-plot")
                 .attr("width", width_l + margin_l.left + margin_l.right)
-                .attr("height", height_l + margin_l.top + margin_l.bottom)
+                .attr("height", height_l + margin_l.top + margin_l.bottom) 
                 .append("g")
                 .attr("transform", "translate(" + margin_s.left + "," + margin_s.top + ")");
 
           var line1 = d3.line()
             .x(function(d, i) { return x_line(parser(d.Date)); }) // set the x values for the line generator
-            .y(function(d) {
+            .y(function(d) { 
             //if(linemaptype == "casecount"){
              //console.log(+d.value)
               //console.log(y_line_scale(+d.value))
               return y_line_scale(+d.value);
            // }
 
-            })
+            })  
             var line2 = d3.line()
             .x(function(d, i) { return x_line(parser(d.Date)); }) // set the x values for the line generator
-            .y(function(d) {
+            .y(function(d) { 
             //if(linemaptype == "casecount"){
               //console.log(+d.value)
               //console.log(y_line_scale(+d.value))
               return y_line_scale(+d.movAvg);
            // }
 
-            })
-
+            }) 
+        
 
             //console.log(movingresult)
-
-            // set the y values for the line generator
+              
+            // set the y values for the line generator 
             // .curve(d3.curveMonotoneX) // apply smoothing to the line
 
 
@@ -2633,16 +3044,16 @@ function ready([us,us_counties,
                     .tickSizeOuter(0);
 
             // gridlines in x axis function
-                function make_x_gridlines() {
+                function make_x_gridlines() {		
                     return d3.axisBottom(x_line)
                         .ticks(5)
                       .tickValues(x_line.domain().filter((d, i) => d % 7 === 0))
                       .tickSizeOuter(0)
                 }
                 // gridlines in y axis function
-                function make_y_gridlines() {
+                function make_y_gridlines() {		
                     return d3.axisLeft(y_line_scale)
-                  // .tickPadding(5)
+                  // .tickPadding(5) 
                     .ticks(5  )
                     //.tickValues(gridlinerange)
                     .tickSizeOuter(0)
@@ -2652,7 +3063,7 @@ function ready([us,us_counties,
             //dailyLineHist = dailyLine.filter((function(t){return t.year <= 2016 }))
             dailyLineHist = dailyLine
             //console.log(dailyLineHist)
-
+      
           if (avg == 'avg')
           {
 
@@ -2661,7 +3072,7 @@ function ready([us,us_counties,
 
             movingAvgValues = movingAverage(dailyLine.map(d => +d.value), 7)
             uniqueday_data = [...new Set(dailyLine.map(item =>item.Date))]
-
+            
             var movingresult = [];
                       uniqueday_data.forEach(function(date, i){
                        // console.log(date,i)
@@ -2686,8 +3097,8 @@ function ready([us,us_counties,
 
 
               svg_y.append("path")
-                  .datum(movingresult) //  Binds data to the line
-                  .attr("class", "line") // Assign a class for styling
+                  .datum(movingresult) //  Binds data to the line 
+                  .attr("class", "line") // Assign a class for styling 
                   .style('stroke','red')
                   .style("stroke-width",2)
                   /*
@@ -2704,8 +3115,8 @@ function ready([us,us_counties,
           else
           {
             svg_y.append("path")
-            .datum(dailyLineHist) //  Binds data to the line
-            .attr("class", "line") // Assign a class for styling
+            .datum(dailyLineHist) //  Binds data to the line 
+            .attr("class", "line") // Assign a class for styling 
             .style('stroke',linecolor)
             .style("stroke-width",2)
             /*
@@ -2783,7 +3194,7 @@ function ready([us,us_counties,
             // .attr("transform", "translate(" + padding + ",0)")
             .call(yAxis);
             // add the X gridlines
-            svg_y.append("g")
+            svg_y.append("g")			
             .attr("class", "grid")
             .attr("transform", "translate(0," + height_l + ")")
             .call(make_x_gridlines()
@@ -2791,7 +3202,7 @@ function ready([us,us_counties,
             .tickFormat("")
             )
             // add the Y gridlines
-            svg_y.append("g")
+            svg_y.append("g")			
             .attr("class", "grid")
             .call(make_y_gridlines()
             .tickSize(-width_l)
@@ -2800,7 +3211,7 @@ function ready([us,us_counties,
 
             // Add the title:
             svg_y.append("text")
-            .attr("x", (width_l / 2))
+            .attr("x", (width_l / 2))             
             .attr("y", -margin_s.top/2)
             .attr("text-anchor", "middle")
             .attr("class", "title")
@@ -2812,7 +3223,7 @@ function ready([us,us_counties,
             // apply the reults of the least squares regression
       /*
             svg_y.append("text")
-            .attr("x", width_l*.05-10)
+            .attr("x", width_l*.05-10)             
             .attr("y", height_l+(50*scale))
             .attr("text-anchor", "start")
             .attr("class", "sttitle")
@@ -2825,7 +3236,7 @@ function ready([us,us_counties,
 
             // Add the State Legend:
             svg_y.append("text")
-            .attr("x", width_l*.05)
+            .attr("x", width_l*.05)             
             .attr("y", height_l+(70*scale))
             .attr("text-anchor", "start")
             .attr("class", "legendst")
@@ -2836,7 +3247,7 @@ function ready([us,us_counties,
             */
           }
 
-
+ 
     }
 
     //---state dropdown change
@@ -2846,15 +3257,15 @@ function ready([us,us_counties,
               console.log("instate drop down")
               newstate = d3.select(this).property('value');
               updateLinechart(newstate)
-
-    }
+ 
+    }  
     // Scatter / heat Map
 
-    function updateScatter(scatterdata, title, title2,  xAxisLabel, yAxisLabel, xscale_type){
+    function updateScatter(scatterdata, title, title2,  xAxisLabel, yAxisLabel, xscale_type,legend){
   //-------------------------------------Scatter Plot
       var  random = d3.randomUniform(-7, 7);
       if (xscale_type == "log"){
-
+        
         minx_scatter= (1.1*d3.min(scatterdata, function(d) { return +d.x ; }));
         maxx_scatter= (1.1*d3.max(scatterdata, function(d) { return +d.x ; }));
         if (minx_scatter>0)
@@ -2872,7 +3283,7 @@ function ready([us,us_counties,
           minx_scatter =0
         }
        }
-
+      
       //console.log(scatterdata)
       miny_scatter= 1.1*d3.min(scatterdata, function(d) { return +d.y ; });
       maxy_scatter= 1.1*d3.max(scatterdata, function(d) { return +d.y ; });
@@ -2887,14 +3298,14 @@ function ready([us,us_counties,
       sc_scale.domain([minx_scatter, maxx_scatter]);
       //console.log(minx_scatter, maxx_scatter)
       y_scatter.domain([miny_scatter, maxy_scatter]);
-
+      
       //sc_legend_x = [x_scatter(0),x_scatter(0),x_scatter(minx_scatter), x_scatter(minx_scatter)]
       //console.log(sc_legend_x)
       //sc_legend_y = [y_scatter(maxy_scatter),y_scatter(0),y_scatter(maxy_scatter),y_scatter(0)]
       //sc_legend_Xend = [x_scatter(maxx_scatter),x_scatter(maxx_scatter), x_scatter(0),x_scatter(0)]
-
+                          
       //sc_legend_yend = [y_scatter(0),y_scatter(miny_scatter),y_scatter(0),y_scatter(miny_scatter)]
-
+      
       scatter_domain = colorScale.domain().slice(0, 4);
 
       minSize = d3.min(scatterdata, function(d) { return +d.avg ; });
@@ -2907,11 +3318,11 @@ function ready([us,us_counties,
     var svg_sc = d3.select("#chart3")
                     .append("svg")
                         .attr("width", width_l + margin_l.left + margin_l.right)
-                        .attr("height", height_l + margin_l.top + margin_l.bottom)
+                        .attr("height", height_l + margin_l.top + margin_l.bottom) 
                         .attr("class","scatter-plot")
                         .append("g")
                         .attr("transform", "translate(" + margin_l.left + "," + margin_l.top + ")");
-
+      
                       svg_sc.selectAll(".dot")
                               .data(scatterdata)
                             .enter().append("circle")
@@ -2934,9 +3345,9 @@ function ready([us,us_counties,
                               })
                               .on('mouseover',function(d){
                                 d.type = 'scatter'
-
+                              
                                 tip.show(d)
-
+                              
                                 d3.select(this).transition().duration(300).style("opacity", 0.8);
                               })
                               .on('mouseout', function(d){
@@ -2965,9 +3376,9 @@ function ready([us,us_counties,
                                 return sc_scale(+d.x) +random()
                               })
                               .attr("y", function(d){
-
+                               
                                 //console.log(random())
-
+                                
                                   return y_scatter(+d.y) +random()
                               })
                               .text(function(d){
@@ -2979,8 +3390,8 @@ function ready([us,us_counties,
                                 }
                               })
                             }
-
-
+                   
+            
          //Define Y axis
             var yAxis_sc = d3.axisLeft()
                     .scale(y_scatter)
@@ -2990,7 +3401,7 @@ function ready([us,us_counties,
                     .scale(y_scatter)
                     .ticks(0)
                     .tickSizeOuter(0);
-
+            
             var xAxis_sc = d3.axisBottom()
                             .scale(sc_scale)
                             .ticks(5)
@@ -3006,53 +3417,53 @@ function ready([us,us_counties,
                            // .ticks(d3.scaleTime.week, 2)
                            // .tickValues(x_line.domain().filter(function(d, i) {return !(i%7);}))
                        // .tickFormat(d3.timeFormat('%m/%d'))
-                            .tickSizeOuter(0);
+                            .tickSizeOuter(0);       
             // gridlines in x axis function
-                      function make_x_gridlines_sc() {
+                      function make_x_gridlines_sc() {		
                             return d3.axisBottom(sc_scale)
                                 .ticks(5)
                              //  .tickValues(x_line.domain().filter((d, i) => d % 7 === 0))
                                .tickSizeOuter(0)
-
+                               
                         }
                         // gridlines in y axis function
-                        function make_y_gridlines_sc() {
+                        function make_y_gridlines_sc() {		
                             return d3.axisLeft(y_scatter)
-                           // .tickPadding(5)
+                           // .tickPadding(5) 
                             .ticks(5 )
                             //.tickValues(gridlinerange)
                             .tickSizeOuter(0)
-
+                            
                         }
              //Create X axis
              svg_sc.append("g")
                     .attr("class", "axis")
                     .attr('transform', 'translate(0,' + (y_scatter(0)) + ')')
-
+                  
                     //.attr("transform", "translate(0," + height_l + ")")
                     //.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
                     .call(xAxis_sc_m);
             svg_sc.append("g")
                     .attr("class", "axis")
                     //.attr('transform', 'translate(0,' + (y_scatter(0)) + ')')
-
+                  
                     .attr("transform", "translate(0," + height_l + ")")
                     //.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
                     .call(xAxis_sc);
         //Create Y axis
             svg_sc.append("g")
                     .attr("class", "axis")
-
+                    
                 .attr("transform", "translate(" + x_scatter(0) + ",0)")
                     .call(yAxis_sc_m);
               svg_sc.append("g")
                     .attr("class", "axis")
-
+                    
                   //.attr("transform", "translate(" + x_scatter(0) + ",0)")
                   //.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
                     .call(yAxis_sc);
           // add the X gridlines
-            svg_sc.append("g")
+            svg_sc.append("g")			
                 .attr("class", "grid")
                 .attr("transform", "translate(0," + height_l + ")")
                 .call(make_x_gridlines_sc()
@@ -3060,16 +3471,16 @@ function ready([us,us_counties,
                     .tickFormat("")
                 )
             // add the Y gridlines
-            svg_sc.append("g")
+            svg_sc.append("g")			
                 .attr("class", "grid")
                 .call(make_y_gridlines_sc()
                     .tickSize(-width_l)
                     .tickFormat("")
                 )
-
+            
             // Add the title:
             svg_sc.append("text")
-                .attr("x", (width_l / 2))
+                .attr("x", (width_l / 2))             
                 .attr("y", -margin_l.top/2)
                 .attr("text-anchor", "middle")
                 .attr("class", "title")
@@ -3080,7 +3491,7 @@ function ready([us,us_counties,
                 .text(title);
                         // Add the title:
               svg_sc.append("text")
-                .attr("x", (width_l / 2))
+                .attr("x", (width_l / 2))             
                 .attr("y", -margin_l.top/4)
                 .attr("text-anchor", "middle")
                 .attr("class", "title")
@@ -3089,10 +3500,10 @@ function ready([us,us_counties,
                 .style("fill", "#696969")
                 .style("font-weight", "bold")
                 .text(title2);
-
+            
           /*
           svg_sc.append("text")
-              .attr("x", width_l*.05-10)
+              .attr("x", width_l*.05-10)             
                 .attr("y", height_l+(50*scale))
                 .attr("text-anchor", "start")
                 .attr("class", "sttitle")
@@ -3100,12 +3511,12 @@ function ready([us,us_counties,
                 .style("font-family", "Avenir")
                 .style("fill", "black")
                 .style("text-decoration", "underline")
-                .text(linelegendtext);
+                .text(linelegendtext);              
             */
             /*
               // Add the State Legend:
               svg_sc.append("text")
-                .attr("x", width_l*.05)
+                .attr("x", width_l*.05)             
                 .attr("y", height_l+(70*scale))
                 .attr("text-anchor", "start")
                 .attr("class", "legendst")
@@ -3115,11 +3526,11 @@ function ready([us,us_counties,
                 .text(st);
               */
       // Add y-axis label
-
+      
       svg_sc.append("text")
-       .attr("transform", "rotate(-90)")
-       .attr("x", 0 - height_l/2 )
-        .attr("y", 0-margin_l.left/2 )
+       .attr("transform", "rotate(-90)") 
+       .attr("x", 0 - height_l/2 ) 
+        .attr("y", 0-margin_l.left/1.3 )
        //.attr("dy", "1em")
         .style("fill", 'black')
         .text(xAxisLabel)
@@ -3127,10 +3538,10 @@ function ready([us,us_counties,
         .style("alignment-baseline", "central")
 
             // Add x-axis label
-
+      
       svg_sc.append("text")
-      // .attr("transform", "rotate(-90)")
-       .attr("x", width_l/2)
+      // .attr("transform", "rotate(-90)") 
+       .attr("x", width_l/2) 
         .attr("y", height_l + margin_l.top/2)
        //.attr("dy", "1em")
         .style("fill", 'black')
@@ -3138,10 +3549,10 @@ function ready([us,us_counties,
         .attr("text-anchor", "middle")
         .style("alignment-baseline", "central")
     // Legend
-
-    updateLegendScatter (svg_sc, width_l*1.01,height_l/1.3)
-
-
+    if (legend == "yes"){
+        updateLegendScatter (svg_sc, width_l*1.01,height_l/1.3)
+      }
+    
   }
     function updateHeatmap(){
       var tilepadding = .5;
@@ -3149,7 +3560,7 @@ function ready([us,us_counties,
                         .append("svg")
                         .attr("id","seasonal")
                         .attr("width", width_s + margin_s.left + margin_s.right)
-                        .attr("height", height_s + margin_s.top + margin_s.bottom)
+                        .attr("height", height_s + margin_s.top + margin_s.bottom) 
                         .append("g")
                     .attr("transform", "translate(" + margin_s.left + "," + margin_s.top + ")")
                         ;
@@ -3167,22 +3578,22 @@ function ready([us,us_counties,
                     //.ticks(2)
                     .tickValues(x_heat.domain().filter(function(d, i) {return !(i%7);}))
                         .tickFormat(d3.timeFormat('%m/%d'))
-                            .tickSizeOuter(0);
+                            .tickSizeOuter(0);                  
                     //var xAxisHandleForUpdate = svg_s.append("g")
-                    svg_s.append("g")
+                    svg_s.append("g")      
                             .attr("class", "x axis")
                             .attr("transform", "translate(0," + height_s + ")")
                             .call(xAxis);
                     //var xAxisHandleForUpdate = svg_s.append("g")
-                    svg_s.append("g")
+                    svg_s.append("g")      
                             .attr("class", "x axis top")
                             //.attr("transform", "translate(0," + height_s + ")")
                             .call(xAxis_t);
                     var yAxis = d3.axisLeft().scale(y_heat).tickSizeOuter(0);
-
+                        
                     //console.log (xt.domain())
                     // Render the data in an svg:
-
+                    
                     svg_s.selectAll("svg")
                         //.data(us_daily_case_data)
                         .data(heatmapdata)
@@ -3193,10 +3604,10 @@ function ready([us,us_counties,
                         .attr("width", x_heat.bandwidth()-tilepadding)
                         .attr("height", y_heat.bandwidth()-tilepadding)
                         .attr("transform", "translate(0, 0)")
-                        .style("fill",function(d)
-                        {
+                        .style("fill",function(d) 
+                        { 
                           //console.log(heatmaptype)
-
+                                         
                           if  (heatmaptype == "trend") {
                            // console.log(d.Date, d.Province_State, d.value, heatmapScale(+d.value))
                            // return d3.interpolateOranges(heatmapScale(Math.log10(+d.value)));
@@ -3227,9 +3638,9 @@ function ready([us,us_counties,
                                if(heatmaptype == "dailycase"){
                                     return  d.value; //d.Date + " " + d.Province_State +" : " +
                                 }
-
+                                  
                             })
-
+                                
                            // console.log("***")
 
                         })*/
@@ -3237,7 +3648,7 @@ function ready([us,us_counties,
                                 d.type = 'heatmap'
                                 d.fact = d.value
                                 tip.show(d)
-
+                              
                                 d3.select(this).transition().duration(300).style("opacity", 0.8);
                               })
                             .on('mouseout', function(d){
@@ -3251,8 +3662,8 @@ function ready([us,us_counties,
                         .transition()
                         .duration(250)
                         .style("stroke","none")
-                        .style("fill", function(d) {
-
+                        .style("fill", function(d) { 
+                          
                             if(heatmaptype == "trend"){
                               //return d3.interpolateOranges(heatmapScale(Math.log10(+d.value)));
                               //return d3.interpolateOranges(heatmapScale((+d.value)));
@@ -3260,14 +3671,14 @@ function ready([us,us_counties,
                             }
                             else if (heatmaptype == 'dailycase'){
                             return d3.interpolateOranges(heatmapScale(Math.log10(+d.value)));
-                            }
-
+                            } 
+                      
                         })
                         d3.select("#tooltip").remove();
                     });*/
                 // Add the title:
                 svg_s.append("text")
-                        .attr("x", (width_s / 2))
+                        .attr("x", (width_s / 2))             
                         .attr("y", -margin_s.top/1.5)
                         .attr("text-anchor", "middle")
                         .attr("class", "title")
@@ -3289,7 +3700,7 @@ function ready([us,us_counties,
                         .attr("text-anchor", "end")
                         .attr("transform", "rotate(-90)")
                         .text("Value");
-
+                    
             //Legend
             var legendX_s = scale*margin_s.left/10,
                     legendY_s = height_s+(margin_s.bottom)/3;
@@ -3307,14 +3718,14 @@ function ready([us,us_counties,
                     .attr("class", "legend")
                     .attr("id",function(d){ return d})
                     .attr("transform", function(d, i) { return "translate(" + (legendX_s + i*50*scale) + "," + (legendY_s ) + ")"; });
-
+                
                 var legendExit = legendUpdate.exit();
                 legendExit.remove()
                 legendUpdate.merge(legendEnter)
                     .append("rect")
                     .attr("width", 50*scale)
-                    .attr("height", 20*scale)
-                    .style("fill", function(d){
+                    .attr("height", 20*scale) 
+                    .style("fill", function(d){ 
                         if(heatmaptype == "trend"){
                         //console.log( d,heatmapScale(d),(1-heatmapScale(d)),d3.interpolateRdYlGn(1-heatmapScale(d)))
                            // return (d3.interpolateOranges(heatmapScale(d)))
@@ -3324,7 +3735,7 @@ function ready([us,us_counties,
                         else if (heatmaptype == 'dailycase'){
                          // console.log(heatmapScale(d))
                             return d3.interpolateOranges(heatmapScale((d)));
-                            }
+                            } 
                         });
                 legendUpdate.merge(legendEnter)
                     .append("text")
@@ -3335,7 +3746,7 @@ function ready([us,us_counties,
                     .attr("text-anchor", "start")
                     //.text(String);
                     //.text(function(d){ return Math.pow(10,d)});
-                    .text(function(d){
+                    .text(function(d){ 
                         if (heatmaptype=='trend'){
                           return d
                         }
@@ -3346,10 +3757,8 @@ function ready([us,us_counties,
 
     }
 
-
+    
     //<<<<<<<<<<<<End of Ready functions
 }
 </script>
-
-
 </body>
