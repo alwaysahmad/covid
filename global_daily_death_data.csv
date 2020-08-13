@@ -37998,7 +37998,7 @@
 37996,Bolivia,8/11/20,49
 37997,Bosnia and Herzegovina,8/11/20,22
 37998,Botswana,8/11/20,0
-37999,Brazil,8/11/20,0
+37999,Brazil,8/11/20,1274
 38000,Brunei,8/11/20,0
 38001,Bulgaria,8/11/20,12
 38002,Burkina Faso,8/11/20,0
@@ -38011,7 +38011,7 @@
 38009,Central African Republic,8/11/20,1
 38010,Chad,8/11/20,0
 38011,Chile,8/11/20,39
-38012,China,8/11/20,2
+38012,China,8/11/20,4
 38013,Colombia,8/11/20,321
 38014,Comoros,8/11/20,0
 38015,Congo (Brazzaville),8/11/20,2
@@ -38109,7 +38109,7 @@
 38107,Panama,8/11/20,16
 38108,Papua New Guinea,8/11/20,0
 38109,Paraguay,8/11/20,4
-38110,Peru,8/11/20,0
+38110,Peru,8/11/20,225
 38111,Philippines,8/11/20,18
 38112,Poland,8/11/20,12
 38113,Portugal,8/11/20,2
@@ -38149,11 +38149,11 @@
 38147,Trinidad and Tobago,8/11/20,0
 38148,Tunisia,8/11/20,1
 38149,Turkey,8/11/20,15
-38150,US,8/11/20,1074
+38150,US,8/11/20,1064
 38151,Uganda,8/11/20,0
 38152,Ukraine,8/11/20,29
 38153,United Arab Emirates,8/11/20,1
-38154,United Kingdom,8/11/20,0
+38154,United Kingdom,8/11/20,103
 38155,Uruguay,8/11/20,0
 38156,Uzbekistan,8/11/20,4
 38157,Venezuela,8/11/20,9
@@ -38163,3 +38163,191 @@
 38161,Yemen,8/11/20,5
 38162,Zambia,8/11/20,0
 38163,Zimbabwe,8/11/20,0
+38164,Afghanistan,8/12/20,10
+38165,Albania,8/12/20,3
+38166,Algeria,8/12/20,11
+38167,Andorra,8/12/20,1
+38168,Angola,8/12/20,0
+38169,Antigua and Barbuda,8/12/20,0
+38170,Argentina,8/12/20,209
+38171,Armenia,8/12/20,3
+38172,Australia,8/12/20,9
+38173,Austria,8/12/20,1
+38174,Azerbaijan,8/12/20,2
+38175,Bahamas,8/12/20,0
+38176,Bahrain,8/12/20,1
+38177,Bangladesh,8/12/20,42
+38178,Barbados,8/12/20,0
+38179,Belarus,8/12/20,3
+38180,Belgium,8/12/20,15
+38181,Belize,8/12/20,0
+38182,Benin,8/12/20,0
+38183,Bhutan,8/12/20,0
+38184,Bolivia,8/12/20,66
+38185,Bosnia and Herzegovina,8/12/20,6
+38186,Botswana,8/12/20,0
+38187,Brazil,8/12/20,1175
+38188,Brunei,8/12/20,0
+38189,Bulgaria,8/12/20,11
+38190,Burkina Faso,8/12/20,0
+38191,Burma,8/12/20,0
+38192,Burundi,8/12/20,0
+38193,Cabo Verde,8/12/20,0
+38194,Cambodia,8/12/20,0
+38195,Cameroon,8/12/20,3
+38196,Canada,8/12/20,14
+38197,Central African Republic,8/12/20,0
+38198,Chad,8/12/20,0
+38199,Chile,8/12/20,27
+38200,China,8/12/20,4
+38201,Colombia,8/12/20,362
+38202,Comoros,8/12/20,0
+38203,Congo (Brazzaville),8/12/20,0
+38204,Congo (Kinshasa),8/12/20,0
+38205,Costa Rica,8/12/20,8
+38206,Cote d'Ivoire,8/12/20,0
+38207,Croatia,8/12/20,0
+38208,Cuba,8/12/20,0
+38209,Cyprus,8/12/20,0
+38210,Czechia,8/12/20,0
+38211,Denmark,8/12/20,0
+38212,Diamond Princess,8/12/20,0
+38213,Djibouti,8/12/20,0
+38214,Dominica,8/12/20,0
+38215,Dominican Republic,8/12/20,25
+38216,Ecuador,8/12/20,33
+38217,Egypt,8/12/20,26
+38218,El Salvador,8/12/20,7
+38219,Equatorial Guinea,8/12/20,0
+38220,Eritrea,8/12/20,0
+38221,Estonia,8/12/20,0
+38222,Eswatini,8/12/20,0
+38223,Ethiopia,8/12/20,23
+38224,Fiji,8/12/20,0
+38225,Finland,8/12/20,0
+38226,France,8/12/20,47
+38227,Gabon,8/12/20,0
+38228,Gambia,8/12/20,1
+38229,Georgia,8/12/20,0
+38230,Germany,8/12/20,5
+38231,Ghana,8/12/20,8
+38232,Greece,8/12/20,2
+38233,Grenada,8/12/20,0
+38234,Guatemala,8/12/20,34
+38235,Guinea,8/12/20,0
+38236,Guinea-Bissau,8/12/20,0
+38237,Guyana,8/12/20,0
+38238,Haiti,8/12/20,4
+38239,Holy See,8/12/20,0
+38240,Honduras,8/12/20,18
+38241,Hungary,8/12/20,0
+38242,Iceland,8/12/20,0
+38243,India,8/12/20,942
+38244,Indonesia,8/12/20,79
+38245,Iran,8/12/20,188
+38246,Iraq,8/12/20,57
+38247,Ireland,8/12/20,1
+38248,Israel,8/12/20,17
+38249,Italy,8/12/20,10
+38250,Jamaica,8/12/20,0
+38251,Japan,8/12/20,8
+38252,Jordan,8/12/20,0
+38253,Kazakhstan,8/12/20,0
+38254,Kenya,8/12/20,18
+38255,"Korea, South",8/12/20,0
+38256,Kosovo,8/12/20,0
+38257,Kuwait,8/12/20,3
+38258,Kyrgyzstan,8/12/20,6
+38259,Laos,8/12/20,0
+38260,Latvia,8/12/20,0
+38261,Lebanon,8/12/20,2
+38262,Lesotho,8/12/20,0
+38263,Liberia,8/12/20,1
+38264,Libya,8/12/20,0
+38265,Liechtenstein,8/12/20,0
+38266,Lithuania,8/12/20,0
+38267,Luxembourg,8/12/20,0
+38268,MS Zaandam,8/12/20,0
+38269,Madagascar,8/12/20,4
+38270,Malawi,8/12/20,0
+38271,Malaysia,8/12/20,0
+38272,Maldives,8/12/20,1
+38273,Mali,8/12/20,0
+38274,Malta,8/12/20,0
+38275,Mauritania,8/12/20,0
+38276,Mauritius,8/12/20,0
+38277,Mexico,8/12/20,737
+38278,Moldova,8/12/20,6
+38279,Monaco,8/12/20,0
+38280,Mongolia,8/12/20,0
+38281,Montenegro,8/12/20,2
+38282,Morocco,8/12/20,23
+38283,Mozambique,8/12/20,2
+38284,Namibia,8/12/20,3
+38285,Nepal,8/12/20,8
+38286,Netherlands,8/12/20,20
+38287,New Zealand,8/12/20,0
+38288,Nicaragua,8/12/20,0
+38289,Niger,8/12/20,0
+38290,Nigeria,8/12/20,0
+38291,North Macedonia,8/12/20,1
+38292,Norway,8/12/20,0
+38293,Oman,8/12/20,6
+38294,Pakistan,8/12/20,17
+38295,Panama,8/12/20,23
+38296,Papua New Guinea,8/12/20,0
+38297,Paraguay,8/12/20,7
+38298,Peru,8/12/20,0
+38299,Philippines,8/12/20,92
+38300,Poland,8/12/20,9
+38301,Portugal,8/12/20,3
+38302,Qatar,8/12/20,2
+38303,Romania,8/12/20,43
+38304,Russia,8/12/20,128
+38305,Rwanda,8/12/20,1
+38306,Saint Kitts and Nevis,8/12/20,0
+38307,Saint Lucia,8/12/20,0
+38308,Saint Vincent and the Grenadines,8/12/20,0
+38309,San Marino,8/12/20,0
+38310,Sao Tome and Principe,8/12/20,0
+38311,Saudi Arabia,8/12/20,36
+38312,Senegal,8/12/20,4
+38313,Serbia,8/12/20,6
+38314,Seychelles,8/12/20,0
+38315,Sierra Leone,8/12/20,0
+38316,Singapore,8/12/20,0
+38317,Slovakia,8/12/20,0
+38318,Slovenia,8/12/20,0
+38319,Somalia,8/12/20,0
+38320,South Africa,8/12/20,259
+38321,South Sudan,8/12/20,0
+38322,Spain,8/12/20,0
+38323,Sri Lanka,8/12/20,0
+38324,Sudan,8/12/20,0
+38325,Suriname,8/12/20,0
+38326,Sweden,8/12/20,4
+38327,Switzerland,8/12/20,1
+38328,Syria,8/12/20,0
+38329,Taiwan*,8/12/20,0
+38330,Tajikistan,8/12/20,0
+38331,Tanzania,8/12/20,0
+38332,Thailand,8/12/20,0
+38333,Timor-Leste,8/12/20,0
+38334,Togo,8/12/20,0
+38335,Trinidad and Tobago,8/12/20,0
+38336,Tunisia,8/12/20,0
+38337,Turkey,8/12/20,18
+38338,US,8/12/20,1499
+38339,Uganda,8/12/20,0
+38340,Ukraine,8/12/20,20
+38341,United Arab Emirates,8/12/20,0
+38342,United Kingdom,8/12/20,77
+38343,Uruguay,8/12/20,0
+38344,Uzbekistan,8/12/20,7
+38345,Venezuela,8/12/20,9
+38346,Vietnam,8/12/20,2
+38347,West Bank and Gaza,8/12/20,1
+38348,Western Sahara,8/12/20,0
+38349,Yemen,8/12/20,5
+38350,Zambia,8/12/20,5
+38351,Zimbabwe,8/12/20,18
