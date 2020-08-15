@@ -35517,7 +35517,7 @@
 35515,Trinidad and Tobago,8/12/20,
 35516,Tunisia,8/12/20,50.0
 35517,Turkey,8/12/20,2.0
-35518,US,8/12/20,-1.0
+35518,US,8/12/20,-0.0
 35519,Uganda,8/12/20,0.0
 35520,Ukraine,8/12/20,-7.0
 35521,United Arab Emirates,8/12/20,-25.0
@@ -35531,3 +35531,379 @@
 35529,Yemen,8/12/20,25.0
 35530,Zambia,8/12/20,-19.0
 35531,Zimbabwe,8/12/20,5.0
+35532,Afghanistan,8/13/20,10.0
+35533,Albania,8/13/20,9.0
+35534,Algeria,8/13/20,-1.0
+35535,Andorra,8/13/20,50.0
+35536,Angola,8/13/20,-28.0
+35537,Antigua and Barbuda,8/13/20,
+35538,Argentina,8/13/20,7.0
+35539,Armenia,8/13/20,-10.0
+35540,Australia,8/13/20,-2.0
+35541,Austria,8/13/20,0.0
+35542,Azerbaijan,8/13/20,-10.0
+35543,Bahamas,8/13/20,-25.0
+35544,Bahrain,8/13/20,-16.0
+35545,Bangladesh,8/13/20,7.0
+35546,Barbados,8/13/20,
+35547,Belarus,8/13/20,8.0
+35548,Belgium,8/13/20,27.0
+35549,Belize,8/13/20,
+35550,Benin,8/13/20,
+35551,Bhutan,8/13/20,
+35552,Bolivia,8/13/20,-0.0
+35553,Bosnia and Herzegovina,8/13/20,6.0
+35554,Botswana,8/13/20,75.0
+35555,Brazil,8/13/20,6.0
+35556,Brunei,8/13/20,
+35557,Bulgaria,8/13/20,3.0
+35558,Burkina Faso,8/13/20,
+35559,Burma,8/13/20,
+35560,Burundi,8/13/20,
+35561,Cabo Verde,8/13/20,-46.0
+35562,Cambodia,8/13/20,
+35563,Cameroon,8/13/20,2.0
+35564,Canada,8/13/20,17.0
+35565,Central African Republic,8/13/20,-0.0
+35566,Chad,8/13/20,
+35567,Chile,8/13/20,-0.0
+35568,China,8/13/20,16.0
+35569,Colombia,8/13/20,2.0
+35570,Comoros,8/13/20,
+35571,Congo (Brazzaville),8/13/20,25.0
+35572,Congo (Kinshasa),8/13/20,17.0
+35573,Costa Rica,8/13/20,-9.0
+35574,Cote d'Ivoire,8/13/20,12.0
+35575,Croatia,8/13/20,4.0
+35576,Cuba,8/13/20,75.0
+35577,Cyprus,8/13/20,25.0
+35578,Czechia,8/13/20,-0.0
+35579,Denmark,8/13/20,6.0
+35580,Diamond Princess,8/13/20,
+35581,Djibouti,8/13/20,
+35582,Dominica,8/13/20,
+35583,Dominican Republic,8/13/20,3.0
+35584,Ecuador,8/13/20,11.0
+35585,Egypt,8/13/20,4.0
+35586,El Salvador,8/13/20,-8.0
+35587,Equatorial Guinea,8/13/20,
+35588,Eritrea,8/13/20,
+35589,Estonia,8/13/20,
+35590,Eswatini,8/13/20,8.0
+35591,Ethiopia,8/13/20,7.0
+35592,Fiji,8/13/20,
+35593,Finland,8/13/20,-0.0
+35594,France,8/13/20,26.0
+35595,Gabon,8/13/20,
+35596,Gambia,8/13/20,26.0
+35597,Georgia,8/13/20,
+35598,Germany,8/13/20,-19.0
+35599,Ghana,8/13/20,-15.0
+35600,Greece,8/13/20,39.0
+35601,Grenada,8/13/20,
+35602,Guatemala,8/13/20,-7.0
+35603,Guinea,8/13/20,-75.0
+35604,Guinea-Bissau,8/13/20,-50.0
+35605,Guyana,8/13/20,
+35606,Haiti,8/13/20,-7.0
+35607,Holy See,8/13/20,
+35608,Honduras,8/13/20,-7.0
+35609,Hungary,8/13/20,0.0
+35610,Iceland,8/13/20,
+35611,India,8/13/20,1.0
+35612,Indonesia,8/13/20,0.0
+35613,Iran,8/13/20,4.0
+35614,Iraq,8/13/20,-6.0
+35615,Ireland,8/13/20,-37.0
+35616,Israel,8/13/20,11.0
+35617,Italy,8/13/20,4.0
+35618,Jamaica,8/13/20,-50.0
+35619,Japan,8/13/20,9.0
+35620,Jordan,8/13/20,
+35621,Kazakhstan,8/13/20,25.0
+35622,Kenya,8/13/20,4.0
+35623,"Korea, South",8/13/20,-62.0
+35624,Kosovo,8/13/20,24.0
+35625,Kuwait,8/13/20,-7.0
+35626,Kyrgyzstan,8/13/20,-7.0
+35627,Laos,8/13/20,
+35628,Latvia,8/13/20,
+35629,Lebanon,8/13/20,5.0
+35630,Lesotho,8/13/20,37.0
+35631,Liberia,8/13/20,13.0
+35632,Libya,8/13/20,-3.0
+35633,Liechtenstein,8/13/20,
+35634,Lithuania,8/13/20,
+35635,Luxembourg,8/13/20,-8.0
+35636,MS Zaandam,8/13/20,
+35637,Madagascar,8/13/20,4.0
+35638,Malawi,8/13/20,-9.0
+35639,Malaysia,8/13/20,
+35640,Maldives,8/13/20,37.0
+35641,Mali,8/13/20,-75.0
+35642,Malta,8/13/20,
+35643,Mauritania,8/13/20,
+35644,Mauritius,8/13/20,
+35645,Mexico,8/13/20,1.0
+35646,Moldova,8/13/20,13.0
+35647,Monaco,8/13/20,
+35648,Mongolia,8/13/20,
+35649,Montenegro,8/13/20,0.0
+35650,Morocco,8/13/20,10.0
+35651,Mozambique,8/13/20,19.0
+35652,Namibia,8/13/20,31.0
+35653,Nepal,8/13/20,7.0
+35654,Netherlands,8/13/20,37.0
+35655,New Zealand,8/13/20,
+35656,Nicaragua,8/13/20,25.0
+35657,Niger,8/13/20,
+35658,Nigeria,8/13/20,2.0
+35659,North Macedonia,8/13/20,-15.0
+35660,Norway,8/13/20,75.0
+35661,Oman,8/13/20,5.0
+35662,Pakistan,8/13/20,-4.0
+35663,Panama,8/13/20,0.0
+35664,Papua New Guinea,8/13/20,
+35665,Paraguay,8/13/20,10.0
+35666,Peru,8/13/20,-5.0
+35667,Philippines,8/13/20,6.0
+35668,Poland,8/13/20,0.0
+35669,Portugal,8/13/20,3.0
+35670,Qatar,8/13/20,-17.0
+35671,Romania,8/13/20,0.0
+35672,Russia,8/13/20,2.0
+35673,Rwanda,8/13/20,-8.0
+35674,Saint Kitts and Nevis,8/13/20,
+35675,Saint Lucia,8/13/20,
+35676,Saint Vincent and the Grenadines,8/13/20,
+35677,San Marino,8/13/20,
+35678,Sao Tome and Principe,8/13/20,
+35679,Saudi Arabia,8/13/20,-2.0
+35680,Senegal,8/13/20,-1.0
+35681,Serbia,8/13/20,-6.0
+35682,Seychelles,8/13/20,
+35683,Sierra Leone,8/13/20,-37.0
+35684,Singapore,8/13/20,
+35685,Slovakia,8/13/20,-75.0
+35686,Slovenia,8/13/20,-12.0
+35687,Somalia,8/13/20,
+35688,South Africa,8/13/20,-4.0
+35689,South Sudan,8/13/20,
+35690,Spain,8/13/20,17.0
+35691,Sri Lanka,8/13/20,
+35692,Sudan,8/13/20,-13.0
+35693,Suriname,8/13/20,27.0
+35694,Sweden,8/13/20,35.0
+35695,Switzerland,8/13/20,8.0
+35696,Syria,8/13/20,4.0
+35697,Taiwan*,8/13/20,
+35698,Tajikistan,8/13/20,25.0
+35699,Tanzania,8/13/20,
+35700,Thailand,8/13/20,
+35701,Timor-Leste,8/13/20,
+35702,Togo,8/13/20,-6.0
+35703,Trinidad and Tobago,8/13/20,
+35704,Tunisia,8/13/20,50.0
+35705,Turkey,8/13/20,5.0
+35706,US,8/13/20,3.0
+35707,Uganda,8/13/20,8.0
+35708,Ukraine,8/13/20,-4.0
+35709,United Arab Emirates,8/13/20,-37.0
+35710,United Kingdom,8/13/20,-11.0
+35711,Uruguay,8/13/20,
+35712,Uzbekistan,8/13/20,-2.0
+35713,Venezuela,8/13/20,10.0
+35714,Vietnam,8/13/20,25.0
+35715,West Bank and Gaza,8/13/20,-4.0
+35716,Western Sahara,8/13/20,
+35717,Yemen,8/13/20,0.0
+35718,Zambia,8/13/20,-16.0
+35719,Zimbabwe,8/13/20,-1.0
+35720,Afghanistan,8/14/20,-1.0
+35721,Albania,8/14/20,5.0
+35722,Algeria,8/14/20,-1.0
+35723,Andorra,8/14/20,25.0
+35724,Angola,8/14/20,-5.0
+35725,Antigua and Barbuda,8/14/20,
+35726,Argentina,8/14/20,8.0
+35727,Armenia,8/14/20,-11.0
+35728,Australia,8/14/20,-14.0
+35729,Austria,8/14/20,-10.0
+35730,Azerbaijan,8/14/20,-1.0
+35731,Bahamas,8/14/20,33.0
+35732,Bahrain,8/14/20,-8.0
+35733,Bangladesh,8/14/20,3.0
+35734,Barbados,8/14/20,
+35735,Belarus,8/14/20,14.0
+35736,Belgium,8/14/20,21.0
+35737,Belize,8/14/20,75.0
+35738,Benin,8/14/20,
+35739,Bhutan,8/14/20,
+35740,Bolivia,8/14/20,-1.0
+35741,Bosnia and Herzegovina,8/14/20,6.0
+35742,Botswana,8/14/20,50.0
+35743,Brazil,8/14/20,-3.0
+35744,Brunei,8/14/20,
+35745,Bulgaria,8/14/20,8.0
+35746,Burkina Faso,8/14/20,
+35747,Burma,8/14/20,
+35748,Burundi,8/14/20,
+35749,Cabo Verde,8/14/20,-56.0
+35750,Cambodia,8/14/20,
+35751,Cameroon,8/14/20,-22.0
+35752,Canada,8/14/20,8.0
+35753,Central African Republic,8/14/20,-25.0
+35754,Chad,8/14/20,
+35755,Chile,8/14/20,-1.0
+35756,China,8/14/20,-0.0
+35757,Colombia,8/14/20,3.0
+35758,Comoros,8/14/20,
+35759,Congo (Brazzaville),8/14/20,-0.0
+35760,Congo (Kinshasa),8/14/20,22.0
+35761,Costa Rica,8/14/20,0.0
+35762,Cote d'Ivoire,8/14/20,31.0
+35763,Croatia,8/14/20,3.0
+35764,Cuba,8/14/20,50.0
+35765,Cyprus,8/14/20,-0.0
+35766,Czechia,8/14/20,35.0
+35767,Denmark,8/14/20,-19.0
+35768,Diamond Princess,8/14/20,
+35769,Djibouti,8/14/20,
+35770,Dominica,8/14/20,
+35771,Dominican Republic,8/14/20,-5.0
+35772,Ecuador,8/14/20,12.0
+35773,Egypt,8/14/20,-0.0
+35774,El Salvador,8/14/20,-11.0
+35775,Equatorial Guinea,8/14/20,
+35776,Eritrea,8/14/20,
+35777,Estonia,8/14/20,
+35778,Eswatini,8/14/20,12.0
+35779,Ethiopia,8/14/20,4.0
+35780,Fiji,8/14/20,
+35781,Finland,8/14/20,-25.0
+35782,France,8/14/20,41.0
+35783,Gabon,8/14/20,
+35784,Gambia,8/14/20,27.0
+35785,Georgia,8/14/20,
+35786,Germany,8/14/20,22.0
+35787,Ghana,8/14/20,-15.0
+35788,Greece,8/14/20,23.0
+35789,Grenada,8/14/20,
+35790,Guatemala,8/14/20,15.0
+35791,Guinea,8/14/20,
+35792,Guinea-Bissau,8/14/20,-75.0
+35793,Guyana,8/14/20,
+35794,Haiti,8/14/20,-5.0
+35795,Holy See,8/14/20,
+35796,Honduras,8/14/20,-8.0
+35797,Hungary,8/14/20,5.0
+35798,Iceland,8/14/20,
+35799,India,8/14/20,2.0
+35800,Indonesia,8/14/20,0.0
+35801,Iran,8/14/20,3.0
+35802,Iraq,8/14/20,-5.0
+35803,Ireland,8/14/20,12.0
+35804,Israel,8/14/20,6.0
+35805,Italy,8/14/20,-9.0
+35806,Jamaica,8/14/20,-50.0
+35807,Japan,8/14/20,18.0
+35808,Jordan,8/14/20,
+35809,Kazakhstan,8/14/20,-0.0
+35810,Kenya,8/14/20,9.0
+35811,"Korea, South",8/14/20,-75.0
+35812,Kosovo,8/14/20,19.0
+35813,Kuwait,8/14/20,-3.0
+35814,Kyrgyzstan,8/14/20,-15.0
+35815,Laos,8/14/20,
+35816,Latvia,8/14/20,
+35817,Lebanon,8/14/20,-12.0
+35818,Lesotho,8/14/20,12.0
+35819,Liberia,8/14/20,-12.0
+35820,Libya,8/14/20,-12.0
+35821,Liechtenstein,8/14/20,
+35822,Lithuania,8/14/20,
+35823,Luxembourg,8/14/20,-33.0
+35824,MS Zaandam,8/14/20,
+35825,Madagascar,8/14/20,-11.0
+35826,Malawi,8/14/20,-17.0
+35827,Malaysia,8/14/20,
+35828,Maldives,8/14/20,33.0
+35829,Mali,8/14/20,
+35830,Malta,8/14/20,
+35831,Mauritania,8/14/20,
+35832,Mauritius,8/14/20,
+35833,Mexico,8/14/20,3.0
+35834,Moldova,8/14/20,12.0
+35835,Monaco,8/14/20,
+35836,Mongolia,8/14/20,
+35837,Montenegro,8/14/20,-19.0
+35838,Morocco,8/14/20,8.0
+35839,Mozambique,8/14/20,-6.0
+35840,Namibia,8/14/20,32.0
+35841,Nepal,8/14/20,9.0
+35842,Netherlands,8/14/20,19.0
+35843,New Zealand,8/14/20,
+35844,Nicaragua,8/14/20,0.0
+35845,Niger,8/14/20,
+35846,Nigeria,8/14/20,8.0
+35847,North Macedonia,8/14/20,-11.0
+35848,Norway,8/14/20,70.0
+35849,Oman,8/14/20,5.0
+35850,Pakistan,8/14/20,-3.0
+35851,Panama,8/14/20,-7.0
+35852,Papua New Guinea,8/14/20,
+35853,Paraguay,8/14/20,17.0
+35854,Peru,8/14/20,57.0
+35855,Philippines,8/14/20,-8.0
+35856,Poland,8/14/20,8.0
+35857,Portugal,8/14/20,-6.0
+35858,Qatar,8/14/20,-30.0
+35859,Romania,8/14/20,4.0
+35860,Russia,8/14/20,3.0
+35861,Rwanda,8/14/20,-33.0
+35862,Saint Kitts and Nevis,8/14/20,
+35863,Saint Lucia,8/14/20,
+35864,Saint Vincent and the Grenadines,8/14/20,
+35865,San Marino,8/14/20,
+35866,Sao Tome and Principe,8/14/20,
+35867,Saudi Arabia,8/14/20,-1.0
+35868,Senegal,8/14/20,1.0
+35869,Serbia,8/14/20,-11.0
+35870,Seychelles,8/14/20,
+35871,Sierra Leone,8/14/20,-25.0
+35872,Singapore,8/14/20,
+35873,Slovakia,8/14/20,
+35874,Slovenia,8/14/20,-37.0
+35875,Somalia,8/14/20,
+35876,South Africa,8/14/20,2.0
+35877,South Sudan,8/14/20,
+35878,Spain,8/14/20,3.0
+35879,Sri Lanka,8/14/20,
+35880,Sudan,8/14/20,-1.0
+35881,Suriname,8/14/20,8.0
+35882,Sweden,8/14/20,32.0
+35883,Switzerland,8/14/20,-0.0
+35884,Syria,8/14/20,7.0
+35885,Taiwan*,8/14/20,
+35886,Tajikistan,8/14/20,-0.0
+35887,Tanzania,8/14/20,
+35888,Thailand,8/14/20,
+35889,Timor-Leste,8/14/20,
+35890,Togo,8/14/20,-31.0
+35891,Trinidad and Tobago,8/14/20,75.0
+35892,Tunisia,8/14/20,25.0
+35893,Turkey,8/14/20,7.0
+35894,US,8/14/20,10.0
+35895,Uganda,8/14/20,12.0
+35896,Ukraine,8/14/20,-3.0
+35897,United Arab Emirates,8/14/20,8.0
+35898,United Kingdom,8/14/20,-11.0
+35899,Uruguay,8/14/20,75.0
+35900,Uzbekistan,8/14/20,-6.0
+35901,Venezuela,8/14/20,5.0
+35902,Vietnam,8/14/20,6.0
+35903,West Bank and Gaza,8/14/20,-17.0
+35904,Western Sahara,8/14/20,
+35905,Yemen,8/14/20,-6.0
+35906,Zambia,8/14/20,-20.0
+35907,Zimbabwe,8/14/20,25.0
