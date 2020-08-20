@@ -38562,7 +38562,7 @@
 38560,Bolivia,8/14/20,1491
 38561,Bosnia and Herzegovina,8/14/20,351
 38562,Botswana,8/14/20,0
-38563,Brazil,8/14/20,1567
+38563,Brazil,8/14/20,50644
 38564,Brunei,8/14/20,0
 38565,Bulgaria,8/14/20,350
 38566,Burkina Faso,8/14/20,10
@@ -38750,7 +38750,7 @@
 38748,Bolivia,8/15/20,1196
 38749,Bosnia and Herzegovina,8/15/20,266
 38750,Botswana,8/15/20,0
-38751,Brazil,8/15/20,90653
+38751,Brazil,8/15/20,41576
 38752,Brunei,8/15/20,0
 38753,Bulgaria,8/15/20,90
 38754,Burkina Faso,8/15/20,2
@@ -39103,3 +39103,379 @@
 39101,Yemen,8/16/20,11
 39102,Zambia,8/16/20,157
 39103,Zimbabwe,8/16/20,85
+39104,Afghanistan,8/17/20,3
+39105,Albania,8/17/20,119
+39106,Algeria,8/17/20,442
+39107,Andorra,8/17/20,16
+39108,Angola,8/17/20,29
+39109,Antigua and Barbuda,8/17/20,0
+39110,Argentina,8/17/20,4557
+39111,Armenia,8/17/20,38
+39112,Australia,8/17/20,215
+39113,Austria,8/17/20,164
+39114,Azerbaijan,8/17/20,124
+39115,Bahamas,8/17/20,14
+39116,Bahrain,8/17/20,350
+39117,Bangladesh,8/17/20,2595
+39118,Barbados,8/17/20,1
+39119,Belarus,8/17/20,73
+39120,Belgium,8/17/20,211
+39121,Belize,8/17/20,23
+39122,Benin,8/17/20,0
+39123,Bhutan,8/17/20,3
+39124,Bolivia,8/17/20,879
+39125,Bosnia and Herzegovina,8/17/20,310
+39126,Botswana,8/17/20,94
+39127,Brazil,8/17/20,19373
+39128,Brunei,8/17/20,0
+39129,Bulgaria,8/17/20,135
+39130,Burkina Faso,8/17/20,13
+39131,Burma,8/17/20,1
+39132,Burundi,8/17/20,0
+39133,Cabo Verde,8/17/20,24
+39134,Cambodia,8/17/20,0
+39135,Cameroon,8/17/20,113
+39136,Canada,8/17/20,214
+39137,Central African Republic,8/17/20,15
+39138,Chad,8/17/20,3
+39139,Chile,8/17/20,1556
+39140,China,8/17/20,66
+39141,Colombia,8/17/20,8328
+39142,Comoros,8/17/20,0
+39143,Congo (Brazzaville),8/17/20,0
+39144,Congo (Kinshasa),8/17/20,30
+39145,Costa Rica,8/17/20,619
+39146,Cote d'Ivoire,8/17/20,81
+39147,Croatia,8/17/20,85
+39148,Cuba,8/17/20,48
+39149,Cyprus,8/17/20,12
+39150,Czechia,8/17/20,190
+39151,Denmark,8/17/20,124
+39152,Diamond Princess,8/17/20,0
+39153,Djibouti,8/17/20,3
+39154,Dominica,8/17/20,0
+39155,Dominican Republic,8/17/20,428
+39156,Ecuador,8/17/20,209
+39157,Egypt,8/17/20,115
+39158,El Salvador,8/17/20,281
+39159,Equatorial Guinea,8/17/20,0
+39160,Eritrea,8/17/20,0
+39161,Estonia,8/17/20,2
+39162,Eswatini,8/17/20,55
+39163,Ethiopia,8/17/20,1460
+39164,Fiji,8/17/20,0
+39165,Finland,8/17/20,21
+39166,France,8/17/20,3568
+39167,Gabon,8/17/20,45
+39168,Gambia,8/17/20,0
+39169,Georgia,8/17/20,5
+39170,Germany,8/17/20,1693
+39171,Ghana,8/17/20,121
+39172,Greece,8/17/20,147
+39173,Grenada,8/17/20,0
+39174,Guatemala,8/17/20,382
+39175,Guinea,8/17/20,138
+39176,Guinea-Bissau,8/17/20,0
+39177,Guyana,8/17/20,0
+39178,Haiti,8/17/20,18
+39179,Holy See,8/17/20,0
+39180,Honduras,8/17/20,493
+39181,Hungary,8/17/20,30
+39182,Iceland,8/17/20,3
+39183,India,8/17/20,55018
+39184,Indonesia,8/17/20,1821
+39185,Iran,8/17/20,2247
+39186,Iraq,8/17/20,3202
+39187,Ireland,8/17/20,56
+39188,Israel,8/17/20,2071
+39189,Italy,8/17/20,320
+39190,Jamaica,8/17/20,16
+39191,Japan,8/17/20,643
+39192,Jordan,8/17/20,20
+39193,Kazakhstan,8/17/20,267
+39194,Kenya,8/17/20,245
+39195,"Korea, South",8/17/20,246
+39196,Kosovo,8/17/20,0
+39197,Kuwait,8/17/20,622
+39198,Kyrgyzstan,8/17/20,135
+39199,Laos,8/17/20,0
+39200,Latvia,8/17/20,1
+39201,Lebanon,8/17/20,456
+39202,Lesotho,8/17/20,43
+39203,Liberia,8/17/20,20
+39204,Libya,8/17/20,407
+39205,Liechtenstein,8/17/20,3
+39206,Lithuania,8/17/20,20
+39207,Luxembourg,8/17/20,11
+39208,MS Zaandam,8/17/20,0
+39209,Madagascar,8/17/20,59
+39210,Malawi,8/17/20,53
+39211,Malaysia,8/17/20,12
+39212,Maldives,8/17/20,124
+39213,Mali,8/17/20,0
+39214,Malta,8/17/20,69
+39215,Mauritania,8/17/20,61
+39216,Mauritius,8/17/20,0
+39217,Mexico,8/17/20,3571
+39218,Moldova,8/17/20,194
+39219,Monaco,8/17/20,2
+39220,Mongolia,8/17/20,0
+39221,Montenegro,8/17/20,50
+39222,Morocco,8/17/20,1069
+39223,Mozambique,8/17/20,59
+39224,Namibia,8/17/20,190
+39225,Nepal,8/17/20,581
+39226,Netherlands,8/17/20,512
+39227,New Zealand,8/17/20,12
+39228,Nicaragua,8/17/20,0
+39229,Niger,8/17/20,0
+39230,Nigeria,8/17/20,417
+39231,North Macedonia,8/17/20,101
+39232,Norway,8/17/20,55
+39233,Oman,8/17/20,140
+39234,Pakistan,8/17/20,0
+39235,Panama,8/17/20,603
+39236,Papua New Guinea,8/17/20,10
+39237,Paraguay,8/17/20,344
+39238,Peru,8/17/20,10143
+39239,Philippines,8/17/20,3221
+39240,Poland,8/17/20,595
+39241,Portugal,8/17/20,132
+39242,Qatar,8/17/20,288
+39243,Romania,8/17/20,733
+39244,Russia,8/17/20,4839
+39245,Rwanda,8/17/20,87
+39246,Saint Kitts and Nevis,8/17/20,0
+39247,Saint Lucia,8/17/20,0
+39248,Saint Vincent and the Grenadines,8/17/20,1
+39249,San Marino,8/17/20,0
+39250,Sao Tome and Principe,8/17/20,0
+39251,Saudi Arabia,8/17/20,1372
+39252,Senegal,8/17/20,75
+39253,Serbia,8/17/20,100
+39254,Seychelles,8/17/20,0
+39255,Sierra Leone,8/17/20,0
+39256,Singapore,8/17/20,91
+39257,Slovakia,8/17/20,5
+39258,Slovenia,8/17/20,13
+39259,Somalia,8/17/20,1
+39260,South Africa,8/17/20,2541
+39261,South Sudan,8/17/20,1
+39262,Spain,8/17/20,16269
+39263,Sri Lanka,8/17/20,7
+39264,Sudan,8/17/20,96
+39265,Suriname,8/17/20,61
+39266,Sweden,8/17/20,751
+39267,Switzerland,8/17/20,128
+39268,Syria,8/17/20,87
+39269,Taiwan*,8/17/20,1
+39270,Tajikistan,8/17/20,34
+39271,Tanzania,8/17/20,0
+39272,Thailand,8/17/20,0
+39273,Timor-Leste,8/17/20,0
+39274,Togo,8/17/20,7
+39275,Trinidad and Tobago,8/17/20,36
+39276,Tunisia,8/17/20,78
+39277,Turkey,8/17/20,1233
+39278,US,8/17/20,35112
+39279,Uganda,8/17/20,60
+39280,Ukraine,8/17/20,1517
+39281,United Arab Emirates,8/17/20,229
+39282,United Kingdom,8/17/20,721
+39283,Uruguay,8/17/20,17
+39284,Uzbekistan,8/17/20,373
+39285,Venezuela,8/17/20,1047
+39286,Vietnam,8/17/20,19
+39287,West Bank and Gaza,8/17/20,310
+39288,Western Sahara,8/17/20,0
+39289,Yemen,8/17/20,13
+39290,Zambia,8/17/20,496
+39291,Zimbabwe,8/17/20,47
+39292,Afghanistan,8/18/20,0
+39293,Albania,8/18/20,155
+39294,Algeria,8/18/20,419
+39295,Andorra,8/18/20,0
+39296,Angola,8/18/20,31
+39297,Antigua and Barbuda,8/18/20,0
+39298,Argentina,8/18/20,6840
+39299,Armenia,8/18/20,145
+39300,Australia,8/18/20,216
+39301,Austria,8/18/20,295
+39302,Azerbaijan,8/18/20,131
+39303,Bahamas,8/18/20,95
+39304,Bahrain,8/18/20,396
+39305,Bangladesh,8/18/20,3200
+39306,Barbados,8/18/20,1
+39307,Belarus,8/18/20,84
+39308,Belgium,8/18/20,363
+39309,Belize,8/18/20,0
+39310,Benin,8/18/20,0
+39311,Bhutan,8/18/20,6
+39312,Bolivia,8/18/20,1796
+39313,Bosnia and Herzegovina,8/18/20,240
+39314,Botswana,8/18/20,0
+39315,Brazil,8/18/20,47784
+39316,Brunei,8/18/20,0
+39317,Bulgaria,8/18/20,169
+39318,Burkina Faso,8/18/20,0
+39319,Burma,8/18/20,0
+39320,Burundi,8/18/20,3
+39321,Cabo Verde,8/18/20,50
+39322,Cambodia,8/18/20,0
+39323,Cameroon,8/18/20,17
+39324,Canada,8/18/20,866
+39325,Central African Republic,8/18/20,12
+39326,Chad,8/18/20,11
+39327,Chile,8/18/20,1353
+39328,China,8/18/20,53
+39329,Colombia,8/18/20,12462
+39330,Comoros,8/18/20,1
+39331,Congo (Brazzaville),8/18/20,0
+39332,Congo (Kinshasa),8/18/20,15
+39333,Costa Rica,8/18/20,559
+39334,Cote d'Ivoire,8/18/20,43
+39335,Croatia,8/18/20,199
+39336,Cuba,8/18/20,44
+39337,Cyprus,8/18/20,8
+39338,Czechia,8/18/20,281
+39339,Denmark,8/18/20,119
+39340,Diamond Princess,8/18/20,0
+39341,Djibouti,8/18/20,2
+39342,Dominica,8/18/20,0
+39343,Dominican Republic,8/18/20,386
+39344,Ecuador,8/18/20,1190
+39345,Egypt,8/18/20,163
+39346,El Salvador,8/18/20,269
+39347,Equatorial Guinea,8/18/20,0
+39348,Eritrea,8/18/20,19
+39349,Estonia,8/18/20,8
+39350,Eswatini,8/18/20,95
+39351,Ethiopia,8/18/20,1386
+39352,Fiji,8/18/20,0
+39353,Finland,8/18/20,24
+39354,France,8/18/20,1
+39355,Gabon,8/18/20,0
+39356,Gambia,8/18/20,244
+39357,Georgia,8/18/20,10
+39358,Germany,8/18/20,1420
+39359,Ghana,8/18/20,340
+39360,Greece,8/18/20,250
+39361,Grenada,8/18/20,0
+39362,Guatemala,8/18/20,903
+39363,Guinea,8/18/20,95
+39364,Guinea-Bissau,8/18/20,0
+39365,Guyana,8/18/20,28
+39366,Haiti,8/18/20,24
+39367,Holy See,8/18/20,0
+39368,Honduras,8/18/20,675
+39369,Hungary,8/18/20,24
+39370,Iceland,8/18/20,13
+39371,India,8/18/20,64572
+39372,Indonesia,8/18/20,1673
+39373,Iran,8/18/20,2385
+39374,Iraq,8/18/20,4576
+39375,Ireland,8/18/20,186
+39376,Israel,8/18/20,1658
+39377,Italy,8/18/20,401
+39378,Jamaica,8/18/20,17
+39379,Japan,8/18/20,919
+39380,Jordan,8/18/20,40
+39381,Kazakhstan,8/18/20,271
+39382,Kenya,8/18/20,271
+39383,"Korea, South",8/18/20,297
+39384,Kosovo,8/18/20,270
+39385,Kuwait,8/18/20,643
+39386,Kyrgyzstan,8/18/20,155
+39387,Laos,8/18/20,0
+39388,Latvia,8/18/20,0
+39389,Lebanon,8/18/20,421
+39390,Lesotho,8/18/20,0
+39391,Liberia,8/18/20,5
+39392,Libya,8/18/20,489
+39393,Liechtenstein,8/18/20,3
+39394,Lithuania,8/18/20,38
+39395,Luxembourg,8/18/20,30
+39396,MS Zaandam,8/18/20,0
+39397,Madagascar,8/18/20,123
+39398,Malawi,8/18/20,68
+39399,Malaysia,8/18/20,7
+39400,Maldives,8/18/20,170
+39401,Mali,8/18/20,26
+39402,Malta,8/18/20,48
+39403,Mauritania,8/18/20,27
+39404,Mauritius,8/18/20,0
+39405,Mexico,8/18/20,5506
+39406,Moldova,8/18/20,412
+39407,Monaco,8/18/20,0
+39408,Mongolia,8/18/20,0
+39409,Montenegro,8/18/20,47
+39410,Morocco,8/18/20,1245
+39411,Mozambique,8/18/20,77
+39412,Namibia,8/18/20,120
+39413,Nepal,8/18/20,1016
+39414,Netherlands,8/18/20,580
+39415,New Zealand,8/18/20,6
+39416,Nicaragua,8/18/20,196
+39417,Niger,8/18/20,0
+39418,Nigeria,8/18/20,410
+39419,North Macedonia,8/18/20,130
+39420,Norway,8/18/20,51
+39421,Oman,8/18/20,192
+39422,Pakistan,8/18/20,617
+39423,Panama,8/18/20,247
+39424,Papua New Guinea,8/18/20,14
+39425,Paraguay,8/18/20,471
+39426,Peru,8/18/20,5547
+39427,Philippines,8/18/20,4739
+39428,Poland,8/18/20,597
+39429,Portugal,8/18/20,214
+39430,Qatar,8/18/20,293
+39431,Romania,8/18/20,1014
+39432,Russia,8/18/20,4718
+39433,Rwanda,8/18/20,37
+39434,Saint Kitts and Nevis,8/18/20,0
+39435,Saint Lucia,8/18/20,1
+39436,Saint Vincent and the Grenadines,8/18/20,0
+39437,San Marino,8/18/20,3
+39438,Sao Tome and Principe,8/18/20,0
+39439,Saudi Arabia,8/18/20,1409
+39440,Senegal,8/18/20,68
+39441,Serbia,8/18/20,108
+39442,Seychelles,8/18/20,0
+39443,Sierra Leone,8/18/20,3
+39444,Singapore,8/18/20,100
+39445,Slovakia,8/18/20,15
+39446,Slovenia,8/18/20,27
+39447,Somalia,8/18/20,0
+39448,South Africa,8/18/20,2258
+39449,South Sudan,8/18/20,0
+39450,Spain,8/18/20,5114
+39451,Sri Lanka,8/18/20,2
+39452,Sudan,8/18/20,75
+39453,Suriname,8/18/20,139
+39454,Sweden,8/18/20,174
+39455,Switzerland,8/18/20,197
+39456,Syria,8/18/20,80
+39457,Taiwan*,8/18/20,1
+39458,Tajikistan,8/18/20,32
+39459,Tanzania,8/18/20,0
+39460,Thailand,8/18/20,4
+39461,Timor-Leste,8/18/20,0
+39462,Togo,8/18/20,19
+39463,Trinidad and Tobago,8/18/20,41
+39464,Tunisia,8/18/20,129
+39465,Turkey,8/18/20,1263
+39466,US,8/18/20,44091
+39467,Uganda,8/18/20,43
+39468,Ukraine,8/18/20,1646
+39469,United Arab Emirates,8/18/20,365
+39470,United Kingdom,8/18/20,1113
+39471,Uruguay,8/18/20,28
+39472,Uzbekistan,8/18/20,650
+39473,Venezuela,8/18/20,895
+39474,Vietnam,8/18/20,6
+39475,West Bank and Gaza,8/18/20,462
+39476,Western Sahara,8/18/20,0
+39477,Yemen,8/18/20,7
+39478,Zambia,8/18/20,142
+39479,Zimbabwe,8/18/20,70

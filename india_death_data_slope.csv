@@ -7559,45 +7559,297 @@
 7557,Uttar Pradesh,08/11/20,2.0
 7558,Uttarakhand,08/11/20,15.0
 7559,West Bengal,08/11/20,-4.0
-7560,Andaman and Nicobar Islands,08/12/20,44.0
-7561,Andhra Pradesh,08/12/20,60.0
-7562,Arunachal Pradesh,08/12/20,75.0
-7563,Assam,08/12/20,59.0
-7564,Bihar,08/12/20,66.0
+7560,Andaman and Nicobar Islands,08/12/20,-28.0
+7561,Andhra Pradesh,08/12/20,2.0
+7562,Arunachal Pradesh,08/12/20,
+7563,Assam,08/12/20,-3.0
+7564,Bihar,08/12/20,10.0
 7565,Cases being reassigned to states,08/12/20,
-7566,Chandigarh,08/12/20,62.0
-7567,Chhattisgarh,08/12/20,57.0
+7566,Chandigarh,08/12/20,4.0
+7567,Chhattisgarh,08/12/20,-0.0
 7568,Dadar Nagar Haveli,08/12/20,
-7569,Dadra and Nagar Haveli and Daman and Diu,08/12/20,75.0
+7569,Dadra and Nagar Haveli and Daman and Diu,08/12/20,
 7570,Daman & Diu,08/12/20,
-7571,Delhi,08/12/20,73.0
-7572,Goa,08/12/20,60.0
-7573,Gujarat,08/12/20,71.0
-7574,Haryana,08/12/20,69.0
-7575,Himachal Pradesh,08/12/20,70.0
-7576,Jammu and Kashmir,08/12/20,65.0
-7577,Jharkhand,08/12/20,57.0
-7578,Karnataka,08/12/20,63.0
-7579,Kerala,08/12/20,59.0
-7580,Ladakh,08/12/20,57.0
-7581,Madhya Pradesh,08/12/20,67.0
-7582,Maharashtra,08/12/20,67.0
-7583,Manipur,08/12/20,51.0
-7584,Meghalaya,08/12/20,64.0
+7571,Delhi,08/12/20,-2.0
+7572,Goa,08/12/20,11.0
+7573,Gujarat,08/12/20,-2.0
+7574,Haryana,08/12/20,9.0
+7575,Himachal Pradesh,08/12/20,50.0
+7576,Jammu and Kashmir,08/12/20,0.0
+7577,Jharkhand,08/12/20,3.0
+7578,Karnataka,08/12/20,0.0
+7579,Kerala,08/12/20,-1.0
+7580,Ladakh,08/12/20,-25.0
+7581,Madhya Pradesh,08/12/20,2.0
+7582,Maharashtra,08/12/20,-2.0
+7583,Manipur,08/12/20,-5.0
+7584,Meghalaya,08/12/20,-0.0
 7585,Mizoram,08/12/20,
-7586,Nagaland,08/12/20,48.0
-7587,Odisha,08/12/20,60.0
-7588,Puducherry,08/12/20,52.0
-7589,Punjab,08/12/20,59.0
-7590,Rajasthan,08/12/20,68.0
-7591,Sikkim,08/12/20,75.0
-7592,Tamil Nadu,08/12/20,65.0
+7586,Nagaland,08/12/20,-25.0
+7587,Odisha,08/12/20,4.0
+7588,Puducherry,08/12/20,-14.0
+7589,Punjab,08/12/20,-1.0
+7590,Rajasthan,08/12/20,-2.0
+7591,Sikkim,08/12/20,
+7592,Tamil Nadu,08/12/20,1.0
 7593,Telangana,08/12/20,
 7594,Telangana***,08/12/20,
-7595,Telengana,08/12/20,66.0
+7595,Telengana,08/12/20,-8.0
 7596,Telengana***,08/12/20,
-7597,Tripura,08/12/20,53.0
+7597,Tripura,08/12/20,-21.0
 7598,Unassigned,08/12/20,
-7599,Uttar Pradesh,08/12/20,65.0
-7600,Uttarakhand,08/12/20,59.0
-7601,West Bengal,08/12/20,64.0
+7599,Uttar Pradesh,08/12/20,0.0
+7600,Uttarakhand,08/12/20,5.0
+7601,West Bengal,08/12/20,-4.0
+7602,Andaman and Nicobar Islands,08/13/20,-39.0
+7603,Andhra Pradesh,08/13/20,2.0
+7604,Arunachal Pradesh,08/13/20,
+7605,Assam,08/13/20,-2.0
+7606,Bihar,08/13/20,1.0
+7607,Cases being reassigned to states,08/13/20,
+7608,Chandigarh,08/13/20,-21.0
+7609,Chhattisgarh,08/13/20,-8.0
+7610,Dadar Nagar Haveli,08/13/20,
+7611,Dadra and Nagar Haveli and Daman and Diu,08/13/20,
+7612,Daman & Diu,08/13/20,
+7613,Delhi,08/13/20,-7.0
+7614,Goa,08/13/20,10.0
+7615,Gujarat,08/13/20,-4.0
+7616,Haryana,08/13/20,2.0
+7617,Himachal Pradesh,08/13/20,25.0
+7618,Jammu and Kashmir,08/13/20,-4.0
+7619,Jharkhand,08/13/20,-4.0
+7620,Karnataka,08/13/20,2.0
+7621,Kerala,08/13/20,9.0
+7622,Ladakh,08/13/20,-50.0
+7623,Madhya Pradesh,08/13/20,0.0
+7624,Maharashtra,08/13/20,0.0
+7625,Manipur,08/13/20,-30.0
+7626,Meghalaya,08/13/20,-25.0
+7627,Mizoram,08/13/20,
+7628,Nagaland,08/13/20,-25.0
+7629,Odisha,08/13/20,-2.0
+7630,Puducherry,08/13/20,-7.0
+7631,Punjab,08/13/20,7.0
+7632,Rajasthan,08/13/20,-0.0
+7633,Sikkim,08/13/20,
+7634,Tamil Nadu,08/13/20,1.0
+7635,Telangana,08/13/20,
+7636,Telangana***,08/13/20,
+7637,Telengana,08/13/20,-6.0
+7638,Telengana***,08/13/20,
+7639,Tripura,08/13/20,-33.0
+7640,Unassigned,08/13/20,
+7641,Uttar Pradesh,08/13/20,-2.0
+7642,Uttarakhand,08/13/20,-5.0
+7643,West Bengal,08/13/20,-2.0
+7644,Andaman and Nicobar Islands,08/14/20,-29.0
+7645,Andhra Pradesh,08/14/20,-2.0
+7646,Arunachal Pradesh,08/14/20,75.0
+7647,Assam,08/14/20,1.0
+7648,Bihar,08/14/20,1.0
+7649,Cases being reassigned to states,08/14/20,
+7650,Chandigarh,08/14/20,-29.0
+7651,Chhattisgarh,08/14/20,-7.0
+7652,Dadar Nagar Haveli,08/14/20,
+7653,Dadra and Nagar Haveli and Daman and Diu,08/14/20,
+7654,Daman & Diu,08/14/20,
+7655,Delhi,08/14/20,-8.0
+7656,Goa,08/14/20,-1.0
+7657,Gujarat,08/14/20,-4.0
+7658,Haryana,08/14/20,-4.0
+7659,Himachal Pradesh,08/14/20,15.0
+7660,Jammu and Kashmir,08/14/20,-4.0
+7661,Jharkhand,08/14/20,1.0
+7662,Karnataka,08/14/20,1.0
+7663,Kerala,08/14/20,1.0
+7664,Ladakh,08/14/20,-75.0
+7665,Madhya Pradesh,08/14/20,0.0
+7666,Maharashtra,08/14/20,4.0
+7667,Manipur,08/14/20,-20.0
+7668,Meghalaya,08/14/20,-50.0
+7669,Mizoram,08/14/20,
+7670,Nagaland,08/14/20,-50.0
+7671,Odisha,08/14/20,-6.0
+7672,Puducherry,08/14/20,-2.0
+7673,Punjab,08/14/20,9.0
+7674,Rajasthan,08/14/20,1.0
+7675,Sikkim,08/14/20,
+7676,Tamil Nadu,08/14/20,0.0
+7677,Telangana,08/14/20,
+7678,Telangana***,08/14/20,
+7679,Telengana,08/14/20,-6.0
+7680,Telengana***,08/14/20,
+7681,Tripura,08/14/20,-10.0
+7682,Unassigned,08/14/20,
+7683,Uttar Pradesh,08/14/20,-1.0
+7684,Uttarakhand,08/14/20,-23.0
+7685,West Bengal,08/14/20,1.0
+7686,Andaman and Nicobar Islands,08/15/20,25.0
+7687,Andhra Pradesh,08/15/20,-1.0
+7688,Arunachal Pradesh,08/15/20,62.0
+7689,Assam,08/15/20,0.0
+7690,Bihar,08/15/20,4.0
+7691,Cases being reassigned to states,08/15/20,
+7692,Chandigarh,08/15/20,0.0
+7693,Chhattisgarh,08/15/20,23.0
+7694,Dadar Nagar Haveli,08/15/20,
+7695,Dadra and Nagar Haveli and Daman and Diu,08/15/20,
+7696,Daman & Diu,08/15/20,
+7697,Delhi,08/15/20,-5.0
+7698,Goa,08/15/20,-4.0
+7699,Gujarat,08/15/20,-7.0
+7700,Haryana,08/15/20,-2.0
+7701,Himachal Pradesh,08/15/20,-10.0
+7702,Jammu and Kashmir,08/15/20,0.0
+7703,Jharkhand,08/15/20,2.0
+7704,Karnataka,08/15/20,1.0
+7705,Kerala,08/15/20,13.0
+7706,Ladakh,08/15/20,
+7707,Madhya Pradesh,08/15/20,-1.0
+7708,Maharashtra,08/15/20,4.0
+7709,Manipur,08/15/20,-8.0
+7710,Meghalaya,08/15/20,-75.0
+7711,Mizoram,08/15/20,
+7712,Nagaland,08/15/20,-50.0
+7713,Odisha,08/15/20,-6.0
+7714,Puducherry,08/15/20,-2.0
+7715,Punjab,08/15/20,5.0
+7716,Rajasthan,08/15/20,2.0
+7717,Sikkim,08/15/20,
+7718,Tamil Nadu,08/15/20,0.0
+7719,Telangana,08/15/20,
+7720,Telangana***,08/15/20,
+7721,Telengana,08/15/20,-2.0
+7722,Telengana***,08/15/20,
+7723,Tripura,08/15/20,4.0
+7724,Unassigned,08/15/20,
+7725,Uttar Pradesh,08/15/20,3.0
+7726,Uttarakhand,08/15/20,-13.0
+7727,West Bengal,08/15/20,3.0
+7728,Andaman and Nicobar Islands,08/16/20,25.0
+7729,Andhra Pradesh,08/16/20,-0.0
+7730,Arunachal Pradesh,08/16/20,37.0
+7731,Assam,08/16/20,6.0
+7732,Bihar,08/16/20,6.0
+7733,Cases being reassigned to states,08/16/20,
+7734,Chandigarh,08/16/20,-6.0
+7735,Chhattisgarh,08/16/20,9.0
+7736,Dadar Nagar Haveli,08/16/20,
+7737,Dadra and Nagar Haveli and Daman and Diu,08/16/20,
+7738,Daman & Diu,08/16/20,
+7739,Delhi,08/16/20,-6.0
+7740,Goa,08/16/20,-4.0
+7741,Gujarat,08/16/20,-5.0
+7742,Haryana,08/16/20,1.0
+7743,Himachal Pradesh,08/16/20,-35.0
+7744,Jammu and Kashmir,08/16/20,-3.0
+7745,Jharkhand,08/16/20,-13.0
+7746,Karnataka,08/16/20,1.0
+7747,Kerala,08/16/20,12.0
+7748,Ladakh,08/16/20,75.0
+7749,Madhya Pradesh,08/16/20,-5.0
+7750,Maharashtra,08/16/20,1.0
+7751,Manipur,08/16/20,-0.0
+7752,Meghalaya,08/16/20,
+7753,Mizoram,08/16/20,
+7754,Nagaland,08/16/20,-75.0
+7755,Odisha,08/16/20,-7.0
+7756,Puducherry,08/16/20,-12.0
+7757,Punjab,08/16/20,7.0
+7758,Rajasthan,08/16/20,6.0
+7759,Sikkim,08/16/20,
+7760,Tamil Nadu,08/16/20,1.0
+7761,Telangana,08/16/20,
+7762,Telangana***,08/16/20,
+7763,Telengana,08/16/20,0.0
+7764,Telengana***,08/16/20,
+7765,Tripura,08/16/20,36.0
+7766,Unassigned,08/16/20,
+7767,Uttar Pradesh,08/16/20,4.0
+7768,Uttarakhand,08/16/20,-15.0
+7769,West Bengal,08/16/20,4.0
+7770,Andaman and Nicobar Islands,08/17/20,37.0
+7771,Andhra Pradesh,08/17/20,1.0
+7772,Arunachal Pradesh,08/17/20,12.0
+7773,Assam,08/17/20,5.0
+7774,Bihar,08/17/20,-0.0
+7775,Cases being reassigned to states,08/17/20,
+7776,Chandigarh,08/17/20,13.0
+7777,Chhattisgarh,08/17/20,12.0
+7778,Dadar Nagar Haveli,08/17/20,
+7779,Dadra and Nagar Haveli and Daman and Diu,08/17/20,
+7780,Daman & Diu,08/17/20,
+7781,Delhi,08/17/20,-10.0
+7782,Goa,08/17/20,0.0
+7783,Gujarat,08/17/20,-2.0
+7784,Haryana,08/17/20,6.0
+7785,Himachal Pradesh,08/17/20,-50.0
+7786,Jammu and Kashmir,08/17/20,7.0
+7787,Jharkhand,08/17/20,9.0
+7788,Karnataka,08/17/20,2.0
+7789,Kerala,08/17/20,9.0
+7790,Ladakh,08/17/20,70.0
+7791,Madhya Pradesh,08/17/20,-8.0
+7792,Maharashtra,08/17/20,2.0
+7793,Manipur,08/17/20,35.0
+7794,Meghalaya,08/17/20,
+7795,Mizoram,08/17/20,
+7796,Nagaland,08/17/20,
+7797,Odisha,08/17/20,-5.0
+7798,Puducherry,08/17/20,1.0
+7799,Punjab,08/17/20,8.0
+7800,Rajasthan,08/17/20,6.0
+7801,Sikkim,08/17/20,
+7802,Tamil Nadu,08/17/20,1.0
+7803,Telangana,08/17/20,
+7804,Telangana***,08/17/20,
+7805,Telengana,08/17/20,2.0
+7806,Telengana***,08/17/20,
+7807,Tripura,08/17/20,32.0
+7808,Unassigned,08/17/20,
+7809,Uttar Pradesh,08/17/20,1.0
+7810,Uttarakhand,08/17/20,-19.0
+7811,West Bengal,08/17/20,4.0
+7812,Andaman and Nicobar Islands,08/18/20,19.0
+7813,Andhra Pradesh,08/18/20,-1.0
+7814,Arunachal Pradesh,08/18/20,-13.0
+7815,Assam,08/18/20,7.0
+7816,Bihar,08/18/20,-5.0
+7817,Cases being reassigned to states,08/18/20,
+7818,Chandigarh,08/18/20,5.0
+7819,Chhattisgarh,08/18/20,7.0
+7820,Dadar Nagar Haveli,08/18/20,
+7821,Dadra and Nagar Haveli and Daman and Diu,08/18/20,
+7822,Daman & Diu,08/18/20,
+7823,Delhi,08/18/20,4.0
+7824,Goa,08/18/20,10.0
+7825,Gujarat,08/18/20,-4.0
+7826,Haryana,08/18/20,8.0
+7827,Himachal Pradesh,08/18/20,-50.0
+7828,Jammu and Kashmir,08/18/20,-3.0
+7829,Jharkhand,08/18/20,8.0
+7830,Karnataka,08/18/20,4.0
+7831,Kerala,08/18/20,17.0
+7832,Ladakh,08/18/20,45.0
+7833,Madhya Pradesh,08/18/20,1.0
+7834,Maharashtra,08/18/20,-3.0
+7835,Manipur,08/18/20,21.0
+7836,Meghalaya,08/18/20,
+7837,Mizoram,08/18/20,
+7838,Nagaland,08/18/20,
+7839,Odisha,08/18/20,1.0
+7840,Puducherry,08/18/20,-2.0
+7841,Punjab,08/18/20,7.0
+7842,Rajasthan,08/18/20,3.0
+7843,Sikkim,08/18/20,
+7844,Tamil Nadu,08/18/20,1.0
+7845,Telangana,08/18/20,
+7846,Telangana***,08/18/20,
+7847,Telengana,08/18/20,-2.0
+7848,Telengana***,08/18/20,
+7849,Tripura,08/18/20,24.0
+7850,Unassigned,08/18/20,
+7851,Uttar Pradesh,08/18/20,3.0
+7852,Uttarakhand,08/18/20,7.0
+7853,West Bengal,08/18/20,-1.0
