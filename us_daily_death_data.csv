@@ -2736,7 +2736,7 @@
 2734,New Hampshire,3/13/20,0
 2735,New Jersey,3/13/20,0
 2736,New Mexico,3/13/20,0
-2737,New York,3/13/20,1
+2737,New York,3/13/20,0
 2738,North Carolina,3/13/20,0
 2739,North Dakota,3/13/20,0
 2740,Ohio,3/13/20,0
@@ -2789,7 +2789,7 @@
 2787,New Hampshire,3/14/20,0
 2788,New Jersey,3/14/20,0
 2789,New Mexico,3/14/20,0
-2790,New York,3/14/20,3
+2790,New York,3/14/20,4
 2791,North Carolina,3/14/20,0
 2792,North Dakota,3/14/20,0
 2793,Ohio,3/14/20,0
@@ -3054,7 +3054,7 @@
 3052,New Hampshire,3/19/20,0
 3053,New Jersey,3/19/20,6
 3054,New Mexico,3/19/20,0
-3055,New York,3/19/20,32
+3055,New York,3/19/20,28
 3056,North Carolina,3/19/20,0
 3057,North Dakota,3/19/20,0
 3058,Ohio,3/19/20,0
@@ -3160,7 +3160,7 @@
 3158,New Hampshire,3/21/20,0
 3159,New Jersey,3/21/20,6
 3160,New Mexico,3/21/20,0
-3161,New York,3/21/20,48
+3161,New York,3/21/20,52
 3162,North Carolina,3/21/20,0
 3163,North Dakota,3/21/20,0
 3164,Ohio,3/21/20,0
@@ -3213,7 +3213,7 @@
 3211,New Hampshire,3/22/20,0
 3212,New Jersey,3/22/20,7
 3213,New Mexico,3/22/20,0
-3214,New York,3/22/20,92
+3214,New York,3/22/20,54
 3215,North Carolina,3/22/20,0
 3216,North Dakota,3/22/20,0
 3217,Ohio,3/22/20,0
@@ -3266,7 +3266,7 @@
 3264,New Hampshire,3/23/20,1
 3265,New Jersey,3/23/20,11
 3266,New Mexico,3/23/20,0
-3267,New York,3/23/20,100
+3267,New York,3/23/20,102
 3268,North Carolina,3/23/20,0
 3269,North Dakota,3/23/20,0
 3270,Ohio,3/23/20,3
@@ -3319,7 +3319,7 @@
 3317,New Hampshire,3/24/20,0
 3318,New Jersey,3/24/20,20
 3319,New Mexico,3/24/20,0
-3320,New York,3/24/20,127
+3320,New York,3/24/20,124
 3321,North Carolina,3/24/20,0
 3322,North Dakota,3/24/20,0
 3323,Ohio,3/24/20,2
@@ -3372,7 +3372,7 @@
 3370,New Hampshire,3/25/20,0
 3371,New Jersey,3/25/20,21
 3372,New Mexico,3/25/20,1
-3373,New York,3/25/20,149
+3373,New York,3/25/20,157
 3374,North Carolina,3/25/20,2
 3375,North Dakota,3/25/20,0
 3376,Ohio,3/25/20,3
@@ -3425,7 +3425,7 @@
 3423,New Hampshire,3/26/20,0
 3424,New Jersey,3/26/20,28
 3425,New Mexico,3/26/20,0
-3426,New York,3/26/20,249
+3426,New York,3/26/20,235
 3427,North Carolina,3/26/20,1
 3428,North Dakota,3/26/20,0
 3429,Ohio,3/26/20,4
@@ -3478,7 +3478,7 @@
 3476,New Hampshire,3/27/20,0
 3477,New Jersey,3/27/20,32
 3478,New Mexico,3/27/20,0
-3479,New York,3/27/20,315
+3479,New York,3/27/20,272
 3480,North Carolina,3/27/20,1
 3481,North Dakota,3/27/20,1
 3482,Ohio,3/27/20,4
@@ -3531,7 +3531,7 @@
 3529,New Hampshire,3/28/20,1
 3530,New Jersey,3/28/20,51
 3531,New Mexico,3/28/20,0
-3532,New York,3/28/20,374
+3532,New York,3/28/20,353
 3533,North Carolina,3/28/20,1
 3534,North Dakota,3/28/20,0
 3535,Ohio,3/28/20,6
@@ -3584,7 +3584,7 @@
 3582,New Hampshire,3/29/20,0
 3583,New Jersey,3/29/20,27
 3584,New Mexico,3/29/20,1
-3585,New York,3/29/20,430
+3585,New York,3/29/20,382
 3586,North Carolina,3/29/20,2
 3587,North Dakota,3/29/20,0
 3588,Ohio,3/29/20,4
@@ -3637,7 +3637,7 @@
 3635,New Hampshire,3/30/20,1
 3636,New Jersey,3/30/20,49
 3637,New Mexico,3/30/20,0
-3638,New York,3/30/20,554
+3638,New York,3/30/20,412
 3639,North Carolina,3/30/20,0
 3640,North Dakota,3/30/20,1
 3641,Ohio,3/30/20,11
@@ -3690,7 +3690,7 @@
 3688,New Hampshire,3/31/20,0
 3689,New Jersey,3/31/20,98
 3690,New Mexico,3/31/20,2
-3691,New York,3/31/20,659
+3691,New York,3/31/20,489
 3692,North Carolina,3/31/20,5
 3693,North Dakota,3/31/20,1
 3694,Ohio,3/31/20,15
@@ -3743,7 +3743,7 @@
 3741,New Hampshire,4/1/20,0
 3742,New Jersey,4/1/20,110
 3743,New Mexico,4/1/20,1
-3744,New York,4/1/20,732
+3744,New York,4/1/20,636
 3745,North Carolina,4/1/20,2
 3746,North Dakota,4/1/20,0
 3747,Ohio,4/1/20,10
@@ -3796,7 +3796,7 @@
 3794,New Hampshire,4/2/20,0
 3795,New Jersey,4/2/20,205
 3796,New Mexico,4/2/20,1
-3797,New York,4/2/20,837
+3797,New York,4/2/20,727
 3798,North Carolina,4/2/20,7
 3799,North Dakota,4/2/20,0
 3800,Ohio,4/2/20,16
@@ -3849,7 +3849,7 @@
 3847,New Hampshire,4/3/20,2
 3848,New Jersey,4/3/20,136
 3849,New Mexico,4/3/20,4
-3850,New York,4/3/20,706
+3850,New York,4/3/20,761
 3851,North Carolina,4/3/20,6
 3852,North Dakota,4/3/20,0
 3853,Ohio,4/3/20,10
@@ -3902,7 +3902,7 @@
 3900,New Hampshire,4/4/20,2
 3901,New Jersey,4/4/20,242
 3902,New Mexico,4/4/20,1
-3903,New York,4/4/20,591
+3903,New York,4/4/20,787
 3904,North Carolina,4/4/20,7
 3905,North Dakota,4/4/20,0
 3906,Ohio,4/4/20,11
@@ -3955,7 +3955,7 @@
 3953,New Hampshire,4/5/20,2
 3954,New Jersey,4/5/20,126
 3955,New Mexico,4/5/20,1
-3956,New York,4/5/20,822
+3956,New York,4/5/20,910
 3957,North Carolina,4/5/20,4
 3958,North Dakota,4/5/20,0
 3959,Ohio,4/5/20,17
@@ -4008,7 +4008,7 @@
 4006,New Hampshire,4/6/20,0
 4007,New Jersey,4/6/20,152
 4008,New Mexico,4/6/20,0
-4009,New York,4/6/20,1030
+4009,New York,4/6/20,1061
 4010,North Carolina,4/6/20,7
 4011,North Dakota,4/6/20,0
 4012,Ohio,4/6/20,23
@@ -4061,7 +4061,7 @@
 4059,New Hampshire,4/7/20,0
 4060,New Jersey,4/7/20,296
 4061,New Mexico,4/7/20,1
-4062,New York,4/7/20,1081
+4062,New York,4/7/20,1273
 4063,North Carolina,4/7/20,8
 4064,North Dakota,4/7/20,1
 4065,Ohio,4/7/20,25
@@ -4114,7 +4114,7 @@
 4112,New Hampshire,4/8/20,4
 4113,New Jersey,4/8/20,341
 4114,New Mexico,4/8/20,0
-4115,New York,4/8/20,985
+4115,New York,4/8/20,949
 4116,North Carolina,4/8/20,13
 4117,North Dakota,4/8/20,0
 4118,Ohio,4/8/20,26
@@ -4167,7 +4167,7 @@
 4165,New Hampshire,4/9/20,8
 4166,New Jersey,4/9/20,276
 4167,New Mexico,4/9/20,3
-4168,New York,4/9/20,973
+4168,New York,4/9/20,1050
 4169,North Carolina,4/9/20,10
 4170,North Dakota,4/9/20,1
 4171,Ohio,4/9/20,20
@@ -4220,7 +4220,7 @@
 4218,New Hampshire,4/10/20,0
 4219,New Jersey,4/10/20,279
 4220,New Mexico,4/10/20,1
-4221,New York,4/10/20,849
+4221,New York,4/10/20,921
 4222,North Carolina,4/10/20,7
 4223,North Dakota,4/10/20,1
 4224,Ohio,4/10/20,18
@@ -4273,7 +4273,7 @@
 4271,New Hampshire,4/11/20,1
 4272,New Jersey,4/11/20,325
 4273,New Mexico,4/11/20,2
-4274,New York,4/11/20,927
+4274,New York,4/11/20,922
 4275,North Carolina,4/11/20,6
 4276,North Dakota,4/11/20,1
 4277,Ohio,4/11/20,16
@@ -4326,7 +4326,7 @@
 4324,New Hampshire,4/12/20,1
 4325,New Jersey,4/12/20,242
 4326,New Mexico,4/12/20,7
-4327,New York,4/12/20,975
+4327,New York,4/12/20,938
 4328,North Carolina,4/12/20,0
 4329,North Dakota,4/12/20,0
 4330,Ohio,4/12/20,6
@@ -4379,7 +4379,7 @@
 4377,New Hampshire,4/13/20,0
 4378,New Jersey,4/13/20,167
 4379,New Mexico,4/13/20,0
-4380,New York,4/13/20,978
+4380,New York,4/13/20,1018
 4381,North Carolina,4/13/20,5
 4382,North Dakota,4/13/20,1
 4383,Ohio,4/13/20,21
@@ -4432,7 +4432,7 @@
 4430,New Hampshire,4/14/20,2
 4431,New Jersey,4/14/20,415
 4432,New Mexico,4/14/20,5
-4433,New York,4/14/20,882
+4433,New York,4/14/20,880
 4434,North Carolina,4/14/20,18
 4435,North Dakota,4/14/20,0
 4436,Ohio,4/14/20,50
@@ -4538,7 +4538,7 @@
 4536,New Hampshire,4/16/20,0
 4537,New Jersey,4/16/20,422
 4538,New Mexico,4/16/20,0
-4539,New York,4/16/20,742
+4539,New York,4/16/20,743
 4540,North Carolina,4/16/20,20
 4541,North Dakota,4/16/20,0
 4542,Ohio,4/16/20,45
@@ -4591,7 +4591,7 @@
 4589,New Hampshire,4/17/20,5
 4590,New Jersey,4/17/20,371
 4591,New Mexico,4/17/20,8
-4592,New York,4/17/20,1050
+4592,New York,4/17/20,477
 4593,North Carolina,4/17/20,27
 4594,North Dakota,4/17/20,0
 4595,Ohio,4/17/20,11
@@ -4644,7 +4644,7 @@
 4642,New Hampshire,4/18/20,1
 4643,New Jersey,4/18/20,288
 4644,New Mexico,4/18/20,9
-4645,New York,4/18/20,1046
+4645,New York,4/18/20,561
 4646,North Carolina,4/18/20,10
 4647,North Dakota,4/18/20,0
 4648,Ohio,4/18/20,33
@@ -4697,7 +4697,7 @@
 4695,New Hampshire,4/19/20,0
 4696,New Jersey,4/19/20,336
 4697,New Mexico,4/19/20,2
-4698,New York,4/19/20,0
+4698,New York,4/19/20,524
 4699,North Carolina,4/19/20,13
 4700,North Dakota,4/19/20,0
 4701,Ohio,4/19/20,20
@@ -4750,7 +4750,7 @@
 4748,New Hampshire,4/20/20,4
 4749,New Jersey,4/20/20,173
 4750,New Mexico,4/20/20,3
-4751,New York,4/20/20,619
+4751,New York,4/20/20,971
 4752,North Carolina,4/20/20,18
 4753,North Dakota,4/20/20,0
 4754,Ohio,4/20/20,38
@@ -4803,7 +4803,7 @@
 4801,New Hampshire,4/21/20,0
 4802,New Jersey,4/21/20,296
 4803,New Mexico,4/21/20,0
-4804,New York,4/21/20,627
+4804,New York,4/21/20,671
 4805,North Carolina,4/21/20,27
 4806,North Dakota,4/21/20,4
 4807,Ohio,4/21/20,48
@@ -4856,7 +4856,7 @@
 4854,New Hampshire,4/22/20,6
 4855,New Jersey,4/22/20,433
 4856,New Mexico,4/22/20,13
-4857,New York,4/22/20,515
+4857,New York,4/22/20,518
 4858,North Carolina,4/22/20,20
 4859,North Dakota,4/22/20,1
 4860,Ohio,4/22/20,53
@@ -5015,7 +5015,7 @@
 5013,New Hampshire,4/25/20,0
 5014,New Jersey,4/25/20,271
 5015,New Mexico,4/25/20,9
-5016,New York,4/25/20,435
+5016,New York,4/25/20,436
 5017,North Carolina,4/25/20,11
 5018,North Dakota,4/25/20,1
 5019,Ohio,4/25/20,21
@@ -5068,7 +5068,7 @@
 5066,New Hampshire,4/26/20,7
 5067,New Jersey,4/26/20,56
 5068,New Mexico,4/26/20,6
-5069,New York,4/26/20,406
+5069,New York,4/26/20,405
 5070,North Carolina,4/26/20,19
 5071,North Dakota,4/26/20,1
 5072,Ohio,4/26/20,17
@@ -5121,7 +5121,7 @@
 5119,New Hampshire,4/27/20,0
 5120,New Jersey,4/27/20,143
 5121,New Mexico,4/27/20,0
-5122,New York,4/27/20,482
+5122,New York,4/27/20,481
 5123,North Carolina,4/27/20,16
 5124,North Dakota,4/27/20,2
 5125,Ohio,4/27/20,25
@@ -5280,7 +5280,7 @@
 5278,New Hampshire,4/30/20,12
 5279,New Jersey,4/30/20,483
 5280,New Mexico,4/30/20,11
-5281,New York,4/30/20,372
+5281,New York,4/30/20,370
 5282,North Carolina,4/30/20,24
 5283,North Dakota,4/30/20,0
 5284,Ohio,4/30/20,39
@@ -5439,7 +5439,7 @@
 5437,New Hampshire,5/3/20,2
 5438,New Jersey,5/3/20,154
 5439,New Mexico,5/3/20,13
-5440,New York,5/3/20,284
+5440,New York,5/3/20,283
 5441,North Carolina,5/3/20,3
 5442,North Dakota,5/3/20,1
 5443,Ohio,5/3/20,17
@@ -5598,7 +5598,7 @@
 5596,New Hampshire,5/6/20,0
 5597,New Jersey,5/6/20,324
 5598,New Mexico,5/6/20,7
-5599,New York,5/6/20,569
+5599,New York,5/6/20,570
 5600,North Carolina,5/6/20,20
 5601,North Dakota,5/6/20,6
 5602,Ohio,5/6/20,90
@@ -5651,7 +5651,7 @@
 5649,New Hampshire,5/7/20,22
 5650,New Jersey,5/7/20,273
 5651,New Mexico,5/7/20,3
-5652,New York,5/7/20,229
+5652,New York,5/7/20,227
 5653,North Carolina,5/7/20,21
 5654,North Dakota,5/7/20,0
 5655,Ohio,5/7/20,46
@@ -5810,7 +5810,7 @@
 5808,New Hampshire,5/10/20,2
 5809,New Jersey,5/10/20,157
 5810,New Mexico,5/10/20,9
-5811,New York,5/10/20,174
+5811,New York,5/10/20,173
 5812,North Carolina,5/10/20,13
 5813,North Dakota,5/10/20,0
 5814,Ohio,5/10/20,10
@@ -5863,7 +5863,7 @@
 5861,New Hampshire,5/11/20,0
 5862,New Jersey,5/11/20,91
 5863,New Mexico,5/11/20,8
-5864,New York,5/11/20,198
+5864,New York,5/11/20,197
 5865,North Carolina,5/11/20,11
 5866,North Dakota,5/11/20,1
 5867,Ohio,5/11/20,16
@@ -5916,7 +5916,7 @@
 5914,New Hampshire,5/12/20,9
 5915,New Jersey,5/12/20,203
 5916,New Mexico,5/12/20,11
-5917,New York,5/12/20,217
+5917,New York,5/12/20,218
 5918,North Carolina,5/12/20,25
 5919,North Dakota,5/12/20,2
 5920,Ohio,5/12/20,79
@@ -5969,7 +5969,7 @@
 5967,New Hampshire,5/13/20,8
 5968,New Jersey,5/13/20,192
 5969,New Mexico,5/13/20,12
-5970,New York,5/13/20,204
+5970,New York,5/13/20,205
 5971,North Carolina,5/13/20,25
 5972,North Dakota,5/13/20,2
 5973,Ohio,5/13/20,47
@@ -6234,7 +6234,7 @@
 6232,New Hampshire,5/18/20,0
 6233,New Jersey,5/18/20,82
 6234,New Mexico,5/18/20,5
-6235,New York,5/18/20,87
+6235,New York,5/18/20,483
 6236,North Carolina,5/18/20,7
 6237,North Dakota,5/18/20,1
 6238,Ohio,5/18/20,32
@@ -6287,7 +6287,7 @@
 6285,New Hampshire,5/19/20,0
 6286,New Jersey,5/19/20,149
 6287,New Mexico,5/19/20,6
-6288,New York,5/19/20,201
+6288,New York,5/19/20,198
 6289,North Carolina,5/19/20,0
 6290,North Dakota,5/19/20,1
 6291,Ohio,5/19/20,63
@@ -6340,7 +6340,7 @@
 6338,New Hampshire,5/20/20,18
 6339,New Jersey,5/20/20,171
 6340,New Mexico,5/20/20,7
-6341,New York,5/20/20,118
+6341,New York,5/20/20,65
 6342,North Carolina,5/20/20,33
 6343,North Dakota,5/20/20,4
 6344,Ohio,5/20/20,61
@@ -6393,7 +6393,7 @@
 6391,New Hampshire,5/21/20,9
 6392,New Jersey,5/21/20,103
 6393,New Mexico,5/21/20,11
-6394,New York,5/21/20,90
+6394,New York,5/21/20,73
 6395,North Carolina,5/21/20,8
 6396,North Dakota,5/21/20,2
 6397,Ohio,5/21/20,56
@@ -6446,7 +6446,7 @@
 6444,New Hampshire,5/22/20,5
 6445,New Jersey,5/22/20,146
 6446,New Mexico,5/22/20,8
-6447,New York,5/22/20,103
+6447,New York,5/22/20,74
 6448,North Carolina,5/22/20,41
 6449,North Dakota,5/22/20,1
 6450,Ohio,5/22/20,35
@@ -6499,7 +6499,7 @@
 6497,New Hampshire,5/23/20,4
 6498,New Jersey,5/23/20,100
 6499,New Mexico,5/23/20,6
-6500,New York,5/23/20,189
+6500,New York,5/23/20,168
 6501,North Carolina,5/23/20,3
 6502,North Dakota,5/23/20,0
 6503,Ohio,5/23/20,84
@@ -6552,7 +6552,7 @@
 6550,New Hampshire,5/24/20,1
 6551,New Jersey,5/24/20,58
 6552,New Mexico,5/24/20,9
-6553,New York,5/24/20,85
+6553,New York,5/24/20,93
 6554,North Carolina,5/24/20,6
 6555,North Dakota,5/24/20,1
 6556,Ohio,5/24/20,13
@@ -6605,7 +6605,7 @@
 6603,New Hampshire,5/25/20,1
 6604,New Jersey,5/25/20,14
 6605,New Mexico,5/25/20,3
-6606,New York,5/25/20,99
+6606,New York,5/25/20,124
 6607,North Carolina,5/25/20,6
 6608,North Dakota,5/25/20,1
 6609,Ohio,5/25/20,18
@@ -6658,7 +6658,7 @@
 6656,New Hampshire,5/26/20,4
 6657,New Jersey,5/26/20,53
 6658,New Mexico,5/26/20,5
-6659,New York,5/26/20,60
+6659,New York,5/26/20,27
 6660,North Carolina,5/26/20,11
 6661,North Dakota,5/26/20,0
 6662,Ohio,5/26/20,15
@@ -6764,7 +6764,7 @@
 6762,New Hampshire,5/28/20,9
 6763,New Jersey,5/28/20,75
 6764,New Mexico,5/28/20,6
-6765,New York,5/28/20,34
+6765,New York,5/28/20,20
 6766,North Carolina,5/28/20,32
 6767,North Dakota,5/28/20,1
 6768,Ohio,5/28/20,54
@@ -6817,7 +6817,7 @@
 6815,New Hampshire,5/29/20,6
 6816,New Jersey,5/29/20,127
 6817,New Mexico,5/29/20,9
-6818,New York,5/29/20,107
+6818,New York,5/29/20,96
 6819,North Carolina,5/29/20,43
 6820,North Dakota,5/29/20,2
 6821,Ohio,5/29/20,33
@@ -6870,7 +6870,7 @@
 6868,New Hampshire,5/30/20,0
 6869,New Jersey,5/30/20,105
 6870,New Mexico,5/30/20,7
-6871,New York,5/30/20,87
+6871,New York,5/30/20,71
 6872,North Carolina,5/30/20,10
 6873,North Dakota,5/30/20,1
 6874,Ohio,5/30/20,18
@@ -6923,7 +6923,7 @@
 6921,New Hampshire,5/31/20,7
 6922,New Jersey,5/31/20,68
 6923,New Mexico,5/31/20,5
-6924,New York,5/31/20,60
+6924,New York,5/31/20,50
 6925,North Carolina,5/31/20,8
 6926,North Dakota,5/31/20,1
 6927,Ohio,5/31/20,6
@@ -6976,7 +6976,7 @@
 6974,New Hampshire,6/1/20,0
 6975,New Jersey,6/1/20,29
 6976,New Mexico,6/1/20,6
-6977,New York,6/1/20,134
+6977,New York,6/1/20,133
 6978,North Carolina,6/1/20,11
 6979,North Dakota,6/1/20,0
 6980,Ohio,6/1/20,52
@@ -7029,7 +7029,7 @@
 7027,New Hampshire,6/2/20,11
 7028,New Jersey,6/2/20,52
 7029,New Mexico,6/2/20,5
-7030,New York,6/2/20,53
+7030,New York,6/2/20,78
 7031,North Carolina,6/2/20,13
 7032,North Dakota,6/2/20,4
 7033,Ohio,6/2/20,52
@@ -7082,7 +7082,7 @@
 7080,New Hampshire,6/3/20,9
 7081,New Jersey,6/3/20,111
 7082,New Mexico,6/3/20,8
-7083,New York,6/3/20,58
+7083,New York,6/3/20,54
 7084,North Carolina,6/3/20,38
 7085,North Dakota,6/3/20,1
 7086,Ohio,6/3/20,41
@@ -7188,7 +7188,7 @@
 7186,New Hampshire,6/5/20,5
 7187,New Jersey,6/5/20,82
 7188,New Mexico,6/5/20,4
-7189,New York,6/5/20,62
+7189,New York,6/5/20,27
 7190,North Carolina,6/5/20,9
 7191,North Dakota,6/5/20,5
 7192,Ohio,6/5/20,17
@@ -7241,7 +7241,7 @@
 7239,New Hampshire,6/6/20,5
 7240,New Jersey,6/6/20,58
 7241,New Mexico,6/6/20,5
-7242,New York,6/6/20,49
+7242,New York,6/6/20,21
 7243,North Carolina,6/6/20,13
 7244,North Dakota,6/6/20,1
 7245,Ohio,6/6/20,15
@@ -7294,7 +7294,7 @@
 7292,New Hampshire,6/7/20,3
 7293,New Jersey,6/7/20,71
 7294,New Mexico,6/7/20,4
-7295,New York,6/7/20,94
+7295,New York,6/7/20,85
 7296,North Carolina,6/7/20,4
 7297,North Dakota,6/7/20,0
 7298,Ohio,6/7/20,7
@@ -7347,7 +7347,7 @@
 7345,New Hampshire,6/8/20,0
 7346,New Jersey,6/8/20,39
 7347,New Mexico,6/8/20,4
-7348,New York,6/8/20,55
+7348,New York,6/8/20,61
 7349,North Carolina,6/8/20,9
 7350,North Dakota,6/8/20,0
 7351,Ohio,6/8/20,27
@@ -7400,7 +7400,7 @@
 7398,New Hampshire,6/9/20,0
 7399,New Jersey,6/9/20,93
 7400,New Mexico,6/9/20,4
-7401,New York,6/9/20,35
+7401,New York,6/9/20,40
 7402,North Carolina,6/9/20,27
 7403,North Dakota,6/9/20,0
 7404,Ohio,6/9/20,17
@@ -7453,7 +7453,7 @@
 7451,New Hampshire,6/10/20,15
 7452,New Jersey,6/10/20,76
 7453,New Mexico,6/10/20,6
-7454,New York,6/10/20,80
+7454,New York,6/10/20,63
 7455,North Carolina,6/10/20,22
 7456,North Dakota,6/10/20,1
 7457,Ohio,6/10/20,36
@@ -7506,7 +7506,7 @@
 7504,New Hampshire,6/11/20,7
 7505,New Jersey,6/11/20,67
 7506,New Mexico,6/11/20,10
-7507,New York,6/11/20,31
+7507,New York,6/11/20,14
 7508,North Carolina,6/11/20,16
 7509,North Dakota,6/11/20,1
 7510,Ohio,6/11/20,33
@@ -7559,7 +7559,7 @@
 7557,New Hampshire,6/12/20,7
 7558,New Jersey,6/12/20,50
 7559,New Mexico,6/12/20,0
-7560,New York,6/12/20,154
+7560,New York,6/12/20,150
 7561,North Carolina,6/12/20,15
 7562,North Dakota,6/12/20,0
 7563,Ohio,6/12/20,18
@@ -7612,7 +7612,7 @@
 7610,New Hampshire,6/13/20,3
 7611,New Jersey,6/13/20,135
 7612,New Mexico,6/13/20,11
-7613,New York,6/13/20,18
+7613,New York,6/13/20,14
 7614,North Carolina,6/13/20,6
 7615,North Dakota,6/13/20,0
 7616,Ohio,6/13/20,46
@@ -7718,7 +7718,7 @@
 7716,New Hampshire,6/15/20,0
 7717,New Jersey,6/15/20,50
 7718,New Mexico,6/15/20,5
-7719,New York,6/15/20,30
+7719,New York,6/15/20,33
 7720,North Carolina,6/15/20,8
 7721,North Dakota,6/15/20,0
 7722,Ohio,6/15/20,16
@@ -7771,7 +7771,7 @@
 7769,New Hampshire,6/16/20,6
 7770,New Jersey,6/16/20,86
 7771,New Mexico,6/16/20,7
-7772,New York,6/16/20,55
+7772,New York,6/16/20,50
 7773,North Carolina,6/16/20,29
 7774,North Dakota,6/16/20,0
 7775,Ohio,6/16/20,24
@@ -7824,7 +7824,7 @@
 7822,New Hampshire,6/17/20,4
 7823,New Jersey,6/17/20,43
 7824,New Mexico,6/17/20,5
-7825,New York,6/17/20,26
+7825,New York,6/17/20,18
 7826,North Carolina,6/17/20,12
 7827,North Dakota,6/17/20,0
 7828,Ohio,6/17/20,12
@@ -7877,7 +7877,7 @@
 7875,New Hampshire,6/18/20,1
 7876,New Jersey,6/18/20,35
 7877,New Mexico,6/18/20,4
-7878,New York,6/18/20,24
+7878,New York,6/18/20,32
 7879,North Carolina,6/18/20,7
 7880,North Dakota,6/18/20,1
 7881,Ohio,6/18/20,22
@@ -7930,7 +7930,7 @@
 7928,New Hampshire,6/19/20,6
 7929,New Jersey,6/19/20,33
 7930,New Mexico,6/19/20,8
-7931,New York,6/19/20,21
+7931,New York,6/19/20,19
 7932,North Carolina,6/19/20,14
 7933,North Dakota,6/19/20,1
 7934,Ohio,6/19/20,34
@@ -7983,7 +7983,7 @@
 7981,New Hampshire,6/20/20,2
 7982,New Jersey,6/20/20,23
 7983,New Mexico,6/20/20,2
-7984,New York,6/20/20,79
+7984,New York,6/20/20,70
 7985,North Carolina,6/20/20,13
 7986,North Dakota,6/20/20,0
 7987,Ohio,6/20/20,30
@@ -8036,7 +8036,7 @@
 8034,New Hampshire,6/21/20,0
 8035,New Jersey,6/21/20,17
 8036,New Mexico,6/21/20,3
-8037,New York,6/21/20,36
+8037,New York,6/21/20,37
 8038,North Carolina,6/21/20,30
 8039,North Dakota,6/21/20,1
 8040,Ohio,6/21/20,3
@@ -8089,7 +8089,7 @@
 8087,New Hampshire,6/22/20,0
 8088,New Jersey,6/22/20,38
 8089,New Mexico,6/22/20,0
-8090,New York,6/22/20,34
+8090,New York,6/22/20,36
 8091,North Carolina,6/22/20,33
 8092,North Dakota,6/22/20,0
 8093,Ohio,6/22/20,4
@@ -8195,7 +8195,7 @@
 8193,New Hampshire,6/24/20,4
 8194,New Jersey,6/24/20,51
 8195,New Mexico,6/24/20,4
-8196,New York,6/24/20,27
+8196,New York,6/24/20,22
 8197,North Carolina,6/24/20,29
 8198,North Dakota,6/24/20,0
 8199,Ohio,6/24/20,20
@@ -8248,7 +8248,7 @@
 8246,New Hampshire,6/25/20,10
 8247,New Jersey,6/25/20,0
 8248,New Mexico,6/25/20,5
-8249,New York,6/25/20,41
+8249,New York,6/25/20,33
 8250,North Carolina,6/25/20,11
 8251,North Dakota,6/25/20,0
 8252,Ohio,6/25/20,17
@@ -8301,7 +8301,7 @@
 8299,New Hampshire,6/26/20,8
 8300,New Jersey,6/26/20,42
 8301,New Mexico,6/26/20,4
-8302,New York,6/26/20,18
+8302,New York,6/26/20,23
 8303,North Carolina,6/26/20,12
 8304,North Dakota,6/26/20,0
 8305,Ohio,6/26/20,16
@@ -8354,7 +8354,7 @@
 8352,New Hampshire,6/27/20,2
 8353,New Jersey,6/27/20,34
 8354,New Mexico,6/27/20,2
-8355,New York,6/27/20,17
+8355,New York,6/27/20,21
 8356,North Carolina,6/27/20,5
 8357,North Dakota,6/27/20,0
 8358,Ohio,6/27/20,16
@@ -8407,7 +8407,7 @@
 8405,New Hampshire,6/28/20,0
 8406,New Jersey,6/28/20,27
 8407,New Mexico,6/28/20,1
-8408,New York,6/28/20,5
+8408,New York,6/28/20,27
 8409,North Carolina,6/28/20,0
 8410,North Dakota,6/28/20,1
 8411,Ohio,6/28/20,3
@@ -8460,7 +8460,7 @@
 8458,New Hampshire,6/29/20,0
 8459,New Jersey,6/29/20,17
 8460,New Mexico,6/29/20,1
-8461,New York,6/29/20,18
+8461,New York,6/29/20,31
 8462,North Carolina,6/29/20,5
 8463,North Dakota,6/29/20,0
 8464,Ohio,6/29/20,11
@@ -8513,7 +8513,7 @@
 8511,New Hampshire,6/30/20,4
 8512,New Jersey,6/30/20,43
 8513,New Mexico,6/30/20,4
-8514,New York,6/30/20,71
+8514,New York,6/30/20,0
 8515,North Carolina,6/30/20,23
 8516,North Dakota,6/30/20,0
 8517,Ohio,6/30/20,45
@@ -8566,7 +8566,7 @@
 8564,New Hampshire,7/1/20,2
 8565,New Jersey,7/1/20,43
 8566,New Mexico,7/1/20,3
-8567,New York,7/1/20,11
+8567,New York,7/1/20,18
 8568,North Carolina,7/1/20,18
 8569,North Dakota,7/1/20,1
 8570,Ohio,7/1/20,13
@@ -8619,7 +8619,7 @@
 8617,New Hampshire,7/2/20,2
 8618,New Jersey,7/2/20,29
 8619,New Mexico,7/2/20,3
-8620,New York,7/2/20,21
+8620,New York,7/2/20,24
 8621,North Carolina,7/2/20,11
 8622,North Dakota,7/2/20,0
 8623,Ohio,7/2/20,27
@@ -8672,7 +8672,7 @@
 8670,New Hampshire,7/3/20,1
 8671,New Jersey,7/3/20,57
 8672,New Mexico,7/3/20,8
-8673,New York,7/3/20,73
+8673,New York,7/3/20,80
 8674,North Carolina,7/3/20,10
 8675,North Dakota,7/3/20,0
 8676,Ohio,7/3/20,0
@@ -8725,7 +8725,7 @@
 8723,New Hampshire,7/4/20,3
 8724,New Jersey,7/4/20,25
 8725,New Mexico,7/4/20,2
-8726,New York,7/4/20,20
+8726,New York,7/4/20,14
 8727,North Carolina,7/4/20,3
 8728,North Dakota,7/4/20,0
 8729,Ohio,7/4/20,4
@@ -8778,7 +8778,7 @@
 8776,New Hampshire,7/5/20,2
 8777,New Jersey,7/5/20,22
 8778,New Mexico,7/5/20,0
-8779,New York,7/5/20,49
+8779,New York,7/5/20,38
 8780,North Carolina,7/5/20,1
 8781,North Dakota,7/5/20,0
 8782,Ohio,7/5/20,4
@@ -8831,7 +8831,7 @@
 8829,New Hampshire,7/6/20,1
 8830,New Jersey,7/6/20,18
 8831,New Mexico,7/6/20,2
-8832,New York,7/6/20,13
+8832,New York,7/6/20,17
 8833,North Carolina,7/6/20,9
 8834,North Dakota,7/6/20,0
 8835,Ohio,7/6/20,16
@@ -8884,7 +8884,7 @@
 8882,New Hampshire,7/7/20,2
 8883,New Jersey,7/7/20,52
 8884,New Mexico,7/7/20,4
-8885,New York,7/7/20,24
+8885,New York,7/7/20,22
 8886,North Carolina,7/7/20,14
 8887,North Dakota,7/7/20,4
 8888,Ohio,7/7/20,43
@@ -8937,7 +8937,7 @@
 8935,New Hampshire,7/8/20,2
 8936,New Jersey,7/8/20,51
 8937,New Mexico,7/8/20,8
-8938,New York,7/8/20,8
+8938,New York,7/8/20,21
 8939,North Carolina,7/8/20,16
 8940,North Dakota,7/8/20,1
 8941,Ohio,7/8/20,21
@@ -8990,7 +8990,7 @@
 8988,New Hampshire,7/9/20,1
 8989,New Jersey,7/9/20,116
 8990,New Mexico,7/9/20,6
-8991,New York,7/9/20,32
+8991,New York,7/9/20,23
 8992,North Carolina,7/9/20,15
 8993,North Dakota,7/9/20,0
 8994,Ohio,7/9/20,15
@@ -9043,7 +9043,7 @@
 9041,New Hampshire,7/10/20,3
 9042,New Jersey,7/10/20,31
 9043,New Mexico,7/10/20,6
-9044,New York,7/10/20,48
+9044,New York,7/10/20,42
 9045,North Carolina,7/10/20,20
 9046,North Dakota,7/10/20,0
 9047,Ohio,7/10/20,26
@@ -9096,7 +9096,7 @@
 9094,New Hampshire,7/11/20,1
 9095,New Jersey,7/11/20,46
 9096,New Mexico,7/11/20,4
-9097,New York,7/11/20,12
+9097,New York,7/11/20,11
 9098,North Carolina,7/11/20,16
 9099,North Dakota,7/11/20,2
 9100,Ohio,7/11/20,4
@@ -9149,7 +9149,7 @@
 9147,New Hampshire,7/12/20,0
 9148,New Jersey,7/12/20,0
 9149,New Mexico,7/12/20,2
-9150,New York,7/12/20,7
+9150,New York,7/12/20,15
 9151,North Carolina,7/12/20,9
 9152,North Dakota,7/12/20,0
 9153,Ohio,7/12/20,22
@@ -9202,7 +9202,7 @@
 9200,New Hampshire,7/13/20,0
 9201,New Jersey,7/13/20,35
 9202,New Mexico,7/13/20,3
-9203,New York,7/13/20,45
+9203,New York,7/13/20,23
 9204,North Carolina,7/13/20,7
 9205,North Dakota,7/13/20,0
 9206,Ohio,7/13/20,6
@@ -9255,7 +9255,7 @@
 9253,New Hampshire,7/14/20,1
 9254,New Jersey,7/14/20,22
 9255,New Mexico,7/14/20,3
-9256,New York,7/14/20,13
+9256,New York,7/14/20,11
 9257,North Carolina,7/14/20,42
 9258,North Dakota,7/14/20,1
 9259,Ohio,7/14/20,5
@@ -9361,7 +9361,7 @@
 9359,New Hampshire,7/16/20,1
 9360,New Jersey,7/16/20,31
 9361,New Mexico,7/16/20,5
-9362,New York,7/16/20,19
+9362,New York,7/16/20,9
 9363,North Carolina,7/16/20,18
 9364,North Dakota,7/16/20,1
 9365,Ohio,7/16/20,28
@@ -9414,7 +9414,7 @@
 9412,New Hampshire,7/17/20,0
 9413,New Jersey,7/17/20,19
 9414,New Mexico,7/17/20,3
-9415,New York,7/17/20,17
+9415,New York,7/17/20,27
 9416,North Carolina,7/17/20,16
 9417,North Dakota,7/17/20,1
 9418,Ohio,7/17/20,9
@@ -9467,7 +9467,7 @@
 9465,New Hampshire,7/18/20,1
 9466,New Jersey,7/18/20,15
 9467,New Mexico,7/18/20,4
-9468,New York,7/18/20,15
+9468,New York,7/18/20,13
 9469,North Carolina,7/18/20,25
 9470,North Dakota,7/18/20,0
 9471,Ohio,7/18/20,20
@@ -9520,7 +9520,7 @@
 9518,New Hampshire,7/19/20,2
 9519,New Jersey,7/19/20,7
 9520,New Mexico,7/19/20,2
-9521,New York,7/19/20,17
+9521,New York,7/19/20,19
 9522,North Carolina,7/19/20,4
 9523,North Dakota,7/19/20,2
 9524,Ohio,7/19/20,42
@@ -9626,7 +9626,7 @@
 9624,New Hampshire,7/21/20,2
 9625,New Jersey,7/21/20,22
 9626,New Mexico,7/21/20,10
-9627,New York,7/21/20,14
+9627,New York,7/21/20,12
 9628,North Carolina,7/21/20,28
 9629,North Dakota,7/21/20,1
 9630,Ohio,7/21/20,30
@@ -9679,7 +9679,7 @@
 9677,New Hampshire,7/22/20,2
 9678,New Jersey,7/22/20,0
 9679,New Mexico,7/22/20,3
-9680,New York,7/22/20,38
+9680,New York,7/22/20,43
 9681,North Carolina,7/22/20,27
 9682,North Dakota,7/22/20,2
 9683,Ohio,7/22/20,16
@@ -9732,7 +9732,7 @@
 9730,New Hampshire,7/23/20,3
 9731,New Jersey,7/23/20,23
 9732,New Mexico,7/23/20,5
-9733,New York,7/23/20,36
+9733,New York,7/23/20,9
 9734,North Carolina,7/23/20,24
 9735,North Dakota,7/23/20,1
 9736,Ohio,7/23/20,21
@@ -9785,7 +9785,7 @@
 9783,New Hampshire,7/24/20,2
 9784,New Jersey,7/24/20,35
 9785,New Mexico,7/24/20,5
-9786,New York,7/24/20,2
+9786,New York,7/24/20,11
 9787,North Carolina,7/24/20,33
 9788,North Dakota,7/24/20,2
 9789,Ohio,7/24/20,41
@@ -9838,7 +9838,7 @@
 9836,New Hampshire,7/25/20,2
 9837,New Jersey,7/25/20,11
 9838,New Mexico,7/25/20,6
-9839,New York,7/25/20,12
+9839,New York,7/25/20,10
 9840,North Carolina,7/25/20,22
 9841,North Dakota,7/25/20,0
 9842,Ohio,7/25/20,0
@@ -9891,7 +9891,7 @@
 9889,New Hampshire,7/26/20,0
 9890,New Jersey,7/26/20,11
 9891,New Mexico,7/26/20,7
-9892,New York,7/26/20,22
+9892,New York,7/26/20,17
 9893,North Carolina,7/26/20,6
 9894,North Dakota,7/26/20,0
 9895,Ohio,7/26/20,10
@@ -9944,7 +9944,7 @@
 9942,New Hampshire,7/27/20,0
 9943,New Jersey,7/27/20,17
 9944,New Mexico,7/27/20,5
-9945,New York,7/27/20,15
+9945,New York,7/27/20,10
 9946,North Carolina,7/27/20,21
 9947,North Dakota,7/27/20,0
 9948,Ohio,7/27/20,37
@@ -9997,7 +9997,7 @@
 9995,New Hampshire,7/28/20,0
 9996,New Jersey,7/28/20,21
 9997,New Mexico,7/28/20,7
-9998,New York,7/28/20,8
+9998,New York,7/28/20,14
 9999,North Carolina,7/28/20,22
 10000,North Dakota,7/28/20,1
 10001,Ohio,7/28/20,38
@@ -10050,7 +10050,7 @@
 10048,New Hampshire,7/29/20,2
 10049,New Jersey,7/29/20,0
 10050,New Mexico,7/29/20,6
-10051,New York,7/29/20,5
+10051,New York,7/29/20,1
 10052,North Carolina,7/29/20,28
 10053,North Dakota,7/29/20,2
 10054,Ohio,7/29/20,40
@@ -10103,7 +10103,7 @@
 10101,New Hampshire,7/30/20,4
 10102,New Jersey,7/30/20,11
 10103,New Mexico,7/30/20,3
-10104,New York,7/30/20,25
+10104,New York,7/30/20,18
 10105,North Carolina,7/30/20,34
 10106,North Dakota,7/30/20,1
 10107,Ohio,7/30/20,20
@@ -10156,7 +10156,7 @@
 10154,New Hampshire,7/31/20,0
 10155,New Jersey,7/31/20,10
 10156,New Mexico,7/31/20,7
-10157,New York,7/31/20,6
+10157,New York,7/31/20,3
 10158,North Carolina,7/31/20,20
 10159,North Dakota,7/31/20,0
 10160,Ohio,7/31/20,47
@@ -10209,7 +10209,7 @@
 10207,New Hampshire,8/1/20,1
 10208,New Jersey,8/1/20,11
 10209,New Mexico,8/1/20,9
-10210,New York,8/1/20,5
+10210,New York,8/1/20,9
 10211,North Carolina,8/1/20,37
 10212,North Dakota,8/1/20,0
 10213,Ohio,8/1/20,26
@@ -10262,7 +10262,7 @@
 10260,New Hampshire,8/2/20,1
 10261,New Jersey,8/2/20,6
 10262,New Mexico,8/2/20,3
-10263,New York,8/2/20,16
+10263,New York,8/2/20,13
 10264,North Carolina,8/2/20,4
 10265,North Dakota,8/2/20,2
 10266,Ohio,8/2/20,14
@@ -10315,7 +10315,7 @@
 10313,New Hampshire,8/3/20,0
 10314,New Jersey,8/3/20,10
 10315,New Mexico,8/3/20,1
-10316,New York,8/3/20,9
+10316,New York,8/3/20,0
 10317,North Carolina,8/3/20,60
 10318,North Dakota,8/3/20,0
 10319,Ohio,8/3/20,10
@@ -10421,7 +10421,7 @@
 10419,New Hampshire,8/5/20,0
 10420,New Jersey,8/5/20,0
 10421,New Mexico,8/5/20,9
-10422,New York,8/5/20,29
+10422,New York,8/5/20,33
 10423,North Carolina,8/5/20,24
 10424,North Dakota,8/5/20,1
 10425,Ohio,8/5/20,26
@@ -10474,7 +10474,7 @@
 10472,New Hampshire,8/6/20,1
 10473,New Jersey,8/6/20,7
 10474,New Mexico,8/6/20,2
-10475,New York,8/6/20,2
+10475,New York,8/6/20,5
 10476,North Carolina,8/6/20,41
 10477,North Dakota,8/6/20,1
 10478,Ohio,8/6/20,22
@@ -10527,7 +10527,7 @@
 10525,New Hampshire,8/7/20,0
 10526,New Jersey,8/7/20,0
 10527,New Mexico,8/7/20,6
-10528,New York,8/7/20,4
+10528,New York,8/7/20,3
 10529,North Carolina,8/7/20,34
 10530,North Dakota,8/7/20,1
 10531,Ohio,8/7/20,34
@@ -10580,7 +10580,7 @@
 10578,New Hampshire,8/8/20,0
 10579,New Jersey,8/8/20,20
 10580,New Mexico,8/8/20,6
-10581,New York,8/8/20,8
+10581,New York,8/8/20,9
 10582,North Carolina,8/8/20,24
 10583,North Dakota,8/8/20,2
 10584,Ohio,8/8/20,16
@@ -10633,7 +10633,7 @@
 10631,New Hampshire,8/9/20,0
 10632,New Jersey,8/9/20,5
 10633,New Mexico,8/9/20,4
-10634,New York,8/9/20,6
+10634,New York,8/9/20,2
 10635,North Carolina,8/9/20,8
 10636,North Dakota,8/9/20,0
 10637,Ohio,8/9/20,1
@@ -10686,7 +10686,7 @@
 10684,New Hampshire,8/10/20,0
 10685,New Jersey,8/10/20,4
 10686,New Mexico,8/10/20,5
-10687,New York,8/10/20,7
+10687,New York,8/10/20,9
 10688,North Carolina,8/10/20,7
 10689,North Dakota,8/10/20,1
 10690,Ohio,8/10/20,4
@@ -10792,7 +10792,7 @@
 10790,New Hampshire,8/12/20,1
 10791,New Jersey,8/12/20,0
 10792,New Mexico,8/12/20,2
-10793,New York,8/12/20,10
+10793,New York,8/12/20,8
 10794,North Carolina,8/12/20,42
 10795,North Dakota,8/12/20,2
 10796,Ohio,8/12/20,26
@@ -10845,7 +10845,7 @@
 10843,New Hampshire,8/13/20,2
 10844,New Jersey,8/13/20,8
 10845,New Mexico,8/13/20,2
-10846,New York,8/13/20,8
+10846,New York,8/13/20,2
 10847,North Carolina,8/13/20,7
 10848,North Dakota,8/13/20,0
 10849,Ohio,8/13/20,21
@@ -10898,7 +10898,7 @@
 10896,New Hampshire,8/14/20,1
 10897,New Jersey,8/14/20,10
 10898,New Mexico,8/14/20,6
-10899,New York,8/14/20,22
+10899,New York,8/14/20,18
 10900,North Carolina,8/14/20,26
 10901,North Dakota,8/14/20,1
 10902,Ohio,8/14/20,29
@@ -10951,7 +10951,7 @@
 10949,New Hampshire,8/15/20,0
 10950,New Jersey,8/15/20,7
 10951,New Mexico,8/15/20,8
-10952,New York,8/15/20,6
+10952,New York,8/15/20,11
 10953,North Carolina,8/15/20,30
 10954,North Dakota,8/15/20,0
 10955,Ohio,8/15/20,40
@@ -11057,7 +11057,7 @@
 11055,New Hampshire,8/17/20,0
 11056,New Jersey,8/17/20,4
 11057,New Mexico,8/17/20,4
-11058,New York,8/17/20,6
+11058,New York,8/17/20,7
 11059,North Carolina,8/17/20,1
 11060,North Dakota,8/17/20,1
 11061,Ohio,8/17/20,6
@@ -11110,7 +11110,7 @@
 11108,New Hampshire,8/18/20,1
 11109,New Jersey,8/18/20,9
 11110,New Mexico,8/18/20,5
-11111,New York,8/18/20,11
+11111,New York,8/18/20,12
 11112,North Carolina,8/18/20,48
 11113,North Dakota,8/18/20,2
 11114,Ohio,8/18/20,34
@@ -11163,7 +11163,7 @@
 11161,New Hampshire,8/19/20,3
 11162,New Jersey,8/19/20,1
 11163,New Mexico,8/19/20,6
-11164,New York,8/19/20,8
+11164,New York,8/19/20,5
 11165,North Carolina,8/19/20,35
 11166,North Dakota,8/19/20,2
 11167,Ohio,8/19/20,41
@@ -11269,7 +11269,7 @@
 11267,New Hampshire,8/21/20,0
 11268,New Jersey,8/21/20,9
 11269,New Mexico,8/21/20,5
-11270,New York,8/21/20,3
+11270,New York,8/21/20,0
 11271,North Carolina,8/21/20,29
 11272,North Dakota,8/21/20,2
 11273,Ohio,8/21/20,26
@@ -11322,7 +11322,7 @@
 11320,New Hampshire,8/22/20,1
 11321,New Jersey,8/22/20,2
 11322,New Mexico,8/22/20,4
-11323,New York,8/22/20,7
+11323,New York,8/22/20,6
 11324,North Carolina,8/22/20,27
 11325,North Dakota,8/22/20,3
 11326,Ohio,8/22/20,20
@@ -11428,7 +11428,7 @@
 11426,New Hampshire,8/24/20,0
 11427,New Jersey,8/24/20,0
 11428,New Mexico,8/24/20,4
-11429,New York,8/24/20,4
+11429,New York,8/24/20,1
 11430,North Carolina,8/24/20,4
 11431,North Dakota,8/24/20,1
 11432,Ohio,8/24/20,8
@@ -11481,7 +11481,7 @@
 11479,New Hampshire,8/25/20,0
 11480,New Jersey,8/25/20,7
 11481,New Mexico,8/25/20,3
-11482,New York,8/25/20,31
+11482,New York,8/25/20,29
 11483,North Carolina,8/25/20,35
 11484,North Dakota,8/25/20,1
 11485,Ohio,8/25/20,10
@@ -11500,3 +11500,533 @@
 11498,West Virginia,8/25/20,8
 11499,Wisconsin,8/25/20,13
 11500,Wyoming,8/25/20,0
+11501,Alabama,8/26/20,8
+11502,Alaska,8/26/20,1
+11503,Arizona,8/26/20,104
+11504,Arkansas,8/26/20,21
+11505,California,8/26/20,150
+11506,Colorado,8/26/20,1
+11507,Connecticut,8/26/20,0
+11508,Delaware,8/26/20,1
+11509,Diamond Princess,8/26/20,0
+11510,District of Columbia,8/26/20,1
+11511,Florida,8/26/20,153
+11512,Georgia,8/26/20,49
+11513,Grand Princess,8/26/20,0
+11514,Hawaii,8/26/20,2
+11515,Idaho,8/26/20,11
+11516,Illinois,8/26/20,37
+11517,Indiana,8/26/20,18
+11518,Iowa,8/26/20,12
+11519,Kansas,8/26/20,12
+11520,Kentucky,8/26/20,7
+11521,Louisiana,8/26/20,54
+11522,Maine,8/26/20,1
+11523,Maryland,8/26/20,10
+11524,Massachusetts,8/26/20,26
+11525,Michigan,8/26/20,6
+11526,Minnesota,8/26/20,15
+11527,Mississippi,8/26/20,58
+11528,Missouri,8/26/20,11
+11529,Montana,8/26/20,1
+11530,Nebraska,8/26/20,3
+11531,Nevada,8/26/20,20
+11532,New Hampshire,8/26/20,0
+11533,New Jersey,8/26/20,0
+11534,New Mexico,8/26/20,3
+11535,New York,8/26/20,6
+11536,North Carolina,8/26/20,36
+11537,North Dakota,8/26/20,0
+11538,Ohio,8/26/20,48
+11539,Oklahoma,8/26/20,19
+11540,Oregon,8/26/20,5
+11541,Pennsylvania,8/26/20,31
+11542,Rhode Island,8/26/20,2
+11543,South Carolina,8/26/20,44
+11544,South Dakota,8/26/20,1
+11545,Tennessee,8/26/20,20
+11546,Texas,8/26/20,205
+11547,Utah,8/26/20,4
+11548,Vermont,8/26/20,0
+11549,Virginia,8/26/20,21
+11550,Washington,8/26/20,4
+11551,West Virginia,8/26/20,3
+11552,Wisconsin,8/26/20,6
+11553,Wyoming,8/26/20,0
+11554,Alabama,8/27/20,31
+11555,Alaska,8/27/20,0
+11556,Arizona,8/27/20,33
+11557,Arkansas,8/27/20,7
+11558,California,8/27/20,145
+11559,Colorado,8/27/20,4
+11560,Connecticut,8/27/20,2
+11561,Delaware,8/27/20,0
+11562,Diamond Princess,8/27/20,0
+11563,District of Columbia,8/27/20,0
+11564,Florida,8/27/20,135
+11565,Georgia,8/27/20,82
+11566,Grand Princess,8/27/20,0
+11567,Hawaii,8/27/20,4
+11568,Idaho,8/27/20,6
+11569,Illinois,8/27/20,23
+11570,Indiana,8/27/20,7
+11571,Iowa,8/27/20,20
+11572,Kansas,8/27/20,2
+11573,Kentucky,8/27/20,8
+11574,Louisiana,8/27/20,23
+11575,Maine,8/27/20,0
+11576,Maryland,8/27/20,5
+11577,Massachusetts,8/27/20,21
+11578,Michigan,8/27/20,16
+11579,Minnesota,8/27/20,15
+11580,Mississippi,8/27/20,26
+11581,Missouri,8/27/20,7
+11582,Montana,8/27/20,0
+11583,Nebraska,8/27/20,5
+11584,Nevada,8/27/20,21
+11585,New Hampshire,8/27/20,2
+11586,New Jersey,8/27/20,7
+11587,New Mexico,8/27/20,9
+11588,New York,8/27/20,0
+11589,North Carolina,8/27/20,24
+11590,North Dakota,8/27/20,1
+11591,Ohio,8/27/20,32
+11592,Oklahoma,8/27/20,15
+11593,Oregon,8/27/20,5
+11594,Pennsylvania,8/27/20,9
+11595,Rhode Island,8/27/20,3
+11596,South Carolina,8/27/20,55
+11597,South Dakota,8/27/20,0
+11598,Tennessee,8/27/20,25
+11599,Texas,8/27/20,225
+11600,Utah,8/27/20,2
+11601,Vermont,8/27/20,0
+11602,Virginia,8/27/20,12
+11603,Washington,8/27/20,10
+11604,West Virginia,8/27/20,8
+11605,Wisconsin,8/27/20,11
+11606,Wyoming,8/27/20,0
+11607,Alabama,8/28/20,31
+11608,Alaska,8/28/20,0
+11609,Arizona,8/28/20,49
+11610,Arkansas,8/28/20,17
+11611,California,8/28/20,128
+11612,Colorado,8/28/20,6
+11613,Connecticut,8/28/20,0
+11614,Delaware,8/28/20,0
+11615,Diamond Princess,8/28/20,0
+11616,District of Columbia,8/28/20,0
+11617,Florida,8/28/20,89
+11618,Georgia,8/28/20,78
+11619,Grand Princess,8/28/20,0
+11620,Hawaii,8/28/20,4
+11621,Idaho,8/28/20,10
+11622,Illinois,8/28/20,20
+11623,Indiana,8/28/20,11
+11624,Iowa,8/28/20,17
+11625,Kansas,8/28/20,1
+11626,Kentucky,8/28/20,8
+11627,Louisiana,8/28/20,30
+11628,Maine,8/28/20,0
+11629,Maryland,8/28/20,5
+11630,Massachusetts,8/28/20,16
+11631,Michigan,8/28/20,6
+11632,Minnesota,8/28/20,4
+11633,Mississippi,8/28/20,14
+11634,Missouri,8/28/20,12
+11635,Montana,8/28/20,2
+11636,Nebraska,8/28/20,1
+11637,Nevada,8/28/20,16
+11638,New Hampshire,8/28/20,1
+11639,New Jersey,8/28/20,9
+11640,New Mexico,8/28/20,3
+11641,New York,8/28/20,3
+11642,North Carolina,8/28/20,22
+11643,North Dakota,8/28/20,0
+11644,Ohio,8/28/20,29
+11645,Oklahoma,8/28/20,8
+11646,Oregon,8/28/20,9
+11647,Pennsylvania,8/28/20,20
+11648,Rhode Island,8/28/20,2
+11649,South Carolina,8/28/20,27
+11650,South Dakota,8/28/20,3
+11651,Tennessee,8/28/20,28
+11652,Texas,8/28/20,172
+11653,Utah,8/28/20,4
+11654,Vermont,8/28/20,0
+11655,Virginia,8/28/20,23
+11656,Washington,8/28/20,15
+11657,West Virginia,8/28/20,3
+11658,Wisconsin,8/28/20,2
+11659,Wyoming,8/28/20,0
+11660,Alabama,8/29/20,45
+11661,Alaska,8/29/20,0
+11662,Arizona,8/29/20,29
+11663,Arkansas,8/29/20,16
+11664,California,8/29/20,89
+11665,Colorado,8/29/20,5
+11666,Connecticut,8/29/20,0
+11667,Delaware,8/29/20,0
+11668,Diamond Princess,8/29/20,0
+11669,District of Columbia,8/29/20,0
+11670,Florida,8/29/20,148
+11671,Georgia,8/29/20,105
+11672,Grand Princess,8/29/20,0
+11673,Hawaii,8/29/20,3
+11674,Idaho,8/29/20,5
+11675,Illinois,8/29/20,11
+11676,Indiana,8/29/20,8
+11677,Iowa,8/29/20,0
+11678,Kansas,8/29/20,4
+11679,Kentucky,8/29/20,3
+11680,Louisiana,8/29/20,0
+11681,Maine,8/29/20,0
+11682,Maryland,8/29/20,19
+11683,Massachusetts,8/29/20,12
+11684,Michigan,8/29/20,0
+11685,Minnesota,8/29/20,4
+11686,Mississippi,8/29/20,14
+11687,Missouri,8/29/20,28
+11688,Montana,8/29/20,4
+11689,Nebraska,8/29/20,0
+11690,Nevada,8/29/20,15
+11691,New Hampshire,8/29/20,0
+11692,New Jersey,8/29/20,3
+11693,New Mexico,8/29/20,2
+11694,New York,8/29/20,1
+11695,North Carolina,8/29/20,31
+11696,North Dakota,8/29/20,2
+11697,Ohio,8/29/20,147
+11698,Oklahoma,8/29/20,11
+11699,Oregon,8/29/20,7
+11700,Pennsylvania,8/29/20,14
+11701,Rhode Island,8/29/20,0
+11702,South Carolina,8/29/20,43
+11703,South Dakota,8/29/20,2
+11704,Tennessee,8/29/20,24
+11705,Texas,8/29/20,70
+11706,Utah,8/29/20,0
+11707,Vermont,8/29/20,0
+11708,Virginia,8/29/20,18
+11709,Washington,8/29/20,0
+11710,West Virginia,8/29/20,14
+11711,Wisconsin,8/29/20,6
+11712,Wyoming,8/29/20,0
+11713,Alabama,8/30/20,10
+11714,Alaska,8/30/20,0
+11715,Arizona,8/30/20,23
+11716,Arkansas,8/30/20,12
+11717,California,8/30/20,43
+11718,Colorado,8/30/20,0
+11719,Connecticut,8/30/20,0
+11720,Delaware,8/30/20,0
+11721,Diamond Princess,8/30/20,0
+11722,District of Columbia,8/30/20,1
+11723,Florida,8/30/20,14
+11724,Georgia,8/30/20,28
+11725,Grand Princess,8/30/20,0
+11726,Hawaii,8/30/20,1
+11727,Idaho,8/30/20,1
+11728,Illinois,8/30/20,11
+11729,Indiana,8/30/20,6
+11730,Iowa,8/30/20,13
+11731,Kansas,8/30/20,0
+11732,Kentucky,8/30/20,8
+11733,Louisiana,8/30/20,27
+11734,Maine,8/30/20,0
+11735,Maryland,8/30/20,6
+11736,Massachusetts,8/30/20,13
+11737,Michigan,8/30/20,36
+11738,Minnesota,8/30/20,2
+11739,Mississippi,8/30/20,14
+11740,Missouri,8/30/20,5
+11741,Montana,8/30/20,0
+11742,Nebraska,8/30/20,0
+11743,Nevada,8/30/20,0
+11744,New Hampshire,8/30/20,0
+11745,New Jersey,8/30/20,4
+11746,New Mexico,8/30/20,1
+11747,New York,8/30/20,18
+11748,North Carolina,8/30/20,9
+11749,North Dakota,8/30/20,1
+11750,Ohio,8/30/20,0
+11751,Oklahoma,8/30/20,2
+11752,Oregon,8/30/20,4
+11753,Pennsylvania,8/30/20,2
+11754,Rhode Island,8/30/20,0
+11755,South Carolina,8/30/20,11
+11756,South Dakota,8/30/20,0
+11757,Tennessee,8/30/20,22
+11758,Texas,8/30/20,76
+11759,Utah,8/30/20,0
+11760,Vermont,8/30/20,0
+11761,Virginia,8/30/20,1
+11762,Washington,8/30/20,0
+11763,West Virginia,8/30/20,0
+11764,Wisconsin,8/30/20,3
+11765,Wyoming,8/30/20,0
+11766,Alabama,8/31/20,20
+11767,Alaska,8/31/20,0
+11768,Arizona,8/31/20,0
+11769,Arkansas,8/31/20,13
+11770,California,8/31/20,85
+11771,Colorado,8/31/20,3
+11772,Connecticut,8/31/20,0
+11773,Delaware,8/31/20,1
+11774,Diamond Princess,8/31/20,0
+11775,District of Columbia,8/31/20,1
+11776,Florida,8/31/20,68
+11777,Georgia,8/31/20,29
+11778,Grand Princess,8/31/20,0
+11779,Hawaii,8/31/20,7
+11780,Idaho,8/31/20,2
+11781,Illinois,8/31/20,7
+11782,Indiana,8/31/20,5
+11783,Iowa,8/31/20,7
+11784,Kansas,8/31/20,2
+11785,Kentucky,8/31/20,4
+11786,Louisiana,8/31/20,19
+11787,Maine,8/31/20,0
+11788,Maryland,8/31/20,3
+11789,Massachusetts,8/31/20,11
+11790,Michigan,8/31/20,5
+11791,Minnesota,8/31/20,1
+11792,Mississippi,8/31/20,32
+11793,Missouri,8/31/20,14
+11794,Montana,8/31/20,0
+11795,Nebraska,8/31/20,5
+11796,Nevada,8/31/20,3
+11797,New Hampshire,8/31/20,0
+11798,New Jersey,8/31/20,8
+11799,New Mexico,8/31/20,9
+11800,New York,8/31/20,48
+11801,North Carolina,8/31/20,10
+11802,North Dakota,8/31/20,1
+11803,Ohio,8/31/20,10
+11804,Oklahoma,8/31/20,1
+11805,Oregon,8/31/20,1
+11806,Pennsylvania,8/31/20,1
+11807,Rhode Island,8/31/20,2
+11808,South Carolina,8/31/20,11
+11809,South Dakota,8/31/20,0
+11810,Tennessee,8/31/20,7
+11811,Texas,8/31/20,96
+11812,Utah,8/31/20,0
+11813,Vermont,8/31/20,0
+11814,Virginia,8/31/20,11
+11815,Washington,8/31/20,10
+11816,West Virginia,8/31/20,1
+11817,Wisconsin,8/31/20,0
+11818,Wyoming,8/31/20,0
+11819,Alabama,9/1/20,18
+11820,Alaska,9/1/20,2
+11821,Arizona,9/1/20,15
+11822,Arkansas,9/1/20,17
+11823,California,9/1/20,128
+11824,Colorado,9/1/20,1
+11825,Connecticut,9/1/20,1
+11826,Delaware,9/1/20,0
+11827,Diamond Princess,9/1/20,0
+11828,District of Columbia,9/1/20,0
+11829,Florida,9/1/20,187
+11830,Georgia,9/1/20,100
+11831,Grand Princess,9/1/20,0
+11832,Hawaii,9/1/20,4
+11833,Idaho,9/1/20,6
+11834,Illinois,9/1/20,38
+11835,Indiana,9/1/20,16
+11836,Iowa,9/1/20,5
+11837,Kansas,9/1/20,5
+11838,Kentucky,9/1/20,15
+11839,Louisiana,9/1/20,34
+11840,Maine,9/1/20,0
+11841,Maryland,9/1/20,6
+11842,Massachusetts,9/1/20,4
+11843,Michigan,9/1/20,14
+11844,Minnesota,9/1/20,5
+11845,Mississippi,9/1/20,20
+11846,Missouri,9/1/20,15
+11847,Montana,9/1/20,1
+11848,Nebraska,9/1/20,2
+11849,Nevada,9/1/20,8
+11850,New Hampshire,9/1/20,0
+11851,New Jersey,9/1/20,5
+11852,New Mexico,9/1/20,8
+11853,New York,9/1/20,9
+11854,North Carolina,9/1/20,39
+11855,North Dakota,9/1/20,2
+11856,Ohio,9/1/20,27
+11857,Oklahoma,9/1/20,8
+11858,Oregon,9/1/20,5
+11859,Pennsylvania,9/1/20,19
+11860,Rhode Island,9/1/20,2
+11861,South Carolina,9/1/20,37
+11862,South Dakota,9/1/20,0
+11863,Tennessee,9/1/20,27
+11864,Texas,9/1/20,140
+11865,Utah,9/1/20,2
+11866,Vermont,9/1/20,0
+11867,Virginia,9/1/20,32
+11868,Washington,9/1/20,16
+11869,West Virginia,9/1/20,9
+11870,Wisconsin,9/1/20,8
+11871,Wyoming,9/1/20,0
+11872,Alabama,9/2/20,17
+11873,Alaska,9/2/20,0
+11874,Arizona,9/2/20,21
+11875,Arkansas,9/2/20,27
+11876,California,9/2/20,167
+11877,Colorado,9/2/20,6
+11878,Connecticut,9/2/20,1
+11879,Delaware,9/2/20,1
+11880,Diamond Princess,9/2/20,0
+11881,District of Columbia,9/2/20,1
+11882,Florida,9/2/20,127
+11883,Georgia,9/2/20,62
+11884,Grand Princess,9/2/20,0
+11885,Hawaii,9/2/20,1
+11886,Idaho,9/2/20,5
+11887,Illinois,9/2/20,27
+11888,Indiana,9/2/20,13
+11889,Iowa,9/2/20,8
+11890,Kansas,9/2/20,5
+11891,Kentucky,9/2/20,18
+11892,Louisiana,9/2/20,20
+11893,Maine,9/2/20,1
+11894,Maryland,9/2/20,5
+11895,Massachusetts,9/2/20,0
+11896,Michigan,9/2/20,14
+11897,Minnesota,9/2/20,11
+11898,Mississippi,9/2/20,33
+11899,Missouri,9/2/20,16
+11900,Montana,9/2/20,4
+11901,Nebraska,9/2/20,0
+11902,Nevada,9/2/20,23
+11903,New Hampshire,9/2/20,0
+11904,New Jersey,9/2/20,14
+11905,New Mexico,9/2/20,3
+11906,New York,9/2/20,6
+11907,North Carolina,9/2/20,38
+11908,North Dakota,9/2/20,3
+11909,Ohio,9/2/20,10
+11910,Oklahoma,9/2/20,13
+11911,Oregon,9/2/20,4
+11912,Pennsylvania,9/2/20,27
+11913,Rhode Island,9/2/20,1
+11914,South Carolina,9/2/20,37
+11915,South Dakota,9/2/20,2
+11916,Tennessee,9/2/20,16
+11917,Texas,9/2/20,185
+11918,Utah,9/2/20,1
+11919,Vermont,9/2/20,0
+11920,Virginia,9/2/20,29
+11921,Washington,9/2/20,4
+11922,West Virginia,9/2/20,9
+11923,Wisconsin,9/2/20,12
+11924,Wyoming,9/2/20,4
+11925,Alabama,9/3/20,16
+11926,Alaska,9/3/20,1
+11927,Arizona,9/3/20,65
+11928,Arkansas,9/3/20,20
+11929,California,9/3/20,176
+11930,Colorado,9/3/20,3
+11931,Connecticut,9/3/20,1
+11932,Delaware,9/3/20,0
+11933,Diamond Princess,9/3/20,0
+11934,District of Columbia,9/3/20,1
+11935,Florida,9/3/20,149
+11936,Georgia,9/3/20,73
+11937,Grand Princess,9/3/20,0
+11938,Hawaii,9/3/20,4
+11939,Idaho,9/3/20,0
+11940,Illinois,9/3/20,24
+11941,Indiana,9/3/20,7
+11942,Iowa,9/3/20,3
+11943,Kansas,9/3/20,10
+11944,Kentucky,9/3/20,10
+11945,Louisiana,9/3/20,17
+11946,Maine,9/3/20,0
+11947,Maryland,9/3/20,12
+11948,Massachusetts,9/3/20,17
+11949,Michigan,9/3/20,10
+11950,Minnesota,9/3/20,7
+11951,Mississippi,9/3/20,10
+11952,Missouri,9/3/20,8
+11953,Montana,9/3/20,2
+11954,Nebraska,9/3/20,5
+11955,Nevada,9/3/20,27
+11956,New Hampshire,9/3/20,0
+11957,New Jersey,9/3/20,7
+11958,New Mexico,9/3/20,1
+11959,New York,9/3/20,4
+11960,North Carolina,9/3/20,24
+11961,North Dakota,9/3/20,2
+11962,Ohio,9/3/20,50
+11963,Oklahoma,9/3/20,14
+11964,Oregon,9/3/20,2
+11965,Pennsylvania,9/3/20,19
+11966,Rhode Island,9/3/20,4
+11967,South Carolina,9/3/20,13
+11968,South Dakota,9/3/20,0
+11969,Tennessee,9/3/20,18
+11970,Texas,9/3/20,192
+11971,Utah,9/3/20,4
+11972,Vermont,9/3/20,0
+11973,Virginia,9/3/20,11
+11974,Washington,9/3/20,10
+11975,West Virginia,9/3/20,7
+11976,Wisconsin,9/3/20,4
+11977,Wyoming,9/3/20,0
+11978,Alabama,9/4/20,33
+11979,Alaska,9/4/20,0
+11980,Arizona,9/4/20,41
+11981,Arkansas,9/4/20,12
+11982,California,9/4/20,145
+11983,Colorado,9/4/20,0
+11984,Connecticut,9/4/20,0
+11985,Delaware,9/4/20,0
+11986,Diamond Princess,9/4/20,0
+11987,District of Columbia,9/4/20,2
+11988,Florida,9/4/20,100
+11989,Georgia,9/4/20,63
+11990,Grand Princess,9/4/20,0
+11991,Hawaii,9/4/20,2
+11992,Idaho,9/4/20,10
+11993,Illinois,9/4/20,38
+11994,Indiana,9/4/20,18
+11995,Iowa,9/4/20,22
+11996,Kansas,9/4/20,7
+11997,Kentucky,9/4/20,11
+11998,Louisiana,9/4/20,14
+11999,Maine,9/4/20,1
+12000,Maryland,9/4/20,11
+12001,Massachusetts,9/4/20,23
+12002,Michigan,9/4/20,7
+12003,Minnesota,9/4/20,10
+12004,Mississippi,9/4/20,22
+12005,Missouri,9/4/20,21
+12006,Montana,9/4/20,3
+12007,Nebraska,9/4/20,0
+12008,Nevada,9/4/20,12
+12009,New Hampshire,9/4/20,0
+12010,New Jersey,9/4/20,7
+12011,New Mexico,9/4/20,3
+12012,New York,9/4/20,6
+12013,North Carolina,9/4/20,36
+12014,North Dakota,9/4/20,0
+12015,Ohio,9/4/20,22
+12016,Oklahoma,9/4/20,11
+12017,Oregon,9/4/20,5
+12018,Pennsylvania,9/4/20,11
+12019,Rhode Island,9/4/20,0
+12020,South Carolina,9/4/20,39
+12021,South Dakota,9/4/20,1
+12022,Tennessee,9/4/20,22
+12023,Texas,9/4/20,130
+12024,Utah,9/4/20,5
+12025,Vermont,9/4/20,0
+12026,Virginia,9/4/20,10
+12027,Washington,9/4/20,8
+12028,West Virginia,9/4/20,5
+12029,Wisconsin,9/4/20,7
+12030,Wyoming,9/4/20,1
