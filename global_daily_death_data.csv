@@ -40080,7 +40080,7 @@
 40078,Chad,8/22/20,0
 40079,Chile,8/22/20,69
 40080,China,8/22/20,2
-40081,Colombia,8/22/20,0
+40081,Colombia,8/22/20,400
 40082,Comoros,8/22/20,0
 40083,Congo (Brazzaville),8/22/20,0
 40084,Congo (Kinshasa),8/22/20,3
@@ -40268,7 +40268,7 @@
 40266,Chad,8/23/20,0
 40267,Chile,8/23/20,60
 40268,China,8/23/20,0
-40269,Colombia,8/23/20,748
+40269,Colombia,8/23/20,348
 40270,Comoros,8/23/20,0
 40271,Congo (Brazzaville),8/23/20,0
 40272,Congo (Kinshasa),8/23/20,0
@@ -42524,7 +42524,7 @@
 42522,Chad,9/4/20,0
 42523,Chile,9/4/20,72
 42524,China,9/4/20,0
-42525,Colombia,9/4/20,0
+42525,Colombia,9/4/20,270
 42526,Comoros,9/4/20,0
 42527,Congo (Brazzaville),9/4/20,0
 42528,Congo (Kinshasa),9/4/20,0
@@ -42675,3 +42675,1131 @@
 42673,Yemen,9/4/20,1
 42674,Zambia,9/4/20,0
 42675,Zimbabwe,9/4/20,0
+42676,Afghanistan,9/5/20,0
+42677,Albania,9/5/20,6
+42678,Algeria,9/5/20,10
+42679,Andorra,9/5/20,0
+42680,Angola,9/5/20,2
+42681,Antigua and Barbuda,9/5/20,0
+42682,Argentina,9/5/20,116
+42683,Armenia,9/5/20,4
+42684,Australia,9/5/20,5
+42685,Austria,9/5/20,0
+42686,Azerbaijan,9/5/20,2
+42687,Bahamas,9/5/20,5
+42688,Bahrain,9/5/20,1
+42689,Bangladesh,9/5/20,35
+42690,Barbados,9/5/20,0
+42691,Belarus,9/5/20,4
+42692,Belgium,9/5/20,5
+42693,Belize,9/5/20,0
+42694,Benin,9/5/20,0
+42695,Bhutan,9/5/20,0
+42696,Bolivia,9/5/20,55
+42697,Bosnia and Herzegovina,9/5/20,12
+42698,Botswana,9/5/20,0
+42699,Brazil,9/5/20,701
+42700,Brunei,9/5/20,0
+42701,Bulgaria,9/5/20,6
+42702,Burkina Faso,9/5/20,0
+42703,Burma,9/5/20,1
+42704,Burundi,9/5/20,0
+42705,Cabo Verde,9/5/20,1
+42706,Cambodia,9/5/20,0
+42707,Cameroon,9/5/20,0
+42708,Canada,9/5/20,2
+42709,Central African Republic,9/5/20,0
+42710,Chad,9/5/20,0
+42711,Chile,9/5/20,57
+42712,China,9/5/20,0
+42713,Colombia,9/5/20,268
+42714,Comoros,9/5/20,0
+42715,Congo (Brazzaville),9/5/20,0
+42716,Congo (Kinshasa),9/5/20,0
+42717,Costa Rica,9/5/20,9
+42718,Cote d'Ivoire,9/5/20,0
+42719,Croatia,9/5/20,2
+42720,Cuba,9/5/20,0
+42721,Cyprus,9/5/20,0
+42722,Czechia,9/5/20,2
+42723,Denmark,9/5/20,0
+42724,Diamond Princess,9/5/20,0
+42725,Djibouti,9/5/20,0
+42726,Dominica,9/5/20,0
+42727,Dominican Republic,9/5/20,39
+42728,Ecuador,9/5/20,50
+42729,Egypt,9/5/20,16
+42730,El Salvador,9/5/20,8
+42731,Equatorial Guinea,9/5/20,0
+42732,Eritrea,9/5/20,0
+42733,Estonia,9/5/20,0
+42734,Eswatini,9/5/20,0
+42735,Ethiopia,9/5/20,17
+42736,Fiji,9/5/20,0
+42737,Finland,9/5/20,0
+42738,France,9/5/20,0
+42739,Gabon,9/5/20,0
+42740,Gambia,9/5/20,0
+42741,Georgia,9/5/20,0
+42742,Germany,9/5/20,2
+42743,Ghana,9/5/20,0
+42744,Greece,9/5/20,1
+42745,Grenada,9/5/20,0
+42746,Guatemala,9/5/20,20
+42747,Guinea,9/5/20,0
+42748,Guinea-Bissau,9/5/20,0
+42749,Guyana,9/5/20,2
+42750,Haiti,9/5/20,0
+42751,Holy See,9/5/20,0
+42752,Honduras,9/5/20,22
+42753,Hungary,9/5/20,3
+42754,Iceland,9/5/20,0
+42755,India,9/5/20,1065
+42756,Indonesia,9/5/20,108
+42757,Iran,9/5/20,110
+42758,Iraq,9/5/20,63
+42759,Ireland,9/5/20,0
+42760,Israel,9/5/20,14
+42761,Italy,9/5/20,16
+42762,Jamaica,9/5/20,2
+42763,Japan,9/5/20,9
+42764,Jordan,9/5/20,0
+42765,Kazakhstan,9/5/20,0
+42766,Kenya,9/5/20,5
+42767,"Korea, South",9/5/20,1
+42768,Kosovo,9/5/20,0
+42769,Kuwait,9/5/20,3
+42770,Kyrgyzstan,9/5/20,0
+42771,Laos,9/5/20,0
+42772,Latvia,9/5/20,0
+42773,Lebanon,9/5/20,4
+42774,Lesotho,9/5/20,0
+42775,Liberia,9/5/20,0
+42776,Libya,9/5/20,10
+42777,Liechtenstein,9/5/20,0
+42778,Lithuania,9/5/20,0
+42779,Luxembourg,9/5/20,0
+42780,MS Zaandam,9/5/20,0
+42781,Madagascar,9/5/20,1
+42782,Malawi,9/5/20,0
+42783,Malaysia,9/5/20,0
+42784,Maldives,9/5/20,0
+42785,Mali,9/5/20,0
+42786,Malta,9/5/20,1
+42787,Mauritania,9/5/20,0
+42788,Mauritius,9/5/20,0
+42789,Mexico,9/5/20,475
+42790,Moldova,9/5/20,16
+42791,Monaco,9/5/20,0
+42792,Mongolia,9/5/20,0
+42793,Montenegro,9/5/20,1
+42794,Morocco,9/5/20,37
+42795,Mozambique,9/5/20,0
+42796,Namibia,9/5/20,0
+42797,Nepal,9/5/20,9
+42798,Netherlands,9/5/20,5
+42799,New Zealand,9/5/20,0
+42800,Nicaragua,9/5/20,0
+42801,Niger,9/5/20,0
+42802,Nigeria,9/5/20,3
+42803,North Macedonia,9/5/20,5
+42804,Norway,9/5/20,0
+42805,Oman,9/5/20,0
+42806,Pakistan,9/5/20,0
+42807,Panama,9/5/20,12
+42808,Papua New Guinea,9/5/20,0
+42809,Paraguay,9/5/20,14
+42810,Peru,9/5/20,149
+42811,Philippines,9/5/20,53
+42812,Poland,9/5/20,13
+42813,Portugal,9/5/20,5
+42814,Qatar,9/5/20,1
+42815,Romania,9/5/20,38
+42816,Russia,9/5/20,109
+42817,Rwanda,9/5/20,0
+42818,Saint Kitts and Nevis,9/5/20,0
+42819,Saint Lucia,9/5/20,0
+42820,Saint Vincent and the Grenadines,9/5/20,0
+42821,San Marino,9/5/20,0
+42822,Sao Tome and Principe,9/5/20,0
+42823,Saudi Arabia,9/5/20,34
+42824,Senegal,9/5/20,1
+42825,Serbia,9/5/20,2
+42826,Seychelles,9/5/20,0
+42827,Sierra Leone,9/5/20,0
+42828,Singapore,9/5/20,0
+42829,Slovakia,9/5/20,0
+42830,Slovenia,9/5/20,1
+42831,Somalia,9/5/20,0
+42832,South Africa,9/5/20,101
+42833,South Sudan,9/5/20,1
+42834,Spain,9/5/20,0
+42835,Sri Lanka,9/5/20,0
+42836,Sudan,9/5/20,9
+42837,Suriname,9/5/20,1
+42838,Sweden,9/5/20,0
+42839,Switzerland,9/5/20,0
+42840,Syria,9/5/20,3
+42841,Taiwan*,9/5/20,0
+42842,Tajikistan,9/5/20,1
+42843,Tanzania,9/5/20,0
+42844,Thailand,9/5/20,0
+42845,Timor-Leste,9/5/20,0
+42846,Togo,9/5/20,1
+42847,Trinidad and Tobago,9/5/20,2
+42848,Tunisia,9/5/20,6
+42849,Turkey,9/5/20,56
+42850,US,9/5/20,783
+42851,Uganda,9/5/20,4
+42852,Ukraine,9/5/20,51
+42853,United Arab Emirates,9/5/20,1
+42854,United Kingdom,9/5/20,12
+42855,Uruguay,9/5/20,0
+42856,Uzbekistan,9/5/20,5
+42857,Venezuela,9/5/20,8
+42858,Vietnam,9/5/20,0
+42859,West Bank and Gaza,9/5/20,7
+42860,Western Sahara,9/5/20,0
+42861,Yemen,9/5/20,0
+42862,Zambia,9/5/20,0
+42863,Zimbabwe,9/5/20,0
+42864,Afghanistan,9/6/20,3
+42865,Albania,9/6/20,4
+42866,Algeria,9/6/20,7
+42867,Andorra,9/6/20,0
+42868,Angola,9/6/20,0
+42869,Antigua and Barbuda,9/6/20,0
+42870,Argentina,9/6/20,120
+42871,Armenia,9/6/20,2
+42872,Australia,9/6/20,9
+42873,Austria,9/6/20,1
+42874,Azerbaijan,9/6/20,3
+42875,Bahamas,9/6/20,1
+42876,Bahrain,9/6/20,3
+42877,Bangladesh,9/6/20,32
+42878,Barbados,9/6/20,0
+42879,Belarus,9/6/20,6
+42880,Belgium,9/6/20,1
+42881,Belize,9/6/20,0
+42882,Benin,9/6/20,0
+42883,Bhutan,9/6/20,0
+42884,Bolivia,9/6/20,0
+42885,Bosnia and Herzegovina,9/6/20,4
+42886,Botswana,9/6/20,0
+42887,Brazil,9/6/20,447
+42888,Brunei,9/6/20,0
+42889,Bulgaria,9/6/20,5
+42890,Burkina Faso,9/6/20,0
+42891,Burma,9/6/20,0
+42892,Burundi,9/6/20,0
+42893,Cabo Verde,9/6/20,0
+42894,Cambodia,9/6/20,0
+42895,Cameroon,9/6/20,0
+42896,Canada,9/6/20,2
+42897,Central African Republic,9/6/20,0
+42898,Chad,9/6/20,2
+42899,Chile,9/6/20,41
+42900,China,9/6/20,2
+42901,Colombia,9/6/20,256
+42902,Comoros,9/6/20,0
+42903,Congo (Brazzaville),9/6/20,0
+42904,Congo (Kinshasa),9/6/20,1
+42905,Costa Rica,9/6/20,0
+42906,Cote d'Ivoire,9/6/20,0
+42907,Croatia,9/6/20,1
+42908,Cuba,9/6/20,1
+42909,Cyprus,9/6/20,0
+42910,Czechia,9/6/20,5
+42911,Denmark,9/6/20,0
+42912,Diamond Princess,9/6/20,0
+42913,Djibouti,9/6/20,1
+42914,Dominica,9/6/20,0
+42915,Dominican Republic,9/6/20,5
+42916,Ecuador,9/6/20,0
+42917,Egypt,9/6/20,19
+42918,El Salvador,9/6/20,7
+42919,Equatorial Guinea,9/6/20,0
+42920,Eritrea,9/6/20,0
+42921,Estonia,9/6/20,0
+42922,Eswatini,9/6/20,0
+42923,Ethiopia,9/6/20,21
+42924,Fiji,9/6/20,0
+42925,Finland,9/6/20,0
+42926,France,9/6/20,0
+42927,Gabon,9/6/20,0
+42928,Gambia,9/6/20,0
+42929,Georgia,9/6/20,0
+42930,Germany,9/6/20,1
+42931,Ghana,9/6/20,0
+42932,Greece,9/6/20,4
+42933,Grenada,9/6/20,0
+42934,Guatemala,9/6/20,7
+42935,Guinea,9/6/20,0
+42936,Guinea-Bissau,9/6/20,0
+42937,Guyana,9/6/20,0
+42938,Haiti,9/6/20,2
+42939,Holy See,9/6/20,0
+42940,Honduras,9/6/20,1
+42941,Hungary,9/6/20,0
+42942,Iceland,9/6/20,0
+42943,India,9/6/20,1016
+42944,Indonesia,9/6/20,85
+42945,Iran,9/6/20,139
+42946,Iraq,9/6/20,90
+42947,Ireland,9/6/20,0
+42948,Israel,9/6/20,12
+42949,Italy,9/6/20,7
+42950,Jamaica,9/6/20,1
+42951,Japan,9/6/20,5
+42952,Jordan,9/6/20,0
+42953,Kazakhstan,9/6/20,0
+42954,Kenya,9/6/20,3
+42955,"Korea, South",9/6/20,2
+42956,Kosovo,9/6/20,0
+42957,Kuwait,9/6/20,4
+42958,Kyrgyzstan,9/6/20,0
+42959,Laos,9/6/20,0
+42960,Latvia,9/6/20,0
+42961,Lebanon,9/6/20,4
+42962,Lesotho,9/6/20,0
+42963,Liberia,9/6/20,0
+42964,Libya,9/6/20,13
+42965,Liechtenstein,9/6/20,0
+42966,Lithuania,9/6/20,0
+42967,Luxembourg,9/6/20,0
+42968,MS Zaandam,9/6/20,0
+42969,Madagascar,9/6/20,1
+42970,Malawi,9/6/20,0
+42971,Malaysia,9/6/20,0
+42972,Maldives,9/6/20,0
+42973,Mali,9/6/20,1
+42974,Malta,9/6/20,0
+42975,Mauritania,9/6/20,0
+42976,Mauritius,9/6/20,0
+42977,Mexico,9/6/20,232
+42978,Moldova,9/6/20,0
+42979,Monaco,9/6/20,0
+42980,Mongolia,9/6/20,0
+42981,Montenegro,9/6/20,1
+42982,Morocco,9/6/20,32
+42983,Mozambique,9/6/20,1
+42984,Namibia,9/6/20,2
+42985,Nepal,9/6/20,9
+42986,Netherlands,9/6/20,2
+42987,New Zealand,9/6/20,0
+42988,Nicaragua,9/6/20,0
+42989,Niger,9/6/20,0
+42990,Nigeria,9/6/20,3
+42991,North Macedonia,9/6/20,3
+42992,Norway,9/6/20,0
+42993,Oman,9/6/20,23
+42994,Pakistan,9/6/20,5
+42995,Panama,9/6/20,11
+42996,Papua New Guinea,9/6/20,0
+42997,Paraguay,9/6/20,23
+42998,Peru,9/6/20,133
+42999,Philippines,9/6/20,85
+43000,Poland,9/6/20,7
+43001,Portugal,9/6/20,2
+43002,Qatar,9/6/20,1
+43003,Romania,9/6/20,43
+43004,Russia,9/6/20,61
+43005,Rwanda,9/6/20,1
+43006,Saint Kitts and Nevis,9/6/20,0
+43007,Saint Lucia,9/6/20,0
+43008,Saint Vincent and the Grenadines,9/6/20,0
+43009,San Marino,9/6/20,0
+43010,Sao Tome and Principe,9/6/20,0
+43011,Saudi Arabia,9/6/20,32
+43012,Senegal,9/6/20,0
+43013,Serbia,9/6/20,1
+43014,Seychelles,9/6/20,0
+43015,Sierra Leone,9/6/20,0
+43016,Singapore,9/6/20,0
+43017,Slovakia,9/6/20,0
+43018,Slovenia,9/6/20,0
+43019,Somalia,9/6/20,0
+43020,South Africa,9/6/20,110
+43021,South Sudan,9/6/20,0
+43022,Spain,9/6/20,0
+43023,Sri Lanka,9/6/20,0
+43024,Sudan,9/6/20,1
+43025,Suriname,9/6/20,9
+43026,Sweden,9/6/20,0
+43027,Switzerland,9/6/20,0
+43028,Syria,9/6/20,4
+43029,Taiwan*,9/6/20,0
+43030,Tajikistan,9/6/20,0
+43031,Tanzania,9/6/20,0
+43032,Thailand,9/6/20,0
+43033,Timor-Leste,9/6/20,0
+43034,Togo,9/6/20,0
+43035,Trinidad and Tobago,9/6/20,1
+43036,Tunisia,9/6/20,0
+43037,Turkey,9/6/20,53
+43038,US,9/6/20,403
+43039,Uganda,9/6/20,2
+43040,Ukraine,9/6/20,35
+43041,United Arab Emirates,9/6/20,0
+43042,United Kingdom,9/6/20,2
+43043,Uruguay,9/6/20,0
+43044,Uzbekistan,9/6/20,4
+43045,Venezuela,9/6/20,8
+43046,Vietnam,9/6/20,0
+43047,West Bank and Gaza,9/6/20,4
+43048,Western Sahara,9/6/20,0
+43049,Yemen,9/6/20,0
+43050,Zambia,9/6/20,3
+43051,Zimbabwe,9/6/20,0
+43052,Afghanistan,9/7/20,3
+43053,Albania,9/7/20,3
+43054,Algeria,9/7/20,6
+43055,Andorra,9/7/20,0
+43056,Angola,9/7/20,3
+43057,Antigua and Barbuda,9/7/20,0
+43058,Argentina,9/7/20,270
+43059,Armenia,9/7/20,3
+43060,Australia,9/7/20,8
+43061,Austria,9/7/20,10
+43062,Azerbaijan,9/7/20,3
+43063,Bahamas,9/7/20,2
+43064,Bahrain,9/7/20,1
+43065,Bangladesh,9/7/20,37
+43066,Barbados,9/7/20,0
+43067,Belarus,9/7/20,5
+43068,Belgium,9/7/20,2
+43069,Belize,9/7/20,1
+43070,Benin,9/7/20,0
+43071,Bhutan,9/7/20,0
+43072,Bolivia,9/7/20,1656
+43073,Bosnia and Herzegovina,9/7/20,9
+43074,Botswana,9/7/20,1
+43075,Brazil,9/7/20,310
+43076,Brunei,9/7/20,0
+43077,Bulgaria,9/7/20,1
+43078,Burkina Faso,9/7/20,1
+43079,Burma,9/7/20,0
+43080,Burundi,9/7/20,0
+43081,Cabo Verde,9/7/20,0
+43082,Cambodia,9/7/20,0
+43083,Cameroon,9/7/20,0
+43084,Canada,9/7/20,2
+43085,Central African Republic,9/7/20,0
+43086,Chad,9/7/20,0
+43087,Chile,9/7/20,60
+43088,China,9/7/20,2
+43089,Colombia,9/7/20,203
+43090,Comoros,9/7/20,0
+43091,Congo (Brazzaville),9/7/20,0
+43092,Congo (Kinshasa),9/7/20,0
+43093,Costa Rica,9/7/20,32
+43094,Cote d'Ivoire,9/7/20,0
+43095,Croatia,9/7/20,3
+43096,Cuba,9/7/20,1
+43097,Cyprus,9/7/20,1
+43098,Czechia,9/7/20,1
+43099,Denmark,9/7/20,1
+43100,Diamond Princess,9/7/20,0
+43101,Djibouti,9/7/20,0
+43102,Dominica,9/7/20,0
+43103,Dominican Republic,9/7/20,19
+43104,Ecuador,9/7/20,3852
+43105,Egypt,9/7/20,11
+43106,El Salvador,9/7/20,5
+43107,Equatorial Guinea,9/7/20,0
+43108,Eritrea,9/7/20,0
+43109,Estonia,9/7/20,0
+43110,Eswatini,9/7/20,0
+43111,Ethiopia,9/7/20,15
+43112,Fiji,9/7/20,0
+43113,Finland,9/7/20,0
+43114,France,9/7/20,2
+43115,Gabon,9/7/20,0
+43116,Gambia,9/7/20,0
+43117,Georgia,9/7/20,0
+43118,Germany,9/7/20,1
+43119,Ghana,9/7/20,0
+43120,Greece,9/7/20,5
+43121,Grenada,9/7/20,0
+43122,Guatemala,9/7/20,10
+43123,Guinea,9/7/20,1
+43124,Guinea-Bissau,9/7/20,0
+43125,Guyana,9/7/20,1
+43126,Haiti,9/7/20,0
+43127,Holy See,9/7/20,0
+43128,Honduras,9/7/20,16
+43129,Hungary,9/7/20,1
+43130,Iceland,9/7/20,0
+43131,India,9/7/20,1133
+43132,Indonesia,9/7/20,105
+43133,Iran,9/7/20,117
+43134,Iraq,9/7/20,77
+43135,Ireland,9/7/20,0
+43136,Israel,9/7/20,7
+43137,Italy,9/7/20,12
+43138,Jamaica,9/7/20,1
+43139,Japan,9/7/20,11
+43140,Jordan,9/7/20,1
+43141,Kazakhstan,9/7/20,0
+43142,Kenya,9/7/20,2
+43143,"Korea, South",9/7/20,5
+43144,Kosovo,9/7/20,0
+43145,Kuwait,9/7/20,2
+43146,Kyrgyzstan,9/7/20,0
+43147,Laos,9/7/20,0
+43148,Latvia,9/7/20,0
+43149,Lebanon,9/7/20,9
+43150,Lesotho,9/7/20,0
+43151,Liberia,9/7/20,0
+43152,Libya,9/7/20,11
+43153,Liechtenstein,9/7/20,0
+43154,Lithuania,9/7/20,0
+43155,Luxembourg,9/7/20,0
+43156,MS Zaandam,9/7/20,0
+43157,Madagascar,9/7/20,2
+43158,Malawi,9/7/20,1
+43159,Malaysia,9/7/20,0
+43160,Maldives,9/7/20,0
+43161,Mali,9/7/20,0
+43162,Malta,9/7/20,0
+43163,Mauritania,9/7/20,0
+43164,Mauritius,9/7/20,0
+43165,Mexico,9/7/20,223
+43166,Moldova,9/7/20,11
+43167,Monaco,9/7/20,0
+43168,Mongolia,9/7/20,0
+43169,Montenegro,9/7/20,1
+43170,Morocco,9/7/20,33
+43171,Mozambique,9/7/20,0
+43172,Namibia,9/7/20,2
+43173,Nepal,9/7/20,11
+43174,Netherlands,9/7/20,1
+43175,New Zealand,9/7/20,0
+43176,Nicaragua,9/7/20,0
+43177,Niger,9/7/20,0
+43178,Nigeria,9/7/20,4
+43179,North Macedonia,9/7/20,6
+43180,Norway,9/7/20,0
+43181,Oman,9/7/20,6
+43182,Pakistan,9/7/20,5
+43183,Panama,9/7/20,13
+43184,Papua New Guinea,9/7/20,0
+43185,Paraguay,9/7/20,14
+43186,Peru,9/7/20,151
+43187,Philippines,9/7/20,15
+43188,Poland,9/7/20,4
+43189,Portugal,9/7/20,3
+43190,Qatar,9/7/20,2
+43191,Romania,9/7/20,33
+43192,Russia,9/7/20,50
+43193,Rwanda,9/7/20,0
+43194,Saint Kitts and Nevis,9/7/20,0
+43195,Saint Lucia,9/7/20,0
+43196,Saint Vincent and the Grenadines,9/7/20,0
+43197,San Marino,9/7/20,0
+43198,Sao Tome and Principe,9/7/20,0
+43199,Saudi Arabia,9/7/20,26
+43200,Senegal,9/7/20,1
+43201,Serbia,9/7/20,1
+43202,Seychelles,9/7/20,0
+43203,Sierra Leone,9/7/20,0
+43204,Singapore,9/7/20,0
+43205,Slovakia,9/7/20,0
+43206,Slovenia,9/7/20,0
+43207,Somalia,9/7/20,0
+43208,South Africa,9/7/20,115
+43209,South Sudan,9/7/20,0
+43210,Spain,9/7/20,98
+43211,Sri Lanka,9/7/20,0
+43212,Sudan,9/7/20,0
+43213,Suriname,9/7/20,6
+43214,Sweden,9/7/20,2
+43215,Switzerland,9/7/20,1
+43216,Syria,9/7/20,3
+43217,Taiwan*,9/7/20,0
+43218,Tajikistan,9/7/20,0
+43219,Tanzania,9/7/20,0
+43220,Thailand,9/7/20,0
+43221,Timor-Leste,9/7/20,0
+43222,Togo,9/7/20,1
+43223,Trinidad and Tobago,9/7/20,3
+43224,Tunisia,9/7/20,1
+43225,Turkey,9/7/20,57
+43226,US,9/7/20,267
+43227,Uganda,9/7/20,3
+43228,Ukraine,9/7/20,32
+43229,United Arab Emirates,9/7/20,2
+43230,United Kingdom,9/7/20,3
+43231,Uruguay,9/7/20,0
+43232,Uzbekistan,9/7/20,5
+43233,Venezuela,9/7/20,8
+43234,Vietnam,9/7/20,0
+43235,West Bank and Gaza,9/7/20,3
+43236,Western Sahara,9/7/20,0
+43237,Yemen,9/7/20,1
+43238,Zambia,9/7/20,0
+43239,Zimbabwe,9/7/20,4
+43240,Afghanistan,9/8/20,3
+43241,Albania,9/8/20,2
+43242,Algeria,9/8/20,9
+43243,Andorra,9/8/20,0
+43244,Angola,9/8/20,4
+43245,Antigua and Barbuda,9/8/20,0
+43246,Argentina,9/8/20,276
+43247,Armenia,9/8/20,3
+43248,Australia,9/8/20,11
+43249,Austria,9/8/20,1
+43250,Azerbaijan,9/8/20,1
+43251,Bahamas,9/8/20,1
+43252,Bahrain,9/8/20,2
+43253,Bangladesh,9/8/20,36
+43254,Barbados,9/8/20,0
+43255,Belarus,9/8/20,5
+43256,Belgium,9/8/20,3
+43257,Belize,9/8/20,0
+43258,Benin,9/8/20,0
+43259,Bhutan,9/8/20,0
+43260,Bolivia,9/8/20,43
+43261,Bosnia and Herzegovina,9/8/20,5
+43262,Botswana,9/8/20,0
+43263,Brazil,9/8/20,504
+43264,Brunei,9/8/20,0
+43265,Bulgaria,9/8/20,15
+43266,Burkina Faso,9/8/20,0
+43267,Burma,9/8/20,4
+43268,Burundi,9/8/20,0
+43269,Cabo Verde,9/8/20,0
+43270,Cambodia,9/8/20,0
+43271,Cameroon,9/8/20,0
+43272,Canada,9/8/20,7
+43273,Central African Republic,9/8/20,0
+43274,Chad,9/8/20,0
+43275,Chile,9/8/20,30
+43276,China,9/8/20,1
+43277,Colombia,9/8/20,0
+43278,Comoros,9/8/20,0
+43279,Congo (Brazzaville),9/8/20,12
+43280,Congo (Kinshasa),9/8/20,0
+43281,Costa Rica,9/8/20,21
+43282,Cote d'Ivoire,9/8/20,0
+43283,Croatia,9/8/20,2
+43284,Cuba,9/8/20,2
+43285,Cyprus,9/8/20,0
+43286,Czechia,9/8/20,4
+43287,Denmark,9/8/20,0
+43288,Diamond Princess,9/8/20,0
+43289,Djibouti,9/8/20,0
+43290,Dominica,9/8/20,0
+43291,Dominican Republic,9/8/20,25
+43292,Ecuador,9/8/20,51
+43293,Egypt,9/8/20,19
+43294,El Salvador,9/8/20,1
+43295,Equatorial Guinea,9/8/20,0
+43296,Eritrea,9/8/20,0
+43297,Estonia,9/8/20,0
+43298,Eswatini,9/8/20,2
+43299,Ethiopia,9/8/20,16
+43300,Fiji,9/8/20,0
+43301,Finland,9/8/20,0
+43302,France,9/8/20,38
+43303,Gabon,9/8/20,0
+43304,Gambia,9/8/20,0
+43305,Georgia,9/8/20,0
+43306,Germany,9/8/20,5
+43307,Ghana,9/8/20,0
+43308,Greece,9/8/20,1
+43309,Grenada,9/8/20,0
+43310,Guatemala,9/8/20,28
+43311,Guinea,9/8/20,1
+43312,Guinea-Bissau,9/8/20,0
+43313,Guyana,9/8/20,1
+43314,Haiti,9/8/20,0
+43315,Holy See,9/8/20,0
+43316,Honduras,9/8/20,11
+43317,Hungary,9/8/20,1
+43318,Iceland,9/8/20,0
+43319,India,9/8/20,1115
+43320,Indonesia,9/8/20,100
+43321,Iran,9/8/20,132
+43322,Iraq,9/8/20,68
+43323,Ireland,9/8/20,1
+43324,Israel,9/8/20,14
+43325,Italy,9/8/20,10
+43326,Jamaica,9/8/20,2
+43327,Japan,9/8/20,21
+43328,Jordan,9/8/20,2
+43329,Kazakhstan,9/8/20,46
+43330,Kenya,9/8/20,0
+43331,"Korea, South",9/8/20,3
+43332,Kosovo,9/8/20,0
+43333,Kuwait,9/8/20,2
+43334,Kyrgyzstan,9/8/20,0
+43335,Laos,9/8/20,0
+43336,Latvia,9/8/20,0
+43337,Lebanon,9/8/20,7
+43338,Lesotho,9/8/20,0
+43339,Liberia,9/8/20,0
+43340,Libya,9/8/20,18
+43341,Liechtenstein,9/8/20,0
+43342,Lithuania,9/8/20,0
+43343,Luxembourg,9/8/20,0
+43344,MS Zaandam,9/8/20,0
+43345,Madagascar,9/8/20,4
+43346,Malawi,9/8/20,0
+43347,Malaysia,9/8/20,0
+43348,Maldives,9/8/20,0
+43349,Mali,9/8/20,0
+43350,Malta,9/8/20,0
+43351,Mauritania,9/8/20,0
+43352,Mauritius,9/8/20,0
+43353,Mexico,9/8/20,703
+43354,Moldova,9/8/20,13
+43355,Monaco,9/8/20,0
+43356,Mongolia,9/8/20,0
+43357,Montenegro,9/8/20,3
+43358,Morocco,9/8/20,33
+43359,Mozambique,9/8/20,1
+43360,Namibia,9/8/20,0
+43361,Nepal,9/8/20,6
+43362,Netherlands,9/8/20,1
+43363,New Zealand,9/8/20,0
+43364,Nicaragua,9/8/20,3
+43365,Niger,9/8/20,0
+43366,Nigeria,9/8/20,6
+43367,North Macedonia,9/8/20,8
+43368,Norway,9/8/20,0
+43369,Oman,9/8/20,8
+43370,Pakistan,9/8/20,9
+43371,Panama,9/8/20,8
+43372,Papua New Guinea,9/8/20,0
+43373,Paraguay,9/8/20,14
+43374,Peru,9/8/20,138
+43375,Philippines,9/8/20,26
+43376,Poland,9/8/20,12
+43377,Portugal,9/8/20,3
+43378,Qatar,9/8/20,0
+43379,Romania,9/8/20,41
+43380,Russia,9/8/20,121
+43381,Rwanda,9/8/20,1
+43382,Saint Kitts and Nevis,9/8/20,0
+43383,Saint Lucia,9/8/20,0
+43384,Saint Vincent and the Grenadines,9/8/20,0
+43385,San Marino,9/8/20,0
+43386,Sao Tome and Principe,9/8/20,0
+43387,Saudi Arabia,9/8/20,30
+43388,Senegal,9/8/20,1
+43389,Serbia,9/8/20,2
+43390,Seychelles,9/8/20,0
+43391,Sierra Leone,9/8/20,1
+43392,Singapore,9/8/20,0
+43393,Slovakia,9/8/20,0
+43394,Slovenia,9/8/20,0
+43395,Somalia,9/8/20,0
+43396,South Africa,9/8/20,82
+43397,South Sudan,9/8/20,1
+43398,Spain,9/8/20,78
+43399,Sri Lanka,9/8/20,0
+43400,Sudan,9/8/20,0
+43401,Suriname,9/8/20,0
+43402,Sweden,9/8/20,1
+43403,Switzerland,9/8/20,4
+43404,Syria,9/8/20,3
+43405,Taiwan*,9/8/20,0
+43406,Tajikistan,9/8/20,0
+43407,Tanzania,9/8/20,0
+43408,Thailand,9/8/20,0
+43409,Timor-Leste,9/8/20,0
+43410,Togo,9/8/20,1
+43411,Trinidad and Tobago,9/8/20,2
+43412,Tunisia,9/8/20,2
+43413,Turkey,9/8/20,52
+43414,US,9/8/20,445
+43415,Uganda,9/8/20,2
+43416,Ukraine,9/8/20,58
+43417,United Arab Emirates,9/8/20,1
+43418,United Kingdom,9/8/20,32
+43419,Uruguay,9/8/20,0
+43420,Uzbekistan,9/8/20,6
+43421,Venezuela,9/8/20,8
+43422,Vietnam,9/8/20,0
+43423,West Bank and Gaza,9/8/20,6
+43424,Western Sahara,9/8/20,0
+43425,Yemen,9/8/20,3
+43426,Zambia,9/8/20,2
+43427,Zimbabwe,9/8/20,8
+43428,Afghanistan,9/9/20,2
+43429,Albania,9/9/20,1
+43430,Algeria,9/9/20,10
+43431,Andorra,9/9/20,0
+43432,Angola,9/9/20,2
+43433,Antigua and Barbuda,9/9/20,0
+43434,Argentina,9/9/20,253
+43435,Armenia,9/9/20,2
+43436,Australia,9/9/20,7
+43437,Austria,9/9/20,0
+43438,Azerbaijan,9/9/20,3
+43439,Bahamas,9/9/20,4
+43440,Bahrain,9/9/20,1
+43441,Bangladesh,9/9/20,41
+43442,Barbados,9/9/20,0
+43443,Belarus,9/9/20,5
+43444,Belgium,9/9/20,5
+43445,Belize,9/9/20,2
+43446,Benin,9/9/20,0
+43447,Bhutan,9/9/20,0
+43448,Bolivia,9/9/20,49
+43449,Bosnia and Herzegovina,9/9/20,6
+43450,Botswana,9/9/20,0
+43451,Brazil,9/9/20,1075
+43452,Brunei,9/9/20,0
+43453,Bulgaria,9/9/20,10
+43454,Burkina Faso,9/9/20,0
+43455,Burma,9/9/20,2
+43456,Burundi,9/9/20,0
+43457,Cabo Verde,9/9/20,1
+43458,Cambodia,9/9/20,0
+43459,Cameroon,9/9/20,0
+43460,Canada,9/9/20,1
+43461,Central African Republic,9/9/20,0
+43462,Chad,9/9/20,0
+43463,Chile,9/9/20,20
+43464,China,9/9/20,0
+43465,Colombia,9/9/20,442
+43466,Comoros,9/9/20,0
+43467,Congo (Brazzaville),9/9/20,0
+43468,Congo (Kinshasa),9/9/20,0
+43469,Costa Rica,9/9/20,12
+43470,Cote d'Ivoire,9/9/20,0
+43471,Croatia,9/9/20,3
+43472,Cuba,9/9/20,0
+43473,Cyprus,9/9/20,0
+43474,Czechia,9/9/20,3
+43475,Denmark,9/9/20,0
+43476,Diamond Princess,9/9/20,0
+43477,Djibouti,9/9/20,0
+43478,Dominica,9/9/20,0
+43479,Dominican Republic,9/9/20,25
+43480,Ecuador,9/9/20,74
+43481,Egypt,9/9/20,17
+43482,El Salvador,9/9/20,5
+43483,Equatorial Guinea,9/9/20,0
+43484,Eritrea,9/9/20,0
+43485,Estonia,9/9/20,0
+43486,Eswatini,9/9/20,1
+43487,Ethiopia,9/9/20,17
+43488,Fiji,9/9/20,0
+43489,Finland,9/9/20,1
+43490,France,9/9/20,35
+43491,Gabon,9/9/20,0
+43492,Gambia,9/9/20,0
+43493,Georgia,9/9/20,0
+43494,Germany,9/9/20,6
+43495,Ghana,9/9/20,0
+43496,Greece,9/9/20,3
+43497,Grenada,9/9/20,0
+43498,Guatemala,9/9/20,7
+43499,Guinea,9/9/20,0
+43500,Guinea-Bissau,9/9/20,0
+43501,Guyana,9/9/20,0
+43502,Haiti,9/9/20,0
+43503,Holy See,9/9/20,0
+43504,Honduras,9/9/20,10
+43505,Hungary,9/9/20,2
+43506,Iceland,9/9/20,0
+43507,India,9/9/20,1172
+43508,Indonesia,9/9/20,106
+43509,Iran,9/9/20,127
+43510,Iraq,9/9/20,75
+43511,Ireland,9/9/20,3
+43512,Israel,9/9/20,14
+43513,Italy,9/9/20,14
+43514,Jamaica,9/9/20,2
+43515,Japan,9/9/20,14
+43516,Jordan,9/9/20,0
+43517,Kazakhstan,9/9/20,0
+43518,Kenya,9/9/20,8
+43519,"Korea, South",9/9/20,2
+43520,Kosovo,9/9/20,0
+43521,Kuwait,9/9/20,4
+43522,Kyrgyzstan,9/9/20,1
+43523,Laos,9/9/20,0
+43524,Latvia,9/9/20,0
+43525,Lebanon,9/9/20,5
+43526,Lesotho,9/9/20,0
+43527,Liberia,9/9/20,0
+43528,Libya,9/9/20,10
+43529,Liechtenstein,9/9/20,0
+43530,Lithuania,9/9/20,0
+43531,Luxembourg,9/9/20,0
+43532,MS Zaandam,9/9/20,0
+43533,Madagascar,9/9/20,0
+43534,Malawi,9/9/20,0
+43535,Malaysia,9/9/20,0
+43536,Maldives,9/9/20,2
+43537,Mali,9/9/20,1
+43538,Malta,9/9/20,0
+43539,Mauritania,9/9/20,1
+43540,Mauritius,9/9/20,0
+43541,Mexico,9/9/20,565
+43542,Moldova,9/9/20,9
+43543,Monaco,9/9/20,0
+43544,Mongolia,9/9/20,0
+43545,Montenegro,9/9/20,2
+43546,Morocco,9/9/20,26
+43547,Mozambique,9/9/20,0
+43548,Namibia,9/9/20,2
+43549,Nepal,9/9/20,6
+43550,Netherlands,9/9/20,2
+43551,New Zealand,9/9/20,0
+43552,Nicaragua,9/9/20,0
+43553,Niger,9/9/20,0
+43554,Nigeria,9/9/20,3
+43555,North Macedonia,9/9/20,3
+43556,Norway,9/9/20,0
+43557,Oman,9/9/20,9
+43558,Pakistan,9/9/20,6
+43559,Panama,9/9/20,9
+43560,Papua New Guinea,9/9/20,0
+43561,Paraguay,9/9/20,11
+43562,Peru,9/9/20,147
+43563,Philippines,9/9/20,70
+43564,Poland,9/9/20,11
+43565,Portugal,9/9/20,3
+43566,Qatar,9/9/20,0
+43567,Romania,9/9/20,51
+43568,Russia,9/9/20,141
+43569,Rwanda,9/9/20,1
+43570,Saint Kitts and Nevis,9/9/20,0
+43571,Saint Lucia,9/9/20,0
+43572,Saint Vincent and the Grenadines,9/9/20,0
+43573,San Marino,9/9/20,0
+43574,Sao Tome and Principe,9/9/20,0
+43575,Saudi Arabia,9/9/20,28
+43576,Senegal,9/9/20,1
+43577,Serbia,9/9/20,1
+43578,Seychelles,9/9/20,0
+43579,Sierra Leone,9/9/20,0
+43580,Singapore,9/9/20,0
+43581,Slovakia,9/9/20,0
+43582,Slovenia,9/9/20,0
+43583,Somalia,9/9/20,0
+43584,South Africa,9/9/20,82
+43585,South Sudan,9/9/20,0
+43586,Spain,9/9/20,34
+43587,Sri Lanka,9/9/20,0
+43588,Sudan,9/9/20,0
+43589,Suriname,9/9/20,1
+43590,Sweden,9/9/20,4
+43591,Switzerland,9/9/20,1
+43592,Syria,9/9/20,3
+43593,Taiwan*,9/9/20,0
+43594,Tajikistan,9/9/20,1
+43595,Tanzania,9/9/20,0
+43596,Thailand,9/9/20,0
+43597,Timor-Leste,9/9/20,0
+43598,Togo,9/9/20,2
+43599,Trinidad and Tobago,9/9/20,0
+43600,Tunisia,9/9/20,0
+43601,Turkey,9/9/20,55
+43602,US,9/9/20,1206
+43603,Uganda,9/9/20,0
+43604,Ukraine,9/9/20,46
+43605,United Arab Emirates,9/9/20,2
+43606,United Kingdom,9/9/20,8
+43607,Uruguay,9/9/20,0
+43608,Uzbekistan,9/9/20,8
+43609,Venezuela,9/9/20,8
+43610,Vietnam,9/9/20,0
+43611,West Bank and Gaza,9/9/20,2
+43612,Western Sahara,9/9/20,0
+43613,Yemen,9/9/20,0
+43614,Zambia,9/9/20,3
+43615,Zimbabwe,9/9/20,4
+43616,Afghanistan,9/10/20,0
+43617,Albania,9/10/20,2
+43618,Algeria,9/10/20,10
+43619,Andorra,9/10/20,0
+43620,Angola,9/10/20,4
+43621,Antigua and Barbuda,9/10/20,0
+43622,Argentina,9/10/20,249
+43623,Armenia,9/10/20,1
+43624,Australia,9/10/20,9
+43625,Austria,9/10/20,1
+43626,Azerbaijan,9/10/20,1
+43627,Bahamas,9/10/20,0
+43628,Bahrain,9/10/20,4
+43629,Bangladesh,9/10/20,41
+43630,Barbados,9/10/20,0
+43631,Belarus,9/10/20,6
+43632,Belgium,9/10/20,0
+43633,Belize,9/10/20,0
+43634,Benin,9/10/20,0
+43635,Bhutan,9/10/20,0
+43636,Bolivia,9/10/20,47
+43637,Bosnia and Herzegovina,9/10/20,5
+43638,Botswana,9/10/20,1
+43639,Brazil,9/10/20,983
+43640,Brunei,9/10/20,0
+43641,Bulgaria,9/10/20,4
+43642,Burkina Faso,9/10/20,0
+43643,Burma,9/10/20,0
+43644,Burundi,9/10/20,0
+43645,Cabo Verde,9/10/20,0
+43646,Cambodia,9/10/20,0
+43647,Cameroon,9/10/20,0
+43648,Canada,9/10/20,9
+43649,Central African Republic,9/10/20,0
+43650,Chad,9/10/20,0
+43651,Chile,9/10/20,79
+43652,China,9/10/20,0
+43653,Colombia,9/10/20,222
+43654,Comoros,9/10/20,0
+43655,Congo (Brazzaville),9/10/20,0
+43656,Congo (Kinshasa),9/10/20,2
+43657,Costa Rica,9/10/20,24
+43658,Cote d'Ivoire,9/10/20,0
+43659,Croatia,9/10/20,2
+43660,Cuba,9/10/20,2
+43661,Cyprus,9/10/20,0
+43662,Czechia,9/10/20,4
+43663,Denmark,9/10/20,1
+43664,Diamond Princess,9/10/20,0
+43665,Djibouti,9/10/20,0
+43666,Dominica,9/10/20,0
+43667,Dominican Republic,9/10/20,12
+43668,Ecuador,9/10/20,48
+43669,Egypt,9/10/20,13
+43670,El Salvador,9/10/20,4
+43671,Equatorial Guinea,9/10/20,0
+43672,Eritrea,9/10/20,0
+43673,Estonia,9/10/20,0
+43674,Eswatini,9/10/20,1
+43675,Ethiopia,9/10/20,8
+43676,Fiji,9/10/20,0
+43677,Finland,9/10/20,0
+43678,France,9/10/20,14
+43679,Gabon,9/10/20,0
+43680,Gambia,9/10/20,1
+43681,Georgia,9/10/20,0
+43682,Germany,9/10/20,3
+43683,Ghana,9/10/20,0
+43684,Greece,9/10/20,4
+43685,Grenada,9/10/20,0
+43686,Guatemala,9/10/20,21
+43687,Guinea,9/10/20,0
+43688,Guinea-Bissau,9/10/20,1
+43689,Guyana,9/10/20,1
+43690,Haiti,9/10/20,1
+43691,Holy See,9/10/20,0
+43692,Honduras,9/10/20,5
+43693,Hungary,9/10/20,2
+43694,Iceland,9/10/20,0
+43695,India,9/10/20,1209
+43696,Indonesia,9/10/20,120
+43697,Iran,9/10/20,129
+43698,Iraq,9/10/20,82
+43699,Ireland,9/10/20,0
+43700,Israel,9/10/20,23
+43701,Italy,9/10/20,10
+43702,Jamaica,9/10/20,2
+43703,Japan,9/10/20,4
+43704,Jordan,9/10/20,1
+43705,Kazakhstan,9/10/20,0
+43706,Kenya,9/10/20,5
+43707,"Korea, South",9/10/20,4
+43708,Kosovo,9/10/20,0
+43709,Kuwait,9/10/20,4
+43710,Kyrgyzstan,9/10/20,0
+43711,Laos,9/10/20,0
+43712,Latvia,9/10/20,0
+43713,Lebanon,9/10/20,7
+43714,Lesotho,9/10/20,0
+43715,Liberia,9/10/20,0
+43716,Libya,9/10/20,15
+43717,Liechtenstein,9/10/20,0
+43718,Lithuania,9/10/20,0
+43719,Luxembourg,9/10/20,0
+43720,MS Zaandam,9/10/20,0
+43721,Madagascar,9/10/20,2
+43722,Malawi,9/10/20,0
+43723,Malaysia,9/10/20,0
+43724,Maldives,9/10/20,0
+43725,Mali,9/10/20,0
+43726,Malta,9/10/20,0
+43727,Mauritania,9/10/20,0
+43728,Mauritius,9/10/20,0
+43729,Mexico,9/10/20,600
+43730,Moldova,9/10/20,10
+43731,Monaco,9/10/20,0
+43732,Mongolia,9/10/20,0
+43733,Montenegro,9/10/20,0
+43734,Morocco,9/10/20,38
+43735,Mozambique,9/10/20,3
+43736,Namibia,9/10/20,3
+43737,Nepal,9/10/20,5
+43738,Netherlands,9/10/20,4
+43739,New Zealand,9/10/20,0
+43740,Nicaragua,9/10/20,0
+43741,Niger,9/10/20,0
+43742,Nigeria,9/10/20,5
+43743,North Macedonia,9/10/20,3
+43744,Norway,9/10/20,1
+43745,Oman,9/10/20,11
+43746,Pakistan,9/10/20,5
+43747,Panama,9/10/20,11
+43748,Papua New Guinea,9/10/20,0
+43749,Paraguay,9/10/20,11
+43750,Peru,9/10/20,113
+43751,Philippines,9/10/20,80
+43752,Poland,9/10/20,12
+43753,Portugal,9/10/20,3
+43754,Qatar,9/10/20,0
+43755,Romania,9/10/20,47
+43756,Russia,9/10/20,127
+43757,Rwanda,9/10/20,1
+43758,Saint Kitts and Nevis,9/10/20,0
+43759,Saint Lucia,9/10/20,0
+43760,Saint Vincent and the Grenadines,9/10/20,0
+43761,San Marino,9/10/20,0
+43762,Sao Tome and Principe,9/10/20,0
+43763,Saudi Arabia,9/10/20,24
+43764,Senegal,9/10/20,0
+43765,Serbia,9/10/20,1
+43766,Seychelles,9/10/20,0
+43767,Sierra Leone,9/10/20,0
+43768,Singapore,9/10/20,0
+43769,Slovakia,9/10/20,0
+43770,Slovenia,9/10/20,0
+43771,Somalia,9/10/20,0
+43772,South Africa,9/10/20,97
+43773,South Sudan,9/10/20,0
+43774,Spain,9/10/20,71
+43775,Sri Lanka,9/10/20,0
+43776,Sudan,9/10/20,0
+43777,Suriname,9/10/20,1
+43778,Sweden,9/10/20,1
+43779,Switzerland,9/10/20,1
+43780,Syria,9/10/20,4
+43781,Taiwan*,9/10/20,0
+43782,Tajikistan,9/10/20,1
+43783,Tanzania,9/10/20,0
+43784,Thailand,9/10/20,0
+43785,Timor-Leste,9/10/20,0
+43786,Togo,9/10/20,1
+43787,Trinidad and Tobago,9/10/20,4
+43788,Tunisia,9/10/20,3
+43789,Turkey,9/10/20,58
+43790,US,9/10/20,907
+43791,Uganda,9/10/20,2
+43792,Ukraine,9/10/20,45
+43793,United Arab Emirates,9/10/20,5
+43794,United Kingdom,9/10/20,14
+43795,Uruguay,9/10/20,0
+43796,Uzbekistan,9/10/20,4
+43797,Venezuela,9/10/20,8
+43798,Vietnam,9/10/20,0
+43799,West Bank and Gaza,9/10/20,6
+43800,Western Sahara,9/10/20,0
+43801,Yemen,9/10/20,4
+43802,Zambia,9/10/20,0
+43803,Zimbabwe,9/10/20,0
